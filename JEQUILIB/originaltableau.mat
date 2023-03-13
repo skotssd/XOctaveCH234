@@ -1,4 +1,4 @@
-# Created by Octave 6.4.0, Tue Mar 22 15:33:30 2022 EDT <ssmith@DSSarchbang>
+# Created by Octave 7.3.0, Mon Mar 13 12:07:07 2023 EDT <ssmith@ssmitharchbang>
 # name: oKSOLUTION
 # type: matrix
 # rows: 5
@@ -7,15 +7,13 @@
  0
  0
  -14
- 13.199999999999999
+ 4.75
 
 
 # name: oKSOLID
 # type: matrix
-# rows: 2
-# columns: 1
- -3.3999999999999999
- 0.81999999999999995
+# rows: 0
+# columns: 0
 
 
 # name: oASOLUTION
@@ -26,14 +24,12 @@
  0 1 0
  0 0 1
  -1 0 0
- 0 1 1
+ 1 1 0
 
 
 # name: oASOLID
 # type: matrix
-# rows: 2
-# columns: 3
- -3 0 1
- -2 1 1
+# rows: 0
+# columns: 0
 
 
