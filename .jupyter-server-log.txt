@@ -1,0 +1,55 @@
+[I 21:40:20.353 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 21:40:20.354 NotebookApp] Authentication of /metrics is OFF, since other authentication is disabled.
+[W 21:40:20.771 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[W 2023-06-19 21:40:21.703 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:40:21.703 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:40:21.703 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:40:21.703 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-06-19 21:40:21.720 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-06-19 21:40:21.720 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 21:40:21.731 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 21:40:21.733 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 21:40:21.733 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 21:40:21.734 NotebookApp] http://2f6a43db3cc4:8888/
+[I 21:40:21.734 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:40:21.749 NotebookApp] No web browser found: could not locate runnable browser.
+[W 21:40:25.688 NotebookApp] Clearing invalid/expired login cookie username-jupyter2-clearnasdss-synology-me
+[I 2023-06-19 21:40:29.635 LabApp] Build is up to date
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+[I 21:41:12.634 NotebookApp] Authentication of /metrics is OFF, since other authentication is disabled.
+[W 21:41:12.937 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[W 2023-06-19 21:41:13.692 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:41:13.692 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:41:13.692 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:41:13.692 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-06-19 21:41:13.707 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-06-19 21:41:13.707 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 21:41:13.719 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 21:41:13.721 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 21:41:13.722 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 21:41:13.722 NotebookApp] http://2f6a43db3cc4:8888/
+[I 21:41:13.722 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:41:13.736 NotebookApp] No web browser found: could not locate runnable browser.
+[I 2023-06-19 21:41:20.931 LabApp] Build is up to date
+xvfb-run: error: Xvfb failed to start
+[W 21:42:05.572 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$u6TDRhapoVr0iuVTPLSByg$mBt7pvCu9mz/W5e2tjHswlKX4gwdVEZmdJe5WQ40Mhs'"
+      }
+    }
+[W 2023-06-19 21:42:06.707 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:42:06.707 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:42:06.707 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 21:42:06.707 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-06-19 21:42:06.721 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-06-19 21:42:06.721 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 21:42:06.730 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 21:42:06.733 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 21:42:06.733 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 21:42:06.733 NotebookApp] http://2f6a43db3cc4:8888/
+[I 21:42:06.734 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:42:06.747 NotebookApp] No web browser found: could not locate runnable browser.
+[I 21:42:11.524 NotebookApp] 302 GET /lab (172.19.0.1) 1.670000ms
+[I 21:42:16.755 NotebookApp] 302 POST /login?next=%2Flab (172.19.0.1) 155.720000ms
+[I 2023-06-19 21:42:20.161 LabApp] Build is up to date
