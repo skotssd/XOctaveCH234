@@ -53,3 +53,21 @@ xvfb-run: error: Xvfb failed to start
 [I 21:42:11.524 NotebookApp] 302 GET /lab (172.19.0.1) 1.670000ms
 [I 21:42:16.755 NotebookApp] 302 POST /login?next=%2Flab (172.19.0.1) 155.720000ms
 [I 2023-06-19 21:42:20.161 LabApp] Build is up to date
+[W 22:47:39.153 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$u6TDRhapoVr0iuVTPLSByg$mBt7pvCu9mz/W5e2tjHswlKX4gwdVEZmdJe5WQ40Mhs'"
+      }
+    }
+[W 2023-06-19 22:47:40.230 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 22:47:40.231 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 22:47:40.232 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-06-19 22:47:40.232 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-06-19 22:47:40.245 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-06-19 22:47:40.245 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 22:47:40.255 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 22:47:40.258 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 22:47:40.258 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 22:47:40.258 NotebookApp] http://2f6a43db3cc4:8888/
+[I 22:47:40.258 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 22:47:40.272 NotebookApp] No web browser found: could not locate runnable browser.
+[I 2023-06-19 22:47:51.241 LabApp] Build is up to date
