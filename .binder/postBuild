@@ -19,10 +19,10 @@
 #make
 #make install #permission denied errors for this.  so move executable.
 #instead move the executlable
-mv /home/jovyan/runPHREEQC/phreeqc /srv/conda/bin/phreeqc
-chmod +x /srv/conda/bin/phreeqc
+#mv /home/jovyan/runPHREEQC/phreeqc /srv/conda/bin/phreeqc
+#chmod +x /srv/conda/bin/phreeqc
 
 #turn off password and tokens for jupyter
 jupyter notebook --generate-config
 echo "c.NotebookApp.token = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
-echo "c.NotebookApp.password = 'CLEARJupyter2'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.password = ''"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
