@@ -71,3 +71,20 @@ xvfb-run: error: Xvfb failed to start
 [I 22:47:40.258 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [W 22:47:40.272 NotebookApp] No web browser found: could not locate runnable browser.
 [I 2023-06-19 22:47:51.241 LabApp] Build is up to date
+[W 17:29:50.653 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$u6TDRhapoVr0iuVTPLSByg$mBt7pvCu9mz/W5e2tjHswlKX4gwdVEZmdJe5WQ40Mhs'"
+      }
+    }
+[W 2023-07-31 17:29:51.784 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 17:29:51.785 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 17:29:51.785 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 17:29:51.785 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-31 17:29:51.798 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-07-31 17:29:51.798 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 17:29:51.808 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 17:29:51.811 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 17:29:51.811 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 17:29:51.811 NotebookApp] http://653495fa3991:8888/
+[I 17:29:51.811 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:29:51.825 NotebookApp] No web browser found: could not locate runnable browser.
