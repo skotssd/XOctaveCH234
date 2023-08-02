@@ -88,3 +88,517 @@ xvfb-run: error: Xvfb failed to start
 [I 17:29:51.811 NotebookApp] http://653495fa3991:8888/
 [I 17:29:51.811 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [W 17:29:51.825 NotebookApp] No web browser found: could not locate runnable browser.
+[W 17:57:57.653 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$u6TDRhapoVr0iuVTPLSByg$mBt7pvCu9mz/W5e2tjHswlKX4gwdVEZmdJe5WQ40Mhs'"
+      }
+    }
+[W 2023-07-31 17:57:58.738 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 17:57:58.738 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 17:57:58.739 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 17:57:58.739 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-31 17:57:58.752 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-07-31 17:57:58.752 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 17:57:58.762 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 17:57:58.765 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 17:57:58.765 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 17:57:58.766 NotebookApp] http://653495fa3991:8888/
+[I 17:57:58.766 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:57:58.780 NotebookApp] No web browser found: could not locate runnable browser.
+[W 17:58:07.458 NotebookApp] Clearing invalid/expired login cookie username-jupyter5-clearnasdss-synology-me
+[W 2023-07-31 17:58:07.459 LabApp] Clearing invalid/expired login cookie username-jupyter5-clearnasdss-synology-me
+[I 17:58:07.461 NotebookApp] 302 GET /lab (172.23.0.1) 3.250000ms
+[W 17:58:11.602 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 155.460000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+[W 17:58:17.179 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 143.630000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+[W 17:58:42.138 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 159.240000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+[W 17:59:03.108 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 160.980000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+[W 18:00:06.447 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-07-31 18:00:07.535 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 18:00:07.535 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 18:00:07.535 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 18:00:07.535 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-31 18:00:07.548 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-07-31 18:00:07.549 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 18:00:07.558 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 18:00:07.561 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 18:00:07.561 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 18:00:07.561 NotebookApp] http://653495fa3991:8888/
+[I 18:00:07.561 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:00:07.575 NotebookApp] No web browser found: could not locate runnable browser.
+[I 18:00:17.616 NotebookApp] 302 GET /lab (172.23.0.1) 1.510000ms
+[I 18:00:22.226 NotebookApp] 302 POST /login?next=%2Flab (172.23.0.1) 151.650000ms
+[I 2023-07-31 18:00:25.868 LabApp] Build is up to date
+[I 18:00:26.442 NotebookApp] Kernel started: 3d5df48e-5e59-4c3a-866e-69edab64be9e, name: xoctave
+[I 18:00:26.447 NotebookApp] Kernel started: 3eabce56-61e9-4342-9607-7b0509069db1, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+2 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+Serving notebooks from local directory: /home/jovyan
+2 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+[W 18:00:27.002 NotebookApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7fa0f8da36d0>
+[I 18:00:58.558 NotebookApp] 302 GET /lab (172.23.0.1) 0.940000ms
+[I 18:13:06.134 NotebookApp] 302 GET /lab? (172.23.0.1) 0.980000ms
+[I 18:13:09.952 NotebookApp] 302 POST /login?next=%2Flab%3F (172.23.0.1) 144.130000ms
+[I 18:13:10.689 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 0.620000ms
+[I 2023-07-31 18:13:13.595 LabApp] Build is up to date
+[I 18:13:14.170 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 6.690000ms
+[I 2023-07-31 18:13:53.107 LabApp] Build is up to date
+[I 2023-07-31 18:14:09.665 LabApp] Build is up to date
+[I 18:18:08.131 NotebookApp] 302 GET /lab/tree/Positive_Real_Roots_Quadratic.ipynb (172.23.0.1) 0.980000ms
+[I 18:20:27.822 NotebookApp] 302 GET /lab/tree/Positive_Real_Roots_Quadratic.ipynb (172.23.0.1) 0.910000ms
+[I 18:24:06.149 NotebookApp] 302 GET /lab (172.23.0.1) 0.830000ms
+[I 18:30:05.700 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:3fc2912a-0f97-4d56-a627-b67ed4d27858
+[I 18:30:05.702 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:ae0c305d-3400-4f03-bc83-49f6221b45f2
+[I 18:40:29.731 NotebookApp] 302 GET /lab (172.23.0.1) 0.860000ms
+[I 18:40:42.096 NotebookApp] 302 POST /login?next=%2Flab (172.23.0.1) 162.860000ms
+[I 18:40:44.379 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 0.690000ms
+[I 2023-07-31 18:40:46.785 LabApp] Build is up to date
+[I 18:41:11.671 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.650000ms
+[I 2023-07-31 18:41:46.186 LabApp] Build is up to date
+[I 18:43:44.506 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:190cc015-7b25-4e89-86a9-c3c27cb0c39e
+[I 18:43:44.507 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:96fdebe9-c85b-44ec-a852-5789b47f6569
+[I 20:16:15.624 NotebookApp] 302 GET /lab (172.23.0.1) 0.960000ms
+[I 2023-08-02 17:13:57.640 LabApp] Build is up to date
+[I 17:13:58.323 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.710000ms
+[W 17:17:24.014 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[I 17:17:24.354 NotebookApp] Kernel started: 7ec3affd-3299-41fd-aeaa-7a8e5cd57123, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 17:17:27.121 NotebookApp] Notebook conditional_formation_constant.ipynb is not trusted
+[I 17:17:32.346 NotebookApp] Kernel started: a85f896e-0dfa-412e-b73b-c99a35c83258, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 17:17:40.933 NotebookApp] Starting buffering for a85f896e-0dfa-412e-b73b-c99a35c83258:c584e740-18f5-40fd-bee0-2f00fbcd4f34
+[I 17:19:58.259 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 17:21:58.319 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:24:15.208 NotebookApp] Uploading file to /LECTURES/water.png
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+
+pwd
+
+[W 17:25:56.804 NotebookApp] 404 GET /files/LECTURES/files/home/jovyan/LECTURES/water.png?_xsrf=2%7C74f1bf8a%7C2f650ea34b3300a213f74ec76731dd2c%7C1690996433&1690997156751 (172.23.0.1) 21.170000ms referer=https://jupyter5.clearnasdss.synology.me/lab/tree/LECTURES/pHofwater.ipynb
+[I 17:25:58.351 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:27:58.391 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[W 17:28:17.148 NotebookApp] 404 GET /home/jovyan/LECTURES/water.png (172.23.0.1) 2.270000ms referer=https://jupyter5.clearnasdss.synology.me/lab/tree/LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+
+pwd
+
+[W 17:28:59.479 NotebookApp] 404 GET /home/jovyan/LECTURES/water.png (172.23.0.1) 2.030000ms referer=https://jupyter5.clearnasdss.synology.me/lab/tree/LECTURES/pHofwater.ipynb
+[W 17:29:06.317 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 17:29:06.675 NotebookApp] Kernel started: 7331a2b5-e591-4054-bc96-23cf2c6ce410, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 17:29:58.430 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:31:58.474 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:33:58.520 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:35:58.562 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:37:58.595 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:39:58.627 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:41:58.675 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: # Roots of a quadratic equation
+
+The general form of a quadratic equation is :
+
+$ax^2 + bx+c=0$
+
+it is possible to solve for the roots (x values where y=0) using the quadratic equation.  You can also solve numerically using this script.  Just input the values for a, b and c in the code below.
+
+This might be useful for doing assignments in CH261
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 17:43:58.728 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 17:45:58.772 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pt=-log10(t)
+
+% or this is the pOH
+
+14-pt
+
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pt=-log10(t)
+
+% or this is the pOH
+
+14-pt
+
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-2; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pt=-log10(t)
+
+% or this is the pOH
+
+14-pt
+
+[I 17:47:58.819 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 343316
+Encode time: 16052
+Send time: 755
+Draw time: 374653
+[I 17:49:58.875 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pt
+
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("notebook");
+%register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 301137
+Encode time: 15953
+Send time: 878
+Draw time: 330470
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 305355
+Encode time: 16100
+Send time: 1051
+Draw time: 335037
+[I 17:51:58.924 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[W 17:53:00.133 NotebookApp] Notebook Alpha_weak_acid.ipynb is not trusted
+[I 17:53:00.422 NotebookApp] Kernel started: 474f11bc-9bf0-4333-81d7-8d891af5d41c, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+graphics_toolkit ("plotly")
+clear
+%warning off
+format short e
+% end of housekeeping
+Executing: pKa = input("Enter pKa1 value: "); Ka=10^-pKa;
+pH=2:0.2:12; H=10.^-pH;
+alphaHL=H./(Ka+H);
+alphaL=Ka./(Ka+H);
+plot(pH,alphaHL,'linewidth',2,pH,alphaL,"linewidth", 2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH')
+ylabel('alpha')
+legend('HA','A^-')
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+list
+string: pH
+list
+string: alpha
+string: 
+string: 
+list
+string: HA
+ 21 10.0254 10.8181 -6.49089
+
+list
+string: A
+superscript
+string: -
+ 21 20.5854 7.2121 -6.49089
+
+Executing: pKa = input("Enter pKa1 value: "); Ka=10^-pKa;
+pH=2:0.2:12; H=10.^-pH;
+alphaHL=H./(Ka+H);
+alphaL=Ka./(Ka+H);
+plot(pH,alphaHL,'linewidth',2,pH,alphaL,"linewidth", 2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH')
+ylabel('alpha')
+legend('HA','A^-')
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+list
+string: pH
+list
+string: alpha
+string: 
+string: 
+list
+string: HA
+ 21 10.0254 10.8181 -6.49089
+
+list
+string: A
+superscript
+string: -
+ 21 20.5854 7.2121 -6.49089
+
+[I 17:55:00.260 NotebookApp] Saving file at /Alpha_weak_acid.ipynb
+[I 17:56:31.933 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:8b9787a8-3946-4803-b3ba-7a2ada1eae00
+[I 17:56:31.934 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:face2560-954e-4980-9d3e-388dea728e4c
+[I 17:56:31.935 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:1b592ea2-77cd-4101-97ed-b70cb988cea8
+[I 17:56:31.935 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:c67ca6c5-a98c-4acb-a1ce-f825cb23c58e
+[I 17:56:31.936 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:59d7e59b-1277-4b4b-b9f7-af750227819f
