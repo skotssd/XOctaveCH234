@@ -602,3 +602,2202 @@ string: -
 [I 17:56:31.935 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:1b592ea2-77cd-4101-97ed-b70cb988cea8
 [I 17:56:31.935 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:c67ca6c5-a98c-4acb-a1ce-f825cb23c58e
 [I 17:56:31.936 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:59d7e59b-1277-4b4b-b9f7-af750227819f
+[I 2023-08-02 18:05:06.307 LabApp] Build is up to date
+[W 18:05:06.992 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 18:05:07.234 NotebookApp] 404 GET /water.png (172.23.0.1) 2.230000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 18:05:08.242 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.450000ms
+[I 18:05:35.490 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:3d5a2b09-efed-4c0a-ba05-379700131ffc
+[I 18:05:35.491 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:4d7bf560-cf35-4ca3-9eaa-71ef80b494e2
+[I 18:05:35.492 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:61236947-34ae-405e-8d10-543bd4e29f47
+[I 18:05:35.493 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:b1e2bb63-9019-450e-b935-fd269b5b86d4
+[I 2023-08-02 22:37:25.401 LabApp] Build is up to date
+[W 22:37:26.183 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 22:37:26.673 NotebookApp] 404 GET /water.png (172.23.0.1) 2.870000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 22:37:27.561 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.380000ms
+[I 22:39:26.925 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:41:27.050 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:43:27.207 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:45:27.672 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 374662
+Encode time: 16596
+Send time: 726
+Draw time: 487520
+[I 22:47:27.844 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:49:28.008 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:51:28.180 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:53:28.344 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:55:28.521 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:57:28.674 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 22:59:28.878 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:01:29.059 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:03:29.229 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:05:29.490 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:07:29.801 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:09:19.304 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:09:42.066 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:17:44.431 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:19:44.715 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:21:44.885 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:23:45.203 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:25:45.397 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:27:45.959 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:29:46.168 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 313046
+Encode time: 15874
+Send time: 973
+Draw time: 343959
+[I 23:31:46.350 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 307222
+Encode time: 16598
+Send time: 35361
+Draw time: 378080
+[I 23:33:46.530 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:35:46.701 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:37:46.867 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:39:47.036 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:41:47.179 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:43:47.503 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 299840
+Encode time: 16048
+Send time: 925
+Draw time: 331064
+[I 23:45:48.046 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:47:02.016 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:49:02.356 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:51:02.520 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:53:02.662 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:55:02.809 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:57:02.940 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:59:03.084 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 300960
+Encode time: 16368
+Send time: 800
+Draw time: 334745
+[I 00:01:03.220 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 00:01:06.171 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 00:06:24.458 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:742a0fbd-1901-41e3-bd58-b493ef87a284
+[I 00:06:24.458 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:2ffe9fe8-95e3-4405-9bf8-b06b5cb8926e
+[I 00:06:24.459 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:fb805bae-9790-4f06-ba55-195c8418ce7a
+[I 00:06:24.461 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:89121746-1c12-42e3-8396-dace62d10e45
+[I 2023-08-03 01:24:54.006 LabApp] Build is up to date
+[W 01:24:55.514 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 01:24:56.062 NotebookApp] 404 GET /water.png (172.23.0.1) 2.350000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 01:24:56.936 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.690000ms
+[I 01:28:45.053 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:e5dc449e-25d6-4b33-b2dc-0bf4267ada74
+[I 01:28:45.053 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:0017acbf-d1fb-4027-9a4c-0857b27f4f6e
+[I 01:28:45.054 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:135e4b3e-891a-4879-8375-a259d95aeee8
+[I 01:28:45.055 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:5217f58a-6c4e-4153-8a85-f9fdc85f8c31
+[I 2023-08-03 17:38:23.831 LabApp] Build is up to date
+[W 17:38:24.274 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 17:38:24.727 NotebookApp] 404 GET /water.png (172.23.0.1) 2.410000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 17:38:25.123 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.650000ms
+[I 17:39:00.360 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:6e21fb33-2e54-4b46-acea-136cffc315a1
+[I 17:39:00.362 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:56f5d4d1-3488-4284-bb0e-d27ed20a1f15
+[I 17:39:00.362 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:4d0d766b-6359-4230-89df-ba1dbbd7e8e3
+[I 17:39:00.363 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:5c99addf-4842-4f22-88e4-c488e9b8ae73
+[I 17:02:46.235 NotebookApp] 301 GET /lab/ (172.23.0.1) 1.080000ms
+[I 2023-08-04 17:02:49.896 LabApp] Build is up to date
+[W 17:02:50.239 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 17:02:50.405 NotebookApp] 404 GET /water.png (172.23.0.1) 2.370000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 17:05:50.813 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:22f910f4-8b94-41fc-9172-edf16f8b35dc
+[I 17:05:50.814 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:8b723e7c-eea6-4006-9d79-55725c1194ab
+[I 17:05:50.814 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:77dc18e9-340c-4bb9-ae8a-9d5f793d9bdd
+[I 17:05:50.815 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:f8e4a19b-23d9-437a-b10e-603e26a3b752
+[I 2023-08-04 20:59:54.154 LabApp] Build is up to date
+[W 20:59:54.538 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 20:59:54.690 NotebookApp] 404 GET /water.png (172.23.0.1) 2.780000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 20:59:54.922 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 6.200000ms
+[I 21:13:19.110 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0866cca7-6577-413d-815e-c45355be2115
+[I 21:13:19.110 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:b604278d-1b1c-40de-88c7-d8fd61c3a2b6
+[I 21:13:19.111 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:6f515b23-b9d2-4fec-9acc-0e04ed7fd4c9
+[I 21:13:19.112 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:37b44041-6ab4-4c49-94a7-3203e2de9005
+[I 2023-08-06 23:09:21.401 LabApp] Build is up to date
+[W 23:09:22.433 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 23:09:22.730 NotebookApp] 404 GET /water.png (172.23.0.1) 4.050000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 23:09:23.983 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 24.430000ms
+[I 23:09:51.848 NotebookApp] Creating new notebook in /LECTURES
+[I 23:09:52.346 NotebookApp] Kernel started: aee1d43a-7386-45fe-b96b-f538c5b18825, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 23:11:52.244 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:13:52.363 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 23:15:52.502 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:17:52.628 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:19:52.737 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:21:53.685 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:23:53.791 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:25:53.902 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:27:54.007 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:29:54.110 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:35:54.742 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:dcf0230f-a39b-40d6-87be-0144395daadc
+[I 23:37:54.258 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:39:54.375 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:41:54.475 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:43:54.710 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 23:45:54.897 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % insert the variables and values
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Sr<sub>T</sub>; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+[I 23:47:55.025 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % insert the variables and values
+%SrT = 2x10e-9
+SrT = 20e-9; Kw=10^-14
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-SrT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+%SrT = 2x10e-9
+SrT = 20e-9; Kw=10^-14
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-SrT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+[I 23:49:55.131 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:52:00.579 NotebookApp] Creating new notebook in /LECTURES
+[I 23:52:01.145 NotebookApp] Kernel started: 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Interrupted system call
+[I 23:52:54.261 NotebookApp] Kernel interrupted: 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e
+[I 23:52:55.132 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e restarted
+[I 23:52:55.204 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ad66989d-7603-4662-9ce4-cfc4c8d7cd0f
+[I 23:52:55.280 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ad66989d-7603-4662-9ce4-cfc4c8d7cd0f
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+ClT=10^-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-ClT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: x=[0.01*t:t/10:t*5];
+y=a*x.^2+b.*x+c;
+
+plot(x,y,'b-','linewidth',2)
+hold on
+plot([t t],[min(y) max(y)],'r','linewidth',2)
+plot(x,zeros(size(x)),'k','linewidth',2)
+set(gca,'linewidth',2,'fontsize',14)
+xlabel('x values','fontsize',15); ylabel('y values','fontsize',15)
+%axis([min(x) max(x) min(y) max(y)])
+Device pixel ratio: 1
+Render time: 306717
+Encode time: 15730
+Send time: 1157
+Draw time: 337683
+[I 23:53:23.063 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:54:00.994 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:56:01.095 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:58:01.211 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:58:09.009 NotebookApp] Saving file at /LECTURES/StrongBases.ipynb
+[I 23:58:12.345 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 23:58:14.012 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:00:14.155 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:02:14.273 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:06:14.412 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:06:26.392 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:08:26.506 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:10:26.624 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:12:26.725 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[W 00:22:53.395 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 00:22:53.535 NotebookApp] WebSocket ping timeout after 119885 ms.
+[W 00:22:53.750 NotebookApp] WebSocket ping timeout after 119900 ms.
+[W 00:22:53.866 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 00:22:54.137 NotebookApp] WebSocket ping timeout after 119878 ms.
+[W 00:22:55.282 NotebookApp] WebSocket ping timeout after 119896 ms.
+[I 00:22:58.537 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:0fb4a839-732c-4bd9-b783-2080f82d63f4
+[I 00:22:58.752 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:31570937-979b-4db0-895c-72841c9b270d
+[I 00:22:58.869 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:1d9109e3-220a-4c21-b0f4-b9eeb55d5a86
+[I 00:22:59.139 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:e5b6a389-0761-489e-b6a4-7d9a241d5b47
+[I 00:23:00.284 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ad66989d-7603-4662-9ce4-cfc4c8d7cd0f
+[I 2023-08-07 00:25:59.024 LabApp] Build is up to date
+[I 00:26:03.120 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 1.920000ms
+[I 00:28:02.027 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:28:38.642 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:32:39.516 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:34:39.619 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:36:39.725 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:38:39.826 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:40:39.927 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:42:40.038 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:44:40.137 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:46:40.253 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:50:40.357 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:52:40.509 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:54:40.641 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:56:40.746 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 00:58:40.847 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:00:40.994 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:02:41.105 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:04:41.235 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:05:17.231 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:05:18.983 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:05:33.598 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+[W 01:17:02.996 NotebookApp] WebSocket ping timeout after 119979 ms.
+[W 01:17:03.108 NotebookApp] WebSocket ping timeout after 119978 ms.
+[W 01:17:03.222 NotebookApp] WebSocket ping timeout after 119966 ms.
+[W 01:17:03.359 NotebookApp] WebSocket ping timeout after 119926 ms.
+[W 01:17:03.465 NotebookApp] WebSocket ping timeout after 119974 ms.
+[I 01:17:07.998 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:b94b76f4-8ff9-4de5-b691-a040ae015191
+[I 01:17:08.110 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:86f0f926-b14c-4b91-8825-69256b325c62
+[I 01:17:08.224 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:9640e915-d4cf-46c7-8fa4-2139ffd37187
+[I 01:17:08.361 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:ed047d48-758b-491b-b43e-797aa3087de0
+[I 01:17:08.467 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:4859e343-c1fd-42b2-bd3f-d894fc90da1d
+[I 2023-08-07 01:59:30.790 LabApp] Build is up to date
+[I 01:59:33.988 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 4.590000ms
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 02:01:33.589 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+[I 02:03:33.713 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+[I 02:05:33.821 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+[I 02:07:33.962 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+[I 02:09:34.633 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+Executing: % insert the variables and values
+%-Ka * HAcT = -10e-4.75*0.01
+Ka=10^-4.75
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-10e-4.75*0.01; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: % insert the variables and values
+%-Ka * HAcT = -10e-4.75*0.01
+Ka=10^-4.75
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-10^-4.75*0.01; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+[I 02:13:35.633 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+Executing: % insert the variables and values
+%-Ka * HAcT = -10e-4.75*0.01
+Ka=10^-4.75
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=-Ka*0.01; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: % insert the variables and values
+%-Ka * HAcT = -10e-4.75*0.01
+Ka=10^-4.75
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka; c=-Ka*0.01;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+[I 02:15:35.751 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+%-Ka * HAcT = -10e-4.75*0.01
+Ka=10^-4.75
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka; c=-Ka*0.01;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+Executing: remember [HCl] = 0.01 M and pH = 2.00  
+  
+week acid no matter pka will have an acidic pH!
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+%-Ka * HAcT = -10e-4.75*0.01
+Ka=10^-4.75
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka; c=-Ka*0.01;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+
+[I 02:16:15.388 NotebookApp] Saving file at /LECTURES/WeakAcids.ipynb
+[I 02:29:57.924 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:5c1b1bbb-3e63-4a6c-ae9d-5cc13080906b
+[I 02:29:57.925 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:9f71d898-3026-484a-8a0c-db348fdb28a7
+[I 02:29:57.927 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:7519c8cb-5801-461b-bcc3-8628b7976255
+[I 02:29:57.928 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:56ff017e-f71b-4ae7-9802-71dcc833453e
+[I 02:29:57.928 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:d459cd1c-3f5b-4e5f-ae52-e9de3b15cf27
+[I 21:06:02.136 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 2.130000ms
+[I 2023-08-07 21:06:09.512 LabApp] Build is up to date
+[I 2023-08-07 21:06:17.444 LabApp] Build is up to date
+[I 21:06:24.122 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.300000ms
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 21:07:50.212 NotebookApp] Creating new notebook in /LECTURES
+[I 21:07:50.687 NotebookApp] Kernel started: 45f49fe1-96d7-45a7-9e5b-203eca38ac63, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 21:07:51.254 NotebookApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7fa0fb25ffd0>
+[I 21:08:22.490 NotebookApp] Saving file at /LECTURES/pHofwater.ipynb
+[I 21:09:51.635 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:13:52.213 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 21:15:21.092 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: pKa = input("Enter pKa1 value: "); Ka=10^-pKa;
+pH=2:0.2:12; H=10.^-pH;
+alphaHL=H./(Ka+H);
+alphaL=Ka./(Ka+H);
+plot(pH,alphaHL,'linewidth',2,pH,alphaL,"linewidth", 2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH')
+ylabel('alpha')
+legend('HA','A^-')
+[I 21:17:21.259 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:19:21.649 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:21:21.777 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:23:22.291 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:25:22.959 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:27:23.073 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:29:23.176 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:31:23.293 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:33:24.304 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:35:24.402 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:37:24.535 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:39:25.036 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Device pixel ratio: 1
+Render time: 374241
+Encode time: 16228
+Send time: 985
+Draw time: 406634
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=-NaT*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 21:41:25.352 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=-NaT*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 21:42:11.708 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=-NaT*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=-NaT*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 21:44:11.962 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=(-NaT)*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=(NaT)*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=(-NaT)*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 21:46:12.104 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:48:12.301 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:50:12.484 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:52:05.587 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:52:12.441 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 21:52:40.190 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 21:52:45.195 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 21:53:05.287 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 21:55:17.818 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: pKa = input("Enter pKa1 value: "); Ka=10^-pKa;
+pH=2:0.2:12; H=10.^-pH;
+alphaHL=H./(Ka+H);
+alphaL=Ka./(Ka+H);
+plot(pH,alphaHL,'linewidth',2,pH,alphaL,"linewidth", 2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH')
+ylabel('alpha')
+legend('HA','A^-')
+[I 21:55:34.249 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 22:03:37.246 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 22:05:37.386 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 22:07:37.504 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Device pixel ratio: 1
+Render time: 372754
+Encode time: 15592
+Send time: 742
+Draw time: 402796
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=(-NaT)*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 22:09:38.386 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 2.398 
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 22:10:46.874 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[W 22:22:51.238 NotebookApp] WebSocket ping timeout after 119898 ms.
+[W 22:22:54.022 NotebookApp] WebSocket ping timeout after 119918 ms.
+[W 22:22:54.169 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 22:22:54.363 NotebookApp] WebSocket ping timeout after 119951 ms.
+[W 22:22:54.488 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 22:22:54.604 NotebookApp] WebSocket ping timeout after 119974 ms.
+[I 22:22:56.240 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:dfc6e193-550b-437a-89e8-ab7d41e51815
+[I 22:22:59.024 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:0046e993-3a3e-4d74-a2e0-8ab96b889923
+[I 22:22:59.172 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:6822f86f-6934-4a75-9c4d-9624c0bc101c
+[I 22:22:59.364 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:cceff7d5-889f-4175-81db-af560d09d073
+[I 22:22:59.490 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:f874bb06-52ea-42e8-b9bc-0f9ca872f024
+[I 22:22:59.605 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:1c537463-c5a9-4568-aea2-b5a007d58a54
+[I 2023-08-08 14:49:43.963 LabApp] Build is up to date
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 0.043 
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 0.043 
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 14:53:46.558 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 4.75 
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 14:55:46.850 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 2e11 
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T =  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:05:49.977 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T =  1.78e9
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:07:50.611 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 15:09:50.974 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T =  -11.424
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = -11.424
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = -11.42
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 11.42
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 2.03e10
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:11:51.134 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 11.44
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 11.44
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-11.44;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 11.44
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 112
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 11.42
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:13:51.288 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 11
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 13
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 200
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 20
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:17:51.810 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 22
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 28
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 40
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 60
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 90
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 200
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 250
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 300
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 310
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:19:52.006 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(24-t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(14-t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(4.75-t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:21:52.158 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 309
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 15:27:52.323 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[W 16:06:16.690 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 16:06:16.800 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 16:06:16.897 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 16:06:17.048 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 16:06:17.417 NotebookApp] WebSocket ping timeout after 119969 ms.
+[W 16:06:17.569 NotebookApp] WebSocket ping timeout after 119973 ms.
+[I 16:06:21.692 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:115f42c1-debc-4421-9f6f-de93950e5718
+[I 16:06:21.803 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:cf98fe5d-4b34-439c-bff5-dc3002959d24
+[I 16:06:21.899 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:746f70b0-75db-4ba9-a32d-0009e224fc75
+[I 16:06:22.050 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:4ae0acc8-f2fb-4e47-9d7a-d1f3d3f6ac20
+[I 16:06:22.420 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:07a61dce-60ef-40e9-ab69-9e9117c2ce07
+[I 16:06:22.571 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:08e6bc36-9483-46af-bb13-8922d07542d2
+[I 2023-08-08 17:39:59.000 LabApp] Build is up to date
+[W 18:29:56.867 NotebookApp] WebSocket ping timeout after 119947 ms.
+[W 18:29:56.993 NotebookApp] WebSocket ping timeout after 119967 ms.
+[W 18:29:57.100 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 18:29:57.222 NotebookApp] WebSocket ping timeout after 119894 ms.
+[W 18:29:57.354 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 18:29:57.849 NotebookApp] WebSocket ping timeout after 119903 ms.
+[I 18:30:01.871 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:901eb74e-76bf-45c3-a5b9-d7a81ffb5c05
+[I 18:30:01.995 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:2da8298d-ac24-49dc-b307-308b8bf0ad36
+[I 18:30:02.101 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:962fb457-4dcf-4046-892f-28210a6b47e0
+[I 18:30:02.223 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:63fface9-bd5d-4a63-b086-f82eb3eb18e3
+[I 18:30:02.355 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:a1380fd4-d616-4cc2-88ef-899f07c704e1
+[I 18:30:02.853 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:cc9cb4c0-cc0a-4cd4-afcc-510b88c2c862
+[I 2023-08-08 19:42:39.753 LabApp] Build is up to date
+[I 2023-08-08 23:48:35.666 LabApp] Build is up to date
+[I 2023-08-09 01:29:38.691 LabApp] Build is up to date
+[I 2023-08-09 17:50:42.465 LabApp] Build is up to date
+[I 2023-08-10 14:13:13.824 LabApp] Build is up to date
+[I 2023-08-10 18:59:26.769 LabApp] Build is up to date
+[I 2023-08-10 20:27:51.320 LabApp] Build is up to date
+[I 2023-08-11 13:56:19.756 LabApp] Build is up to date
+[I 2023-08-14 15:03:30.613 LabApp] Build is up to date
+[I 15:03:52.767 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.730000ms
+[W 15:10:22.677 NotebookApp] WebSocket ping timeout after 119964 ms.
+[W 15:10:22.815 NotebookApp] WebSocket ping timeout after 119969 ms.
+[W 15:10:22.926 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 15:10:23.090 NotebookApp] WebSocket ping timeout after 119947 ms.
+[W 15:10:23.413 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 15:10:23.558 NotebookApp] WebSocket ping timeout after 119942 ms.
+[I 15:10:27.680 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:fcb63608-e6ba-4274-b293-0b8c3af8aab3
+[I 15:10:27.818 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:368b4e8c-0ea3-4419-8492-2874161b7713
+[I 15:10:27.927 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:3e42e65d-c5b0-4d3c-a7cb-fbf51c87171f
+[I 15:10:28.092 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:2519fa55-9094-4afe-afc1-18b8615e154c
+[I 15:10:28.415 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:5c5f7c7e-6037-428a-b560-b8f7a1ddaedb
+[I 15:10:28.560 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:d9d26ff7-ce70-4f09-be78-e66b06a0aa6e
+[I 15:11:25.543 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:2519fa55-9094-4afe-afc1-18b8615e154c
+[I 15:11:25.677 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:d9d26ff7-ce70-4f09-be78-e66b06a0aa6e
+[I 15:16:35.439 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:5c5f7c7e-6037-428a-b560-b8f7a1ddaedb
+[I 15:16:35.545 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:3e42e65d-c5b0-4d3c-a7cb-fbf51c87171f
+[I 15:16:35.640 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:fcb63608-e6ba-4274-b293-0b8c3af8aab3
+[I 15:16:35.745 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:368b4e8c-0ea3-4419-8492-2874161b7713
+[W 15:37:55.679 NotebookApp] WebSocket ping timeout after 119976 ms.
+[I 15:38:00.680 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:d9d26ff7-ce70-4f09-be78-e66b06a0aa6e
+[W 15:38:05.440 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 15:38:05.547 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 15:38:05.641 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 15:38:05.747 NotebookApp] WebSocket ping timeout after 119978 ms.
+[I 15:38:10.442 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:5c5f7c7e-6037-428a-b560-b8f7a1ddaedb
+[I 15:38:10.548 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:3e42e65d-c5b0-4d3c-a7cb-fbf51c87171f
+[I 15:38:10.643 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:fcb63608-e6ba-4274-b293-0b8c3af8aab3
+[I 15:38:10.749 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:368b4e8c-0ea3-4419-8492-2874161b7713
+[W 15:38:25.545 NotebookApp] WebSocket ping timeout after 119963 ms.
+[I 15:38:30.547 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:2519fa55-9094-4afe-afc1-18b8615e154c
+[I 21:37:37.445 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 0.740000ms
+[I 2023-08-14 21:37:40.245 LabApp] Build is up to date
+[W 21:37:40.758 NotebookApp] 404 GET /water.png (172.23.0.1) 10.720000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 21:39:01.597 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:284baed6-b252-4229-a949-93ce4f8c5de0
+[I 21:39:01.598 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:9619d795-30dc-476b-b805-e932872bbbde
+[I 21:39:01.598 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:43773cf5-fb1b-47ca-b067-e0f425f629db
+[I 21:39:01.599 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:d317a96f-ed27-467e-926d-57a15773741d
+[I 21:39:01.599 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:c5eb11a9-3f9f-4f0d-80b7-1532bb39c2dc
+[I 21:39:01.600 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:4f5683de-686e-4e8c-bd7d-a6135b129043
+[I 15:52:54.297 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 3.520000ms
+[I 2023-08-20 15:52:58.364 LabApp] Build is up to date
+[I 2023-08-20 15:53:01.834 LabApp] Build is up to date
+[I 15:53:04.951 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.720000ms
+[I 16:29:08.659 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 16:29:08.659 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 16:29:08.661 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 16:29:08.661 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 16:29:08.662 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 16:29:08.662 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 21:54:15.994 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 21:54:24.657 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 21:54:24.775 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 21:54:24.912 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 21:54:25.039 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 21:54:25.155 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 21:57:33.441 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 21:57:33.442 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 21:57:33.443 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 21:57:33.447 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 21:57:33.449 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 21:57:33.450 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 21:57:33.887 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 21:57:34.006 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 21:57:34.125 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[W 21:57:34.269 NotebookApp] zmq message arrived on closed channel
+[I 21:57:34.271 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 21:57:34.274 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 21:57:34.278 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 21:57:34.279 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 21:57:34.281 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 22:29:28.073 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 22:29:28.081 NotebookApp] Replaying 2 buffered messages
+[I 22:29:28.344 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 22:29:28.470 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 22:29:29.959 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 22:29:30.059 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 22:29:44.766 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 23:13:07.053 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 23:13:07.054 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 23:13:07.055 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 23:13:07.056 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 23:13:07.057 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 23:13:07.057 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 00:19:16.373 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 00:19:17.012 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 00:19:17.709 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 00:19:18.125 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 00:19:18.407 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 00:19:18.651 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 01:12:05.286 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 01:12:05.287 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 01:12:05.288 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 01:12:05.289 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 01:12:05.289 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 01:12:05.289 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:09:40.988 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:09:43.038 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:09:43.995 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:09:44.302 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:09:44.702 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:09:45.325 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:13:06.109 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:13:06.109 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:13:06.110 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:13:06.110 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:13:06.111 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:13:06.111 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:13:07.978 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:13:08.435 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:13:08.867 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:13:09.200 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:13:13.227 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:13:23.875 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:14:40.797 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:14:40.797 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:14:40.798 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:14:40.799 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:14:40.800 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:14:40.881 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:14:45.066 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:14:45.807 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:14:46.811 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:14:47.320 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:14:47.792 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:14:47.999 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:16:05.399 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:16:05.401 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:16:05.401 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:16:05.402 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:16:05.403 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:16:05.403 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:57:51.574 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 03:58:04.119 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:58:09.115 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:58:15.100 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:58:15.438 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:58:15.943 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:58:16.067 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 03:58:16.069 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 03:58:16.069 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 03:58:16.069 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 03:58:16.086 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 03:58:16.087 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 04:18:27.766 NotebookApp] Restoring connection for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 04:18:27.945 NotebookApp] Restoring connection for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 04:18:28.098 NotebookApp] Restoring connection for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 04:18:28.196 NotebookApp] Restoring connection for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 04:18:28.342 NotebookApp] Restoring connection for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 04:18:31.113 NotebookApp] Restoring connection for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 04:31:30.512 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:15b2c096-efc5-4ab3-8f23-18ba7757ecfa
+[I 04:31:30.515 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:4ed2d7b3-f8f1-4a03-bc4f-9d660f9747c4
+[I 04:31:30.520 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:32a1f163-f343-49ba-9d25-7c95784b6e36
+[I 04:31:30.520 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:ce978f9d-d9f5-4d61-8fcd-12e8b2e52707
+[I 04:31:30.521 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0060ad07-dd6c-4a6c-a569-f757ee1313c2
+[I 04:31:30.521 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:030fee7d-260f-42ea-86ba-cabdaab1ccac
+[I 16:28:01.883 NotebookApp] 302 GET /login?next=%2Flab (172.23.0.1) 1.070000ms
+[I 2023-08-22 16:28:05.137 LabApp] Build is up to date
+[W 16:28:05.737 NotebookApp] 404 GET /water.png (172.23.0.1) 4.460000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: pKa = input("Enter pKa1 value: "); Ka=10^-pKa;
+pH=2:0.2:12; H=10.^-pH;
+alphaHL=H./(Ka+H);
+alphaL=Ka./(Ka+H);
+plot(pH,alphaHL,'linewidth',2,pH,alphaL,"linewidth", 2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH')
+ylabel('alpha')
+legend('HA','A^-')
+Device pixel ratio: 1
+Render time: 456871
+Encode time: 21273
+Send time: 4222
+Draw time: 590751
+Executing: % insert the variables and values
+Kb = 10^-9.25; BT = 0.01; NaT = 0.01  
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb + BT - NaT; c=(-NaT)*Kb;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+Kb = 10^-9.25; NH3T = 0.01;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 16:36:05.723 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+Executing: % insert the variables and values
+Kb = 10^-4.75; NH3T = 0.01;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Kb; c=-Kb*NH3T;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 16:38:05.762 NotebookApp] Saving file at /LECTURES/AlphaandWeakBase.ipynb
+[I 17:02:26.299 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:f3c83d64-a3d3-4a11-8153-22f7f1f91afb
+[I 17:02:28.099 NotebookApp] Starting buffering for 474f11bc-9bf0-4333-81d7-8d891af5d41c:38e7e7b9-27d3-4502-b579-1b177816e13b
+[I 17:02:29.373 NotebookApp] Starting buffering for 9ddf0a75-4af0-4aad-adf8-a9e3aa20534e:42ba1c73-98ad-40db-b450-c7ddced64ab3
+[I 17:02:30.771 NotebookApp] Starting buffering for aee1d43a-7386-45fe-b96b-f538c5b18825:a6c63af9-841b-41da-89f8-860d455db7f9
+[I 17:03:06.980 NotebookApp] Starting buffering for 45f49fe1-96d7-45a7-9e5b-203eca38ac63:3686f7de-a1c7-46e0-bff3-55188f834985
+[W 17:07:27.566 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[I 17:07:27.794 NotebookApp] Kernel started: 173233bd-461f-4823-813f-cbf07826a658, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 17:22:50.221 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:a63826c3-ce80-4a14-89b2-f0c2978d02dc
+[I 17:22:50.222 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:13c1019e-4245-447e-94c9-b12f8818ff53
+[I 17:22:50.223 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:76eb90df-a184-4f3b-8edd-4ffe7154e0f5
+[I 2023-08-23 14:30:36.299 LabApp] Build is up to date
+[W 14:30:36.620 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 14:30:36.686 NotebookApp] 404 GET /water.png (172.23.0.1) 4.950000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 14:31:13.518 NotebookApp] New terminal with automatic name: 1
