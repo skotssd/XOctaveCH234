@@ -2801,3 +2801,750 @@ Run with XEUS 3.0.5
 [W 14:30:36.620 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
 [W 14:30:36.686 NotebookApp] 404 GET /water.png (172.23.0.1) 4.950000ms referer=https://jupyter5.clearnasdss.synology.me/lab
 [I 14:31:13.518 NotebookApp] New terminal with automatic name: 1
+[I 14:38:26.638 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:6512e579-042c-4f39-8639-14fab4fda5c2
+[I 14:38:26.639 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:e702c0ec-891f-497f-b645-193f3b3e7e3f
+[I 14:38:26.640 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:59c6f987-8921-4668-98e9-3a3587298101
+[I 2023-08-23 19:12:26.709 LabApp] Build is up to date
+[W 19:12:27.143 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 19:12:27.733 NotebookApp] 404 GET /api/contents/LECTURES/WeakAcids.ipynb?content=0&1692817947610 (172.23.0.1): file or directory does not exist: 'LECTURES/WeakAcids.ipynb'
+[W 19:12:27.734 NotebookApp] file or directory does not exist: 'LECTURES/WeakAcids.ipynb'
+[W 19:12:27.734 NotebookApp] 404 GET /api/contents/LECTURES/WeakAcids.ipynb?content=0&1692817947610 (172.23.0.1) 2.220000ms referer=https://jupyter5.clearnasdss.synology.me/lab/tree/LECTURES/WeakAcids.ipynb
+[I 19:12:27.849 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.840000ms
+[I 19:22:52.858 NotebookApp] Kernel started: 64a31009-5b59-43b0-9ed5-85c3c3ce84cf, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 19:22:53.931 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:952e8638-6ce3-4368-b5a4-4db6873acd50
+[W 19:49:23.937 NotebookApp] WebSocket ping timeout after 119966 ms.
+[W 19:49:24.047 NotebookApp] WebSocket ping timeout after 119964 ms.
+[W 19:49:27.149 NotebookApp] WebSocket ping timeout after 119944 ms.
+[W 19:49:27.772 NotebookApp] WebSocket ping timeout after 119761 ms.
+[W 19:49:27.885 NotebookApp] WebSocket ping timeout after 119874 ms.
+[W 19:49:28.003 NotebookApp] WebSocket ping timeout after 119952 ms.
+[I 19:49:29.049 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:b3318a32-75c2-46f5-9e08-08db9c278863
+[I 19:49:32.774 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:668c3124-9a1e-4830-8017-ab5ab634bc51
+[I 19:49:32.886 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:5a552c45-969f-46a7-b347-85b4bd5e90dc
+[I 19:49:33.005 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:7dd84033-fe32-41c0-8b47-ba325394298e
+[I 2023-08-23 21:42:38.041 LabApp] Build is up to date
+[W 21:42:39.739 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[I 21:42:41.562 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.740000ms
+[I 21:43:05.681 NotebookApp] Creating new notebook in /LECTURES
+[I 21:43:06.500 NotebookApp] Kernel started: 0610a549-8a17-4c13-ac25-a5545aa9f402, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 21:43:07.111 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:865a3677-8ff1-4271-a3f6-299fb8653b87
+[I 21:45:06.226 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 21:47:06.340 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 21:49:06.447 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 21:51:06.555 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 21:53:06.675 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 21:55:06.796 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 21:57:06.913 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 21:59:07.031 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:01:07.643 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:03:07.755 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:05:07.875 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:07:07.999 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:09:08.113 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+Executing: % insert the variables and values
+
+MgT = 1.075e-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=2*MgT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 22:10:33.606 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.900000ms
+[I 22:11:08.219 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+Executing: % insert the variables and values
+
+MgT = 1.075e-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=2.15e-9; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+MgT = 1.075e-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=2*MgT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 22:13:08.655 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:15:08.755 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:17:08.867 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:19:08.971 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:21:09.084 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:23:09.228 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:25:09.361 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:27:09.471 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:29:09.597 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:31:09.735 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+MgT = 1.075e-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=2*MgT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 22:33:09.842 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:35:14.425 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:37:14.531 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:39:14.677 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:41:14.810 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:43:14.928 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:43:32.086 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:53:32.225 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:55:32.338 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:57:15.571 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+MgT = 1.075e-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=2*MgT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+MgT = 1.075e-9; Kw=10^-14;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=2*MgT; c=-Kw;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 22:59:00.348 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 22:59:41.856 NotebookApp] Creating new notebook in /LECTURES
+[I 22:59:42.415 NotebookApp] Kernel started: b38d5661-e3d3-41c7-9d4b-8b05f338fb17, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 23:01:42.311 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:02:47.854 NotebookApp] Uploading file to /LECTURES/titrate.png
+[I 23:03:42.423 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:05:42.557 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:07:42.661 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:08:30.435 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:10:30.557 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:12:30.677 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:14:30.795 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:16:30.900 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:18:31.022 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:20:31.153 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 23:20:46.349 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[W 23:32:37.118 NotebookApp] WebSocket ping timeout after 119813 ms.
+[W 23:32:37.239 NotebookApp] WebSocket ping timeout after 119933 ms.
+[W 23:32:39.568 NotebookApp] WebSocket ping timeout after 119809 ms.
+[W 23:32:41.378 NotebookApp] WebSocket ping timeout after 119772 ms.
+[W 23:32:41.511 NotebookApp] WebSocket ping timeout after 119905 ms.
+[W 23:32:41.624 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 23:32:41.726 NotebookApp] WebSocket ping timeout after 119957 ms.
+[I 23:32:42.242 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:a94ed869-26cf-4faf-8628-07413b568720
+[W 23:32:42.767 NotebookApp] WebSocket ping timeout after 119970 ms.
+[I 23:32:46.379 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:2b878045-12c9-40f1-9cf7-7cf4fa144b58
+[I 23:32:46.513 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:ebd2c752-8297-4e69-923b-da8332ea2273
+[I 23:32:46.627 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:b996acad-1bd1-434e-967b-70cdd602e410
+[I 23:32:46.727 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:0b7eea5e-015d-4295-953a-820bed94af3b
+[I 23:32:47.769 NotebookApp] Starting buffering for b38d5661-e3d3-41c7-9d4b-8b05f338fb17:d61e696e-10bf-4394-8f1c-7e65fa76ce53
+[I 2023-08-24 01:23:19.921 LabApp] Build is up to date
+[W 01:23:21.645 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[I 01:23:22.830 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.260000ms
+[I 01:25:22.389 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:27:22.497 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Interrupted system call
+[I 01:27:23.927 NotebookApp] Kernel interrupted: b38d5661-e3d3-41c7-9d4b-8b05f338fb17
+[I 01:27:24.403 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel b38d5661-e3d3-41c7-9d4b-8b05f338fb17 restarted
+[I 01:27:24.442 NotebookApp] Starting buffering for b38d5661-e3d3-41c7-9d4b-8b05f338fb17:45df88db-6470-45a5-b92c-8beeaa661e3f
+[I 01:27:24.653 NotebookApp] Restoring connection for b38d5661-e3d3-41c7-9d4b-8b05f338fb17:45df88db-6470-45a5-b92c-8beeaa661e3f
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 01:29:22.604 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:31:22.725 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:33:22.813 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:35:22.908 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:37:23.375 NotebookApp] Saving file at /LECTURES/Untitled.ipynb
+[I 01:39:05.918 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[W 01:39:20.892 NotebookApp] Notebook StrongTitration_andBuffering.ipynb is not trusted
+[I 01:39:22.010 NotebookApp] Kernel started: cd751506-f487-4b0f-958a-41dafc0c5efd, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: %plot -s 600,600 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,(beta),'linewidth',2)
+xlabel('pH'); ylabel('\beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Buffer capacity versus pH')
+
+betamodel=2.303*(OH+H);
+hold on
+plot(pH,betamodel,'k--','linewidth',2)
+Device pixel ratio: 1
+Render time: 313778
+Encode time: 14834
+Send time: 564
+Draw time: 343939
+Executing: Kw=1e-14; pH=2:0.01:12; H=10.^-pH; OH=Kw./H; ClT=0.01; Na=ClT+OH-H;
+
+%plot -s 600,600 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,(beta),'linewidth',2)
+xlabel('pH'); ylabel('\beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Buffer capacity versus pH')
+
+betamodel=2.303*(OH+H);
+hold on
+plot(pH,betamodel,'k--','linewidth',2)
+Device pixel ratio: 1
+Render time: 337520
+Encode time: 17546
+Send time: 1249
+Draw time: 371242
+[I 01:41:06.042 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:43:06.185 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:45:06.481 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:47:07.402 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[W 01:49:04.392 NotebookApp] Notebook WeakTitration_AndBuffering.ipynb is not trusted
+[I 01:49:07.719 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:49:24.627 NotebookApp] Kernel started: fd06f5a8-b2a5-41b7-a4ef-790a850367b8, name: python3
+[I 01:49:25.999 NotebookApp] Starting buffering for fd06f5a8-b2a5-41b7-a4ef-790a850367b8:1a6f9e10-2856-46b7-b532-8e66b7adeef2
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 03c4b94c-e604-49f2-8934-70616ed7cff1
+[I 01:49:30.674 NotebookApp] Kernel started: b96b272c-9028-4f63-9214-148ef58759cc, name: python3
+[I 01:49:30.677 NotebookApp] Kernel shutdown: fd06f5a8-b2a5-41b7-a4ef-790a850367b8
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3f29eec0-6dd2-4955-893a-08fc99e056db
+[I 01:49:44.730 NotebookApp] Kernel started: d13d5b37-3af2-4ca2-9a52-13984485c018, name: python3
+[I 01:49:44.734 NotebookApp] Kernel shutdown: b96b272c-9028-4f63-9214-148ef58759cc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8d7a344c-35d8-45f6-bf7e-177c6ef7aa39
+[I 01:50:48.922 NotebookApp] Kernel started: 7aa58484-5ca6-4045-ac8f-0fbf5b7b1409, name: python3
+[I 01:50:48.925 NotebookApp] Kernel shutdown: d13d5b37-3af2-4ca2-9a52-13984485c018
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 173af46d-6381-4f7c-9308-e73c70e80aab
+[I 01:51:00.829 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:51:03.346 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:51:03.527 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:51:04.843 NotebookApp] Saving file at /WeakTitration_AndBuffering.ipynb
+[I 01:51:05.297 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:23cd3aed-3f51-444b-ba4f-31cd78f398d8
+[I 01:51:05.298 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:c12acbdd-73eb-45f4-96d3-41d27126b191
+[I 01:51:05.298 NotebookApp] Starting buffering for b38d5661-e3d3-41c7-9d4b-8b05f338fb17:45df88db-6470-45a5-b92c-8beeaa661e3f
+[I 01:51:05.299 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:471ce73b-5639-430c-8365-87aad36dc41f
+[I 01:51:05.303 NotebookApp] Starting buffering for cd751506-f487-4b0f-958a-41dafc0c5efd:428bc504-0db3-49a2-8cae-f4d2f8f3cc5b
+[I 01:51:05.304 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:840f7e20-c712-4856-8ad8-413d24509d0c
+[I 01:51:05.305 NotebookApp] Starting buffering for 7aa58484-5ca6-4045-ac8f-0fbf5b7b1409:cae02cd8-5571-46eb-a26e-8a0f66dc4f68
+[I 01:51:05.305 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:d3506bf4-e387-41fc-9ec8-747090cefbf2
+[I 2023-08-24 01:51:13.020 LabApp] Build is up to date
+[W 01:51:14.216 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 01:51:14.299 NotebookApp] Notebook StrongTitration_andBuffering.ipynb is not trusted
+[W 01:51:14.988 NotebookApp] 404 GET /api/contents/LECTURES/Untitled.ipynb?content=0&1692841874664 (172.23.0.1): file or directory does not exist: 'LECTURES/Untitled.ipynb'
+[W 01:51:14.989 NotebookApp] file or directory does not exist: 'LECTURES/Untitled.ipynb'
+[W 01:51:14.989 NotebookApp] 404 GET /api/contents/LECTURES/Untitled.ipynb?content=0&1692841874664 (172.23.0.1) 2.230000ms referer=https://jupyter5.clearnasdss.synology.me/lab/tree/LECTURES/Untitled.ipynb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 33d3abf8-662d-40b1-8c7e-00c5eb681302
+[I 01:51:44.145 NotebookApp] Kernel shutdown: 7aa58484-5ca6-4045-ac8f-0fbf5b7b1409
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("gnuplot");
+available_graphics_toolkits ();
+graphics_toolkit ("gnuplot")
+clear
+% end of housekeeping
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("gnuplot");
+available_graphics_toolkits ();
+graphics_toolkit ("gnuplot")
+clear
+% end of housekeeping
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+
+gnuplot> u
+         ^
+         line 0: invalid command
+
+
+gnuplot> nset multiplot;
+         ^
+         line 0: invalid command
+
+Executing: %plot -s 600,500 -f 'svg'
+plot(pHder,log10(beta),'linewidth',2)
+xlabel('pH'); ylabel('log(\Beta)')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity (dashed line just water)')
+axis([3.38 12 -8 -1.5])
+hold on
+betas=diff(Nas)./diff(pHs);
+n=size(pHs,2); pHders=pHs(1:n-1)+diff(pHs);
+plot(pHders,log10(betas),'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+Executing: %plot -s 600,500 -f 'svg'
+plot(pHder,log10(beta),'linewidth',2)
+xlabel('pH'); ylabel('log(\Beta)')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity (dashed line just water)')
+axis([3.38 12 -8 -1.5])
+hold on
+betas=diff(Nas)./diff(pHs);
+n=size(pHs,2); pHders=pHs(1:n-1)+diff(pHs);
+plot(pHders,log10(betas),'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+plot(pHder,log10(beta),'linewidth',2)
+xlabel('pH'); ylabel('log(\Beta)')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity (dashed line just water)')
+axis([3.38 12 -8 -1.5])
+hold on
+betas=diff(Nas)./diff(pHs);
+n=size(pHs,2); pHders=pHs(1:n-1)+diff(pHs);
+plot(pHders,log10(betas),'k--','linewidth',2)
+Device pixel ratio: 1
+Render time: 299343
+Encode time: 17966
+Send time: 823
+Draw time: 332238
+Executing: %plot -s 600,500 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+Device pixel ratio: 1
+Render time: 298847
+Encode time: 16388
+Send time: 715
+Draw time: 330441
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Device pixel ratio: 1
+Render time: 327546
+Encode time: 15930
+Send time: 725
+Draw time: 357020
+[I 01:53:14.692 NotebookApp] Saving file at /WeakTitration_AndBuffering.ipynb
+[I 01:53:15.008 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("gnuplot");
+available_graphics_toolkits ();
+graphics_toolkit ("gnuplot")
+clear
+% end of housekeeping
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+[I 01:54:05.189 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:54:07.212 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:22bf9fa3-5d57-46ac-899f-2c3be681ea47
+[I 01:54:07.213 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:acad79ee-15db-4a3c-8d7e-b796f9893dc7
+[I 01:54:07.216 NotebookApp] Starting buffering for b38d5661-e3d3-41c7-9d4b-8b05f338fb17:c84b652b-796f-4e48-a214-a529fab24d08
+[I 01:54:07.217 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:9e83d5db-cc4f-41a9-8b90-04b710152303
+[I 01:54:07.218 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:b4f8c7c4-1fc7-4bb7-8d9e-5a471b0102cc
+[I 01:54:07.218 NotebookApp] Starting buffering for cd751506-f487-4b0f-958a-41dafc0c5efd:a5191e3f-cc40-4ff3-a319-d0188318fb1a
+[I 01:54:07.219 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:92bb3f22-608b-45c6-8b86-068285a72703
+[I 01:54:07.681 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 0.540000ms
+[I 2023-08-24 01:54:10.890 LabApp] Build is up to date
+[W 01:54:11.414 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 01:54:11.509 NotebookApp] Notebook StrongTitration_andBuffering.ipynb is not trusted
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+[I 01:55:25.035 NotebookApp] Kernel started: c6d902d7-235f-4e0a-b50a-cc7d8978296e, name: xoctave
+[I 01:55:25.039 NotebookApp] Kernel shutdown: cd751506-f487-4b0f-958a-41dafc0c5efd
+
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Interrupted system call
+
+
+
+
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+plot(Na,pH,'linewidth',2); xlabel('[Na^+]'); ylabel('pH')
+set(gca,'fontsize',11,'linewidth',2)
+title('HAc titrated with NaOH (dashed line = just water)')
+axis([0 0.02 2 12])
+
+% add strong strong for comparison
+pHs=2:0.1:12; Hs=10.^-pHs; OHs=Kw./Hs; Nas=OHs+AcT-Hs; 
+hold on; plot(Nas,pHs,'k--','linewidth',2)
+Device pixel ratio: 1
+Render time: 330577
+Encode time: 16227
+Send time: 744
+Draw time: 364357
+Executing: %plot -s 600,500 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+Device pixel ratio: 1
+Render time: 307999
+Encode time: 15833
+Send time: 702
+Draw time: 344282
+Executing: %plot -s 600,500 -f 'svg'
+plot(pHder,log10(beta),'linewidth',2)
+xlabel('pH'); ylabel('log(\Beta)')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity (dashed line just water)')
+axis([3.38 12 -8 -1.5])
+hold on
+betas=diff(Nas)./diff(pHs);
+n=size(pHs,2); pHders=pHs(1:n-1)+diff(pHs);
+plot(pHders,log10(betas),'k--','linewidth',2)
+Device pixel ratio: 1
+Render time: 328754
+Encode time: 18299
+Send time: 905
+Draw time: 361976
+Executing: %plot -s 600,500 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+[I 01:55:50.188 NotebookApp] Kernel started: 6713b7c3-cf36-41bd-b22c-b4bd5d717368, name: xoctave
+[I 01:55:50.191 NotebookApp] Kernel shutdown: b38d5661-e3d3-41c7-9d4b-8b05f338fb17
+
+
+
+
+
+
+
+
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Interrupted system call
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: %plot -s 600,500 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+Device pixel ratio: 1
+Render time: 236688
+Encode time: 14042
+Send time: 556
+Draw time: 266437
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+%plot -s 600,500 -f 'svg'
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+Device pixel ratio: 1
+Render time: 354745
+Encode time: 15646
+Send time: 934
+Draw time: 386492
+[I 01:56:12.196 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:56:12.802 NotebookApp] Saving file at /WeakTitration_AndBuffering.ipynb
+Executing: %plot -s 600,500 -f 'svg'
+Kw=1e-14; pH=3.38:0.1:12; H=10.^-pH; OH=Kw./H; AcT=0.01; Ka=10^-4.75;
+Na=OH+(AcT*Ka)./(Ka+H)-H;
+
+beta=diff(Na)./diff(pH);
+n=size(pH,2); pHder=pH(1:n-1)+diff(pH);
+plot(pHder,beta,'linewidth',2)
+xlabel('pH'); ylabel('\Beta')
+set(gca,'linewidth',2,'fontsize',11)
+title('Weak acid buffer capacity versus pH')
+axis([3.38 12 0 0.02])
+Device pixel ratio: 1
+Render time: 299196
+Encode time: 15734
+Send time: 902
+Draw time: 329473
+[I 01:56:29.132 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:56:39.932 NotebookApp] Saving file at /LECTURES/6Buffering.ipynb
+[I 01:56:43.286 NotebookApp] Creating new notebook in /LECTURES
+[I 01:56:43.796 NotebookApp] Kernel started: e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 01:58:43.652 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 02:00:43.810 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 02:02:43.899 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 02:04:44.006 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 02:06:33.926 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 02:06:49.117 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[W 02:24:41.395 NotebookApp] WebSocket ping timeout after 119959 ms.
+[W 02:24:42.406 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 02:24:42.526 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 02:24:42.656 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 02:24:42.902 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 02:24:43.005 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 02:24:44.106 NotebookApp] WebSocket ping timeout after 119974 ms.
+[I 02:24:47.408 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:66210a2b-99fa-4056-b8b3-8ac5f857c7d0
+[I 02:24:47.528 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:7b8f6d3b-0f42-4b5a-8d3a-4ec87acb3f13
+[I 02:24:47.658 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:3a05994f-f9f4-4c4d-858a-6316f9b146f0
+[I 02:24:47.904 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:87018364-8b6a-4203-8de6-d2f467e21fe8
+[I 02:24:48.006 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:59f8d4b8-44c5-4c2b-a7f0-64bebc9deee5
+[I 02:24:49.108 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:de2773c5-401b-4f3c-9777-5813da541f3d
+[W 02:24:50.514 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 02:24:55.467 NotebookApp] WebSocket ping timeout after 119977 ms.
+[I 02:24:55.515 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:b187281d-aaf9-4d1a-8fad-1df3d5479509
+[I 02:25:00.469 NotebookApp] Starting buffering for c6d902d7-235f-4e0a-b50a-cc7d8978296e:4c7581d9-f320-4426-812a-a72c6d1d7955
+[I 2023-08-24 15:27:31.085 LabApp] Build is up to date
+[W 15:27:31.502 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 15:27:31.553 NotebookApp] Notebook StrongTitration_andBuffering.ipynb is not trusted
+[W 15:27:31.647 NotebookApp] 404 GET /water.png (172.23.0.1) 19.930000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 15:27:31.653 NotebookApp] 404 GET /titrate.png (172.23.0.1) 23.160000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 15:27:31.932 NotebookApp] Kernel started: dc6ec692-b2f9-4945-86d4-fbb5d89d5f09, name: xoctave
+[I 15:27:32.005 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 5.220000ms
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 15:27:33.025 NotebookApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7fa0e8f42390>
+[I 15:27:39.147 NotebookApp] New terminal with automatic name: 2
