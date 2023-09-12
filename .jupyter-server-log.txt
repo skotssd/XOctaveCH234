@@ -3548,3 +3548,1916 @@ OpenGL version: 3.1 Mesa 20.0.8
 Run with XEUS 3.0.5
 [W 15:27:33.025 NotebookApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7fa0e8f42390>
 [I 15:27:39.147 NotebookApp] New terminal with automatic name: 2
+[I 15:28:27.630 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:03baa985-6960-4a90-9ecb-4f907b9f5531
+[I 15:28:27.631 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:fedf637f-2451-4018-bec6-7fa3de3f4953
+[I 15:28:27.632 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:296c3899-25b7-4425-8f3d-6f74839d42be
+[I 15:28:27.635 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:a065bde2-b942-489b-acfd-1dededf998b8
+[I 15:28:27.636 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:74e69850-ce82-46b8-9ace-a81198de15c5
+[I 15:28:27.637 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:45270d9e-3563-407d-8719-2a9be44231e5
+[I 15:28:27.637 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:8edcded8-7c86-4eb9-953a-fd716ecfd675
+[I 15:28:27.639 NotebookApp] Starting buffering for c6d902d7-235f-4e0a-b50a-cc7d8978296e:8752266a-e16b-4c05-8202-1229d2b046a3
+[I 15:28:27.639 NotebookApp] Starting buffering for dc6ec692-b2f9-4945-86d4-fbb5d89d5f09:774c1405-37a6-4a95-966b-1b3cdde385cd
+[I 2023-08-24 16:52:10.922 LabApp] Build is up to date
+[I 2023-08-24 17:39:58.496 LabApp] Build is up to date
+[W 17:39:58.968 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 17:39:59.017 NotebookApp] Notebook StrongTitration_andBuffering.ipynb is not trusted
+[W 17:39:59.106 NotebookApp] 404 GET /water.png (172.23.0.1) 18.180000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 17:39:59.115 NotebookApp] 404 GET /titrate.png (172.23.0.1) 19.840000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 17:40:13.586 NotebookApp] Starting buffering for dc6ec692-b2f9-4945-86d4-fbb5d89d5f09:c4a45312-9714-48e4-9875-eecff93dc651
+[I 17:40:13.587 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:69b80e3b-ec0c-4458-8360-8ec3c6272627
+[I 17:40:13.587 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:fdd89d74-d42e-4d0c-b012-2f87e52222b5
+[I 17:40:13.588 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:b6814e87-a01e-4354-9ca4-2799acd85c41
+[I 17:40:13.588 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:a3654e44-a5d4-46b8-b62e-b94ce7c9c8eb
+[I 17:40:13.589 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:e1c25a5c-f0f7-453e-9315-91804bd5eaec
+[I 17:40:13.589 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:6bd517af-a268-4da0-b662-fc1c132bbd7e
+[I 17:40:13.590 NotebookApp] Starting buffering for c6d902d7-235f-4e0a-b50a-cc7d8978296e:785a2daa-4fe8-4cc5-93dd-bcc18eda2825
+[I 17:40:13.591 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:d3fe2955-0dcf-4b8e-805b-f11c57133b10
+[I 17:42:36.127 NotebookApp] Starting buffering for dc6ec692-b2f9-4945-86d4-fbb5d89d5f09:e2818680-c90b-477a-8f9a-dd33cbafc5b6
+[W 17:42:36.172 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 17:42:36.277 NotebookApp] Notebook StrongTitration_andBuffering.ipynb is not trusted
+[I 17:42:37.948 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 1.660000ms
+[I 17:44:37.168 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 17:46:37.292 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT + KaNaT;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 17:48:37.419 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT+KaNaT;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10e-4.75; NaT = 0.01; KaAcT = 10e-4.75; KaNaT = 0.02;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT+KaNaT;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT+KaNaT;
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT+KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka + NaT; c=-KaAcT+KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 17:50:37.541 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=10^-4.75+0.01; c=-KaAcT+KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT+KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 17:52:37.645 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 17:54:37.760 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+%b=Ka+NaT
+%c=-KaAcT+KaNaT
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=0.010018; c=-3.5566
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+%b=Ka+NaT
+%c=-KaAcT+KaNaT
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT+KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 17:56:37.897 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+%b=Ka+NaT
+%c=-KaAcT+KaNaT
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT+KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+%b=Ka+NaT
+%c=-KaAcT+KaNaT
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=(Ka+NaT); c=(-KaAcT+KaNaT)
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+%b=Ka+NaT
+%c=-KaAcT+KaNaT
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT*KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT*KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 17:58:38.066 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:00:38.795 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:02:38.914 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:04:39.017 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 002;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=KaNaT-AcTKa
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 002;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=Ka*NaT-Ac*TKa
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 002;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=Ka*NaT-AcT*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 002;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=(Ka*NaT)-(AcT*Ka)
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 002;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka*NaT; c=(Ka*NaT)-(AcT*Ka)
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 18:06:39.138 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 0.02;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka*NaT; c=(Ka*NaT)-(AcT*Ka)
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 18:10:39.305 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 0.02;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=(Ka*NaT)-(AcT*Ka)
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 18:12:39.624 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:14:39.742 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:16:39.932 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:18:40.071 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:19:35.351 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[W 18:20:13.796 NotebookApp] Notebook Ushaped_solubility_diagram_otherconstants.ipynb is not trusted
+[I 18:20:14.617 NotebookApp] Kernel started: 6704a3d3-0f54-4af6-9fd8-c7225b3e5eb2, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 18:20:17.313 NotebookApp] Notebook Ushaped_solubility_diagram.ipynb is not trusted
+[I 18:20:18.184 NotebookApp] Kernel started: 0fef207d-4dfd-4a43-a5d4-0af276a10c91, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 18:20:22.404 NotebookApp] Notebook testPHREEQC.ipynb is not trusted
+[I 18:20:28.791 NotebookApp] Kernel started: f7745975-d7f3-49ec-86b7-885fe89f759f, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 18:20:31.180 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[I 18:20:35.829 NotebookApp] Kernel started: eebba0d0-f04a-4482-82d1-ebd33859e5f3, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 18:20:43.343 NotebookApp] Notebook solve_tableau_Alsystem.ipynb is not trusted
+[I 18:20:56.243 NotebookApp] Kernel started: 4a25d5b6-76a7-4c40-b68b-986082a097fd, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 18:21:30.482 NotebookApp] Starting buffering for 3d5df48e-5e59-4c3a-866e-69edab64be9e:b37475ef-7d47-415c-85ef-6b904f65d2e4
+[I 18:21:39.446 NotebookApp] Kernel started: a1fcfc61-2287-4edd-a4e6-cf52b2722c8b, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 18:21:40.511 NotebookApp] Starting buffering for a1fcfc61-2287-4edd-a4e6-cf52b2722c8b:89df8c1e-199e-47d4-bc4f-c7517acc4d50
+[I 18:21:46.174 NotebookApp] Saving file at /LECTURES/4AlphaandWeakBase.ipynb
+[I 18:21:47.530 NotebookApp] Starting buffering for 64a31009-5b59-43b0-9ed5-85c3c3ce84cf:4b1a33fb-989e-402a-ad2e-0d422d2e55ec
+[I 18:21:54.816 NotebookApp] Starting buffering for 6704a3d3-0f54-4af6-9fd8-c7225b3e5eb2:f4932284-8b77-40ef-9fb7-eda9750bc26d
+[I 18:21:59.257 NotebookApp] Starting buffering for 0fef207d-4dfd-4a43-a5d4-0af276a10c91:662b1111-2d61-4e09-8d13-a065593fd4d5
+[I 18:22:04.185 NotebookApp] Saving file at /LECTURES/5StrongAcidAndBaseTestPractice.ipynb
+[I 18:22:05.837 NotebookApp] Starting buffering for 0610a549-8a17-4c13-ac25-a5545aa9f402:e9bf4b04-19dd-4dba-93cd-20faa624e7a0
+[I 18:22:12.156 NotebookApp] Starting buffering for c6d902d7-235f-4e0a-b50a-cc7d8978296e:4c2d5834-f9b4-47d4-8edf-5b19f5b41ec2
+[I 18:22:21.837 NotebookApp] Starting buffering for dc6ec692-b2f9-4945-86d4-fbb5d89d5f09:103e5709-4e8a-439d-b70a-ecbd94bb4b03
+[I 18:22:22.826 NotebookApp] Saving file at /testPHREEQC.ipynb
+[I 18:22:31.544 NotebookApp] Saving file at /test_calc_alpha.ipynb
+[W 18:22:31.545 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[I 18:22:43.657 NotebookApp] Saving file at /solve_tableau_Alsystem.ipynb
+[I 18:25:30.006 NotebookApp] Uploading file to /LECTURES/morebuffergraph.png
+[I 18:25:35.478 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:27:35.611 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:29:35.790 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:31:35.912 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:33:36.047 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:33:44.556 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 18:34:54.731 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[W 18:46:29.135 NotebookApp] WebSocket ping timeout after 119704 ms.
+[I 18:46:34.136 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:bd9d1fea-a960-4008-b619-e5701b524bb0
+[W 18:46:36.221 NotebookApp] WebSocket ping timeout after 119931 ms.
+[W 18:46:37.874 NotebookApp] WebSocket ping timeout after 119949 ms.
+[W 18:46:38.224 NotebookApp] WebSocket ping timeout after 119885 ms.
+[W 18:46:38.582 NotebookApp] WebSocket ping timeout after 119933 ms.
+[W 18:46:38.690 NotebookApp] WebSocket ping timeout after 119966 ms.
+[I 18:46:41.223 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:881ee4a8-18b7-4831-aff1-bbf82eefa59f
+[I 18:46:42.876 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:6c342c7f-4364-48cb-ba4a-0f038b169e3a
+[I 18:46:43.226 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:1b9a07d5-1429-4990-8798-812cb9166c30
+[I 18:46:43.585 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:54773069-a98b-4a95-a679-71361ac4c3d0
+[I 18:46:43.691 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:4186e380-16dc-4609-88fd-ef85e5ecb10d
+[W 18:46:56.599 NotebookApp] WebSocket ping timeout after 119825 ms.
+[I 18:47:01.602 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:36ee13c6-6018-4237-a065-56966ee7e09c
+[I 2023-08-24 19:30:01.246 LabApp] Build is up to date
+[W 20:03:51.301 NotebookApp] Notebook Sodium_carbonate_titration.ipynb is not trusted
+[W 20:03:51.346 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[I 20:03:53.157 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 4.660000ms
+[I 20:05:51.925 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:07:52.042 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:09:52.171 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:11:52.293 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:13:52.410 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:15:52.535 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.01; KaAcT = 10^-4.75; KaNaT = 0.02
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=-KaAcT*KaNaT
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+Ka = 10^-4.75; NaT = 0.011; AcT = 0.02;
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+NaT; c=(Ka*NaT)-(AcT*Ka)
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 20:17:02.458 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:17:05.126 NotebookApp] Creating new notebook in /LECTURES
+[I 20:17:05.932 NotebookApp] Kernel started: 591e6a6a-8c12-4d40-bd7a-156719607f07, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 20:17:56.963 NotebookApp] Notebook alpha_diprotic_acid.ipynb is not trusted
+[I 20:17:58.099 NotebookApp] Kernel started: 2690922c-4013-47e5-8553-fa0216f1293e, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: pKa1 = input("Enter pKa1 value: ");
+pKa2 = input("Enter pKa2 value: ");
+%pKa1=6.3; pKa2=10.3;
+Ka1=10^-pKa1; Ka2=10^-pKa2;
+pH=2:0.1:12; H=10.^-pH;
+
+denominator=H.^2+Ka1*H+Ka1*Ka2;
+alphaH2A=(H.^2)./denominator;
+alphaHA=(Ka1*H)./denominator;
+alphaA=1-alphaH2A-alphaHA;
+
+plot(pH,alphaH2A,'linewidth',2,pH,alphaHA,'linewidth',2,pH,alphaA,'linewidth',2)
+set(gca,'fontsize',12,'linewidth',2)
+legend('H_2A','HA^-','A^{2-}')
+title('Distribution Diagram for H2A')
+xlabel('pH'); ylabel('\alpha','fontsize',16)
+
+hold on
+plot([pKa1 pKa1],[0 1],'k:','linewidth',2)
+plot([pKa2 pKa2],[0 1],'k:','linewidth',2)
+plot([2 12],[0.5 0.5],'k:','linewidth',2)
+Device pixel ratio: 1
+Render time: 461237
+Encode time: 16387
+Send time: 932
+Draw time: 499660
+Executing: pKa1 = input("Enter pKa1 value: ");
+pKa2 = input("Enter pKa2 value: ");
+%pKa1=6.3; pKa2=10.3;
+Ka1=10^-pKa1; Ka2=10^-pKa2;
+pH=2:0.1:12; H=10.^-pH;
+
+denominator=H.^2+Ka1*H+Ka1*Ka2;
+alphaH2A=(H.^2)./denominator;
+alphaHA=(Ka1*H)./denominator;
+alphaA=1-alphaH2A-alphaHA;
+
+plot(pH,alphaH2A,'linewidth',2,pH,alphaHA,'linewidth',2,pH,alphaA,'linewidth',2)
+set(gca,'fontsize',12,'linewidth',2)
+legend('H_2A','HA^-','A^{2-}')
+title('Distribution Diagram for H2A')
+xlabel('pH'); ylabel('\alpha','fontsize',16)
+
+hold on
+plot([pKa1 pKa1],[0 1],'k:','linewidth',2)
+plot([pKa2 pKa2],[0 1],'k:','linewidth',2)
+plot([2 12],[0.5 0.5],'k:','linewidth',2)
+[I 20:19:05.649 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:21:05.758 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:23:05.867 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:25:05.982 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:27:06.108 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:29:07.159 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:31:07.263 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:31:52.615 NotebookApp] Kernel interrupted: 591e6a6a-8c12-4d40-bd7a-156719607f07
+[I 20:33:07.371 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:35:07.475 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:37:07.587 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:39:07.753 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^-5; NO3T = 3*0.01=0.03
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3*AlT-NO3T; c=2*Ka*AlT - NO3T*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: pKa1 = input("Enter pKa1 value: ");
+pKa2 = input("Enter pKa2 value: ");
+%pKa1=6.3; pKa2=10.3;
+Ka1=10^-pKa1; Ka2=10^-pKa2;
+pH=2:0.1:12; H=10.^-pH;
+
+denominator=H.^2+Ka1*H+Ka1*Ka2;
+alphaH2A=(H.^2)./denominator;
+alphaHA=(Ka1*H)./denominator;
+alphaA=1-alphaH2A-alphaHA;
+
+plot(pH,alphaH2A,'linewidth',2,pH,alphaHA,'linewidth',2,pH,alphaA,'linewidth',2)
+set(gca,'fontsize',12,'linewidth',2)
+legend('H_2A','HA^-','A^{2-}')
+title('Distribution Diagram for H2A')
+xlabel('pH'); ylabel('\alpha','fontsize',16)
+
+hold on
+plot([pKa1 pKa1],[0 1],'k:','linewidth',2)
+plot([pKa2 pKa2],[0 1],'k:','linewidth',2)
+plot([2 12],[0.5 0.5],'k:','linewidth',2)
+[I 20:41:07.867 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^-5; NO3T = 3*0.01=0.03
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3*AlT-NO3T; c=2*Ka*AlT - NO3T*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^-5; NO3T = 3*0.01=0.03
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3*AlT-NO3T; c=2*Ka*AlT - NO3T*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Bye!!
+Starting kernel...
+
+If you want to connect to this kernel from an other client, just copy and paste the following content inside of a `kernel.json` file. And then run for example:
+
+# jupyter console --existing kernel.json
+
+kernel.json
+```
+{
+    "transport": "tcp",
+    "ip": "127.0.0.1",
+    "control_port": 36326,
+    "shell_port": 58468,
+    "stdin_port": 59862,
+    "iopub_port": 55790,
+    "hb_port": 34279,
+    "signature_scheme": "hmac-sha256",
+    "key": "dfeafae2-43ea66df9bb78bd9eed453f9"
+}
+```[I 20:41:15.598 NotebookApp] Kernel restarted: 591e6a6a-8c12-4d40-bd7a-156719607f07
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^-5; NO3T = 3*0.01=0.03
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3*AlT-NO3T; c=2*Ka*AlT - NO3T*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^{-5}; NO3T = 3*0.01=0.03
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3*AlT-NO3T; c=2*Ka*AlT - NO3T*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^(-5); NO3T = 3*0.01=0.03
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3*AlT-NO3T; c=2*Ka*AlT - NO3T*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 20:43:08.175 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:45:08.331 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^(-5); NO3T = 3*0.01=0.03
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3AlT-NO3T; c=2KaAlT-NO3TKa
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^(-5); NO3T = 0.03
+%NO3T=3X0.01
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3AlT-NO3T; c=2KaAlT-NO3TKa
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^(-5); NO3T = 0.03
+%NO3T=3X0.01
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3AlT-NO3T; c=2KaAlT-NO3TKa
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+Executing: % insert the variables and values
+
+AlT = 0.01; Ka = 10^(-5); NO3T = 0.03
+%NO3T=3X0.01
+
+% type out the quadratic constants (a, b and c)
+
+a=1; b=Ka+3*AlT-NO3T; c=2*Ka*AlT-NO3T*Ka
+
+% solve it. you do not need to change below this line
+
+t=roots([a b c]); %finds the roots
+t=t(imag(t)==0); %sets any imaginary roots to zero
+% display the positive real root
+
+t=t(t>0)
+
+% take minus log in case that might be useful (pH for example)
+
+pH=-log10(t)
+
+% or this is the pOH
+
+pOH=14-pH
+[I 20:47:08.452 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:49:08.553 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:51:08.664 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:53:08.787 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 20:54:32.857 NotebookApp] Uploading file to /LECTURES/moreacidsgraph.png
+[I 20:55:03.751 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+Executing: pKa1=6.3; pKa2=10.3; Kw=10^-14; 
+Ka1=10^-pKa1; Ka2=10^-pKa2;
+pH=2:0.1:12; H=10.^-pH; OH=Kw./H;
+CT=0.01; 
+
+denominator=H.^2+Ka1*H+Ka1*Ka2;
+alphaHA=(Ka1*H)./denominator; HCO3=CT*alphaHA;
+alphaA=(Ka1*Ka2)./denominator; CO3=CT*alphaA;
+
+Na=2*CT; % two sodium per mole of Na2CO3
+Cl=H+Na-HCO3-OH-2*CO3;
+
+% only plot the positive values
+c=0;
+for i=1:size(Cl,2)
+if Cl(i)>=0; c=c+1; Clpos(c)=Cl(i); pHpos(c)=pH(i); end
+end
+
+plot(Clpos,pHpos,'linewidth',2);
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('[Cl^-]','fontsize',12);
+ylabel('pH','fontsize',12)
+title('Titration curve of Na2CO3')
+Device pixel ratio: 1
+Render time: 303941
+Encode time: 15693
+Send time: 801
+Draw time: 334572
+[I 20:56:54.306 NotebookApp] Starting buffering for 173233bd-461f-4823-813f-cbf07826a658:d68a294c-b45d-4177-aed0-19fc041cd209
+Executing: dCl=diff(Clpos); 
+dpH=diff(pHpos); 
+B=-dCl./dpH; % since pH is decreasing we multiply by -1
+pHplot=pHpos(1:size(pHpos,2)-1)+dpH(1);
+plot(pHplot,B,'linewidth',2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH','fontsize',12); 
+ylabel('\beta (mol L^{-1} pH^{-1})','fontsize',12)
+title('Buffer intensity Na2CO3')
+Device pixel ratio: 1
+Render time: 305088
+Encode time: 15573
+Send time: 845
+Draw time: 335188
+[I 20:57:04.676 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:57:05.801 NotebookApp] Saving file at /LECTURES/7MoreBufferAndCO2.ipynb
+[I 20:59:03.873 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 21:01:03.981 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 21:03:04.104 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 21:05:04.252 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 21:07:04.357 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 21:09:04.494 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 21:10:50.240 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[I 21:11:09.011 NotebookApp] Saving file at /LECTURES/8MoreOnAcidsAndCO2.ipynb
+[W 21:39:52.769 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 21:39:52.870 NotebookApp] WebSocket ping timeout after 119967 ms.
+[W 21:39:53.000 NotebookApp] WebSocket ping timeout after 119957 ms.
+[W 21:39:53.125 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 21:39:53.229 NotebookApp] WebSocket ping timeout after 119972 ms.
+[W 21:39:53.433 NotebookApp] WebSocket ping timeout after 119973 ms.
+[I 21:39:57.771 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:cbf6a508-ec0b-47f2-9e4b-7298ce3e1f8c
+[I 21:39:57.872 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:85514f91-5a41-407d-87e4-0e2339156e17
+[I 21:39:58.002 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:b066fcb1-4258-4a44-81c4-e194f027f17c
+[I 21:39:58.126 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:4a100c56-eb3f-4e11-88c9-81e6585a7601
+[I 21:39:58.231 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:bfe87afb-c5e3-4f21-81e9-7d8a58284697
+[I 21:39:58.435 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:af0bd05c-e000-4531-8c56-c499b6ed1f0e
+[W 21:39:58.573 NotebookApp] WebSocket ping timeout after 119975 ms.
+[I 21:40:03.575 NotebookApp] Starting buffering for 2690922c-4013-47e5-8553-fa0216f1293e:b7c31b32-2243-4bce-9c8d-555027de0de6
+[W 21:40:07.061 NotebookApp] WebSocket ping timeout after 119967 ms.
+[W 21:40:15.716 NotebookApp] WebSocket ping timeout after 119967 ms.
+[I 21:40:20.718 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:e03bb915-2550-441c-b099-9ed689c42ac3
+[I 2023-08-25 01:43:07.169 LabApp] Build is up to date
+[W 01:43:07.747 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[W 01:43:07.758 NotebookApp] Notebook alpha_diprotic_acid.ipynb is not trusted
+[I 01:43:09.851 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 3.950000ms
+[I 01:43:37.825 NotebookApp] Creating new notebook in /LECTURES
+[I 01:43:38.432 NotebookApp] Kernel started: 460ecfe7-06b7-490e-88aa-3b690f8bbb57, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 01:43:39.645 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:09c76d1b-aca1-488f-9b89-cba8a82e1e5c
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 01:45:38.208 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 01:47:38.645 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 01:49:38.744 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 01:51:38.863 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 01:57:39.054 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 01:59:39.156 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 02:01:39.253 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 02:01:58.196 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 02:02:13.285 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:1f307a91-3e84-4ff9-bc26-3a4af2c53503
+[I 02:02:13.285 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:965dc6e3-54d3-48ef-83f5-d18d71c4a099
+[I 02:02:13.289 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:bd9e8529-1a18-402f-8754-30d704c669e5
+[I 02:02:13.289 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:fed84e37-3f90-45e7-b19c-10c3468cfe88
+[I 02:02:13.290 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:f8ca1d6f-3f11-47bb-b0f8-5fac8625e437
+[I 02:02:13.291 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:8106ea53-efdb-4c9c-a720-49d2941be098
+[I 02:02:13.291 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:24fe31fe-eb85-4e43-bfdb-2bde677b0810
+[I 02:02:13.292 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:ea908b45-f63e-463d-b312-2059711cf3dd
+[I 02:02:13.293 NotebookApp] Starting buffering for 2690922c-4013-47e5-8553-fa0216f1293e:b5458cc5-d9dd-4560-b2d2-bfdd97a64d79
+[I 2023-08-25 13:34:09.012 LabApp] Build is up to date
+[I 14:24:42.377 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:90bd6f3b-5c1e-4d18-815a-5bb87605de35
+[W 14:24:43.487 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[W 14:24:43.499 NotebookApp] Notebook alpha_diprotic_acid.ipynb is not trusted
+[I 14:24:45.095 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.670000ms
+[W 17:22:14.934 NotebookApp] WebSocket ping timeout after 119804 ms.
+[W 17:22:15.075 NotebookApp] WebSocket ping timeout after 119945 ms.
+[W 17:22:15.217 NotebookApp] WebSocket ping timeout after 119966 ms.
+[W 17:22:15.405 NotebookApp] WebSocket ping timeout after 119867 ms.
+[W 17:22:15.564 NotebookApp] WebSocket ping timeout after 119948 ms.
+[W 17:22:15.693 NotebookApp] WebSocket ping timeout after 119953 ms.
+[W 17:22:15.965 NotebookApp] WebSocket ping timeout after 119910 ms.
+[W 17:22:16.081 NotebookApp] WebSocket ping timeout after 119954 ms.
+[W 17:22:16.196 NotebookApp] WebSocket ping timeout after 119979 ms.
+[I 17:22:19.936 NotebookApp] Starting buffering for 2690922c-4013-47e5-8553-fa0216f1293e:e547b2a5-1271-4d89-99d6-6fa831d0697d
+[I 17:22:20.077 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:fef46fc9-1d2a-4a54-be5e-a2d0398f9edd
+[I 17:22:20.218 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:baa36913-96c7-4650-9254-022345d3a864
+[I 17:22:20.408 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:be668609-f14b-4cac-9527-4bb465e0ae52
+[I 17:22:20.565 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:447b38a8-09e3-4dcf-b366-89798e91c227
+[I 17:22:20.696 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:eaf0a056-64d4-4b81-9668-fa89936e849a
+[I 17:22:20.968 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:88dceecd-4fc1-46a2-a838-ae5434ad51fd
+[I 17:22:21.083 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:61448ee6-5418-45dc-b73e-2a4b3082bcc2
+[I 17:22:21.198 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:87e2cce5-e599-4537-9de3-71f73a3eaa8e
+[I 2023-08-25 18:42:35.105 LabApp] Build is up to date
+[W 18:42:36.850 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[W 18:42:36.875 NotebookApp] Notebook alpha_diprotic_acid.ipynb is not trusted
+[I 18:42:39.593 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 1.810000ms
+[I 18:46:38.250 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 18:48:38.432 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 18:50:38.834 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:03:21.666 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:05:21.776 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:06:43.730 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[W 19:07:06.524 NotebookApp] Notebook Open_CO2_system.ipynb is not trusted
+[I 19:07:07.016 NotebookApp] Kernel started: ae4701b5-1104-4531-966d-8b0a522e927f, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 19:07:08.112 NotebookApp] Starting buffering for ae4701b5-1104-4531-966d-8b0a522e927f:5f5a4e51-f0bd-4dfc-86ec-22c522809fe3
+Executing: Ka1=10^-6.3;Ka2=10^-10.3;KH=10^-1.5;PCO2=10^-3.5;
+pH=2:0.1:12; H=10.^-pH;
+H2CO3=KH*PCO2*ones(size(pH));
+HCO3=(Ka1*KH*PCO2)./H;
+CO3=(Ka1*KH*PCO2*Ka2)./(H.^2);
+semilogy(pH,H2CO3,'b','linewidth',2)
+hold on
+semilogy(pH,HCO3,'g','linewidth',2)
+semilogy(pH,CO3,'m','linewidth',2)
+semilogy(pH,H2CO3+HCO3+CO3,'k-','linewidth',2)
+xlabel('pH'); ylabel('log[CO2 species (M)]');
+legend('H2CO3','HCO3','CO3','CT','location','northwest')
+set(gca,'linewidth',2);
+title('Distribution diagram, Open CO2 system')
+Device pixel ratio: 1
+Render time: 397731
+Encode time: 18282
+Send time: 1040
+Draw time: 432824
+[I 19:08:44.304 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:10:44.457 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:12:45.056 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:14:45.218 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:18:45.410 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:20:45.582 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:22:45.743 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:24:45.905 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:30:47.743 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 19:32:12.666 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[W 19:54:08.114 NotebookApp] WebSocket ping timeout after 119964 ms.
+[W 19:54:08.304 NotebookApp] WebSocket ping timeout after 119960 ms.
+[W 19:54:09.444 NotebookApp] WebSocket ping timeout after 119968 ms.
+[W 19:54:09.656 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 19:54:09.806 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 19:54:09.985 NotebookApp] WebSocket ping timeout after 119968 ms.
+[W 19:54:10.204 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 19:54:10.446 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 19:54:10.658 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 19:54:10.880 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 19:54:11.085 NotebookApp] WebSocket ping timeout after 119969 ms.
+[I 19:54:13.306 NotebookApp] Starting buffering for ae4701b5-1104-4531-966d-8b0a522e927f:38312c2a-d486-485d-b331-5ff9eded4406
+[I 19:54:14.446 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:d1698e68-3d28-4acd-9aa2-92076ed66abd
+[I 19:54:14.658 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:701a6e8b-e588-4018-8954-8858940e3b18
+[I 19:54:14.808 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:e54e216f-8bfd-4523-aef4-ce8896b65f7d
+[I 19:54:14.986 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:0f263112-677f-4d17-9192-bf1d184a2f83
+[I 19:54:15.206 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:715d2e1c-e456-482a-b216-da6085359d2d
+[I 19:54:15.448 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:2c498859-c606-4821-a9ae-cfdebcd971f1
+[I 19:54:15.660 NotebookApp] Starting buffering for 2690922c-4013-47e5-8553-fa0216f1293e:10028570-2546-4aa7-8b5c-09aeceaf77d8
+[I 19:54:15.881 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:fb929db9-f5d9-4aab-b407-9a0c34e8fc24
+[I 19:54:16.087 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:b7a7f7dd-4501-4985-9c51-298758a07852
+[I 2023-08-25 21:00:45.092 LabApp] Build is up to date
+[W 21:01:32.717 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[W 21:01:32.753 NotebookApp] Notebook alpha_diprotic_acid.ipynb is not trusted
+[W 21:01:32.788 NotebookApp] Notebook Open_CO2_system.ipynb is not trusted
+[I 21:04:14.774 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.940000ms
+[W 22:46:14.726 NotebookApp] WebSocket ping timeout after 119868 ms.
+[W 22:46:14.845 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 22:46:14.964 NotebookApp] WebSocket ping timeout after 119902 ms.
+[W 22:46:15.086 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 22:46:15.196 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 22:46:15.304 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 22:46:15.411 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 22:46:15.501 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 22:46:15.603 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 22:46:15.720 NotebookApp] WebSocket ping timeout after 119941 ms.
+[I 22:46:19.728 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:28e5e3b9-81ef-4a5a-8200-542a13d75919
+[I 22:46:19.847 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:85942fdb-9c71-45e6-844f-cf4214319898
+[I 22:46:19.966 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:6390d1ae-e263-43e4-b12e-4b52c8756148
+[I 22:46:20.088 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:5ea9f9ed-ad85-4893-8a56-d0db685a028d
+[I 22:46:20.197 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:5e6f8800-baa2-4aa4-8b18-1918aabeda65
+[I 22:46:20.306 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:d5042e2e-967c-4f34-a7e4-1e3674e9d18c
+[I 22:46:20.413 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:58ebf4f1-0834-4f90-b68a-a33804e7aede
+[I 22:46:20.503 NotebookApp] Starting buffering for 2690922c-4013-47e5-8553-fa0216f1293e:51644f61-d4bf-449b-870d-6aae6cb471c0
+[I 22:46:20.605 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:03f8d1f0-909a-48a4-9985-8086e62a913f
+[I 22:46:20.722 NotebookApp] Starting buffering for ae4701b5-1104-4531-966d-8b0a522e927f:76177dcc-57df-494c-b130-810650d8daf3
+[I 2023-08-26 14:56:36.067 LabApp] Build is up to date
+[W 14:56:56.457 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[W 14:56:56.493 NotebookApp] Notebook alpha_diprotic_acid.ipynb is not trusted
+[W 14:56:56.600 NotebookApp] Notebook Open_CO2_system.ipynb is not trusted
+[I 14:58:48.169 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 3.720000ms
+[I 15:01:02.379 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 15:03:02.596 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 15:05:02.880 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 15:07:03.097 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: Ka1=10^-6.3;Ka2=10^-10.3;KH=10^-1.5;PCO2=10^-3.5;
+pH=2:0.1:12; H=10.^-pH;
+H2CO3=KH*PCO2*ones(size(pH));
+HCO3=(Ka1*KH*PCO2)./H;
+CO3=(Ka1*KH*PCO2*Ka2)./(H.^2);
+semilogy(pH,H2CO3,'b','linewidth',2)
+hold on
+semilogy(pH,HCO3,'g','linewidth',2)
+semilogy(pH,CO3,'m','linewidth',2)
+semilogy(pH,H2CO3+HCO3+CO3,'k-','linewidth',2)
+xlabel('pH'); ylabel('log[CO2 species (M)]');
+legend('H2CO3','HCO3','CO3','CT','location','northwest')
+set(gca,'linewidth',2);
+title('Distribution diagram, Open CO2 system')
+Device pixel ratio: 1
+Render time: 456487
+Encode time: 19644
+Send time: 1375
+Draw time: 541008
+[I 15:07:27.825 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 15:08:20.953 NotebookApp] Saving file at /LECTURES/9OpenCO2.ipynb
+[I 15:50:08.358 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:3c708ab8-4f5a-4860-a500-66379c367b21
+[I 15:50:08.369 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:08ec1595-c294-415a-af77-5cbdcba0039b
+[I 15:50:08.370 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:b27a6fd9-5f70-4d03-a0ed-a52d635c7605
+[I 15:50:08.378 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:32b15fae-0844-4ffe-a4e5-96d613defacb
+[I 15:50:08.379 NotebookApp] Starting buffering for 2690922c-4013-47e5-8553-fa0216f1293e:fd4af02f-6345-466e-be76-d75f78aaaf2d
+[I 15:50:08.381 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:0e12cd75-246e-4ee2-9b13-f9ffd9edbca3
+[I 15:50:08.381 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:975b8f85-70eb-46b2-941d-e272e0e04671
+[I 15:50:08.382 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:61ea5daf-9762-466c-bfe1-20b9180ea9d8
+[I 15:50:08.387 NotebookApp] Starting buffering for ae4701b5-1104-4531-966d-8b0a522e927f:71691b34-efd7-4d5d-8a3c-95c8c3a886ae
+[I 15:50:08.388 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:bf88de74-bcfb-4551-8760-14dace88fbb2
+[I 2023-08-26 23:20:54.355 LabApp] Build is up to date
+[I 2023-08-27 01:13:21.496 LabApp] Build is up to date
+[I 2023-08-27 22:02:00.827 LabApp] Build is up to date
+[I 2023-08-28 01:02:13.095 LabApp] Build is up to date
+[I 2023-08-28 01:33:38.875 LabApp] Build is up to date
+[I 13:33:49.004 NotebookApp] 302 GET /lab (172.23.0.1) 0.960000ms
+[I 13:34:38.981 NotebookApp] 302 POST /login?next=%2Flab (172.23.0.1) 223.270000ms
+[I 13:34:39.132 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 1.470000ms
+[I 2023-08-28 13:34:43.022 LabApp] Build is up to date
+[W 13:34:43.541 NotebookApp] Notebook test_calc_alpha.ipynb is not trusted
+[W 13:34:43.596 NotebookApp] Notebook alpha_diprotic_acid.ipynb is not trusted
+[W 13:34:43.621 NotebookApp] Notebook Open_CO2_system.ipynb is not trusted
+[W 13:34:43.675 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 14.290000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 13:34:43.829 NotebookApp] 404 GET /titrate.png (172.23.0.1) 3.720000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 13:34:43.940 NotebookApp] 404 GET /morebuffergraph.png (172.23.0.1) 4.440000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 13:34:44.198 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 9.810000ms
+[I 13:35:13.051 NotebookApp] Starting buffering for 2690922c-4013-47e5-8553-fa0216f1293e:74f9ee8d-e121-4704-944f-967a6ab395e4
+[I 13:35:14.076 NotebookApp] Starting buffering for ae4701b5-1104-4531-966d-8b0a522e927f:7011954c-d82c-41b8-9eb3-5e6258b13244
+[I 13:35:50.763 NotebookApp] Starting buffering for 4a25d5b6-76a7-4c40-b68b-986082a097fd:10543a0f-0a8f-40a5-8c61-258ee53c7e77
+[I 13:35:54.265 NotebookApp] Starting buffering for eebba0d0-f04a-4482-82d1-ebd33859e5f3:f814c995-fadf-456a-978a-e65cd91666e3
+[I 13:36:17.339 NotebookApp] Starting buffering for f7745975-d7f3-49ec-86b7-885fe89f759f:7bab3d1e-adf2-44a7-afd3-7bd513044a1f
+[I 13:36:19.079 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:6a490433-5c1d-49be-b570-74dca8e6995f
+[W 14:17:38.826 NotebookApp] Notebook Ushaped_solubility_diagram.ipynb is not trusted
+[I 14:18:14.056 NotebookApp] Starting buffering for 0fef207d-4dfd-4a43-a5d4-0af276a10c91:757468c2-5ba2-4e9a-86cd-64390528404c
+[W 14:19:30.199 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[I 14:19:30.587 NotebookApp] Kernel started: f0721de4-987f-4bc9-abb0-2bfd14cfe5e7, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[W 14:19:48.899 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 14:26:09.986 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 14:29:10.450 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:1058843a-6aef-4d01-999d-6a6e50bbc599
+[I 14:29:10.452 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:fc03585b-c76e-4d7d-a21a-168e94b79832
+[I 14:29:10.454 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:efe8d421-a0de-4691-ae44-b24e5d35ec0b
+[I 14:29:10.455 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:10db2a1c-f08f-4c04-a54b-7f030ea182ec
+[I 14:29:10.456 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:75d9e74f-f738-4b9e-a396-cfd9dee21453
+[I 14:29:10.457 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:bfd297dc-2a2c-4678-98b9-0ff3378f040a
+[I 14:29:10.457 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:1a304047-a4a6-49c4-88f8-6b31cc6262bf
+[I 2023-08-28 17:20:50.706 LabApp] Build is up to date
+[I 2023-08-28 21:35:49.105 LabApp] Build is up to date
+[I 2023-08-28 21:49:48.842 LabApp] Build is up to date
+[W 21:49:50.801 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 21:49:50.815 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 21:49:50.841 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 21:49:53.399 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 1.110000ms
+[I 21:49:58.394 NotebookApp] Creating new notebook in /LECTURES
+[I 21:49:59.117 NotebookApp] Kernel started: 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 21:50:00.126 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:1053bad9-59dd-464f-b6ac-6fa1a2832692
+[I 21:51:59.774 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 21:53:59.865 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 21:55:59.968 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 21:58:00.074 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:00:00.194 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:02:00.782 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:04:00.923 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:06:01.031 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:08:01.148 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:10:01.261 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:12:01.422 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:14:01.532 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:16:01.653 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:18:01.785 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:18:40.075 NotebookApp] Saving file at /LECTURES/10Alkalinity.ipynb
+[I 22:19:28.241 NotebookApp] Creating new notebook in /LECTURES
+[I 22:19:29.063 NotebookApp] Kernel started: 60e2ade2-2134-4a79-a00e-0bdbb82e349d, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+[I 22:21:28.827 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 22:23:28.950 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 22:25:29.074 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 22:27:29.196 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 22:29:14.861 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[W 22:40:53.214 NotebookApp] WebSocket ping timeout after 119956 ms.
+[W 22:40:53.314 NotebookApp] WebSocket ping timeout after 119972 ms.
+[W 22:40:53.429 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 22:40:53.546 NotebookApp] WebSocket ping timeout after 119968 ms.
+[W 22:40:53.642 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 22:40:53.766 NotebookApp] WebSocket ping timeout after 119980 ms.
+[W 22:40:53.870 NotebookApp] WebSocket ping timeout after 119975 ms.
+[I 22:40:58.215 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:0400b50e-1128-4020-bf4c-f9c8fb2b6abe
+[I 22:40:58.315 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:5ab4cfac-e651-46a4-b69e-e988f90e3bc0
+[I 22:40:58.432 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:7070faaa-a236-4f62-88eb-d77a62ff568a
+[I 22:40:58.548 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:f6381138-faa5-4374-9968-65cf18be726d
+[I 22:40:58.644 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:f20a4327-5c5c-49c4-a1ff-72a57c8182e7
+[I 22:40:58.767 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:bf49a395-8b41-4403-abc9-170263ed957f
+[I 22:40:58.872 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:a0bdf172-656a-4d8c-912e-19875c3cb68e
+[W 22:40:59.601 NotebookApp] WebSocket ping timeout after 119815 ms.
+[W 22:41:00.141 NotebookApp] WebSocket ping timeout after 119948 ms.
+[W 22:41:00.273 NotebookApp] WebSocket ping timeout after 119972 ms.
+[I 22:41:04.603 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:423e43f0-08ba-4671-886c-c6534183d26b
+[I 22:41:05.275 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:f6fb1cad-09bc-4994-816e-64a558c18171
+[I 2023-08-28 22:54:20.057 LabApp] Build is up to date
+[W 22:54:21.123 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 22:54:21.138 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 22:54:21.164 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 22:54:23.534 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 1.640000ms
+[W 23:08:23.462 NotebookApp] WebSocket ping timeout after 119933 ms.
+[W 23:08:23.582 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 23:08:23.697 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 23:08:23.809 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 23:08:23.912 NotebookApp] WebSocket ping timeout after 119972 ms.
+[W 23:08:24.024 NotebookApp] WebSocket ping timeout after 119963 ms.
+[W 23:08:24.155 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 23:08:24.274 NotebookApp] WebSocket ping timeout after 119936 ms.
+[W 23:08:24.388 NotebookApp] WebSocket ping timeout after 119972 ms.
+[I 23:08:28.464 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:b80357de-5244-4750-bdea-578a3ed88acb
+[I 23:08:28.585 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:0abec360-b0a0-4ad0-b2b5-f6ee30a498b5
+[I 23:08:28.700 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:1e32fdd3-35e6-455c-9143-dee7ff13ff27
+[I 23:08:28.811 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:92f42694-67c2-4404-80dc-93437a876d4f
+[I 23:08:28.914 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:8f59df3a-be09-416f-9980-5e39d6f06ef9
+[I 23:08:29.027 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:3baaf81c-7982-42c3-9402-6a82658d76e1
+[I 23:08:29.157 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:745c7353-7be6-47ed-88a8-eeec1f66cb34
+[I 23:08:29.275 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:1c65f973-3a9c-4b26-8d31-62b15215c429
+[I 23:08:29.390 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:d7482bae-178b-425b-9195-c7120212694b
+[I 2023-08-29 00:16:51.774 LabApp] Build is up to date
+[I 2023-08-29 01:21:28.009 LabApp] Build is up to date
+[I 2023-08-29 14:58:23.367 LabApp] Build is up to date
+[I 2023-08-29 16:01:00.803 LabApp] Build is up to date
+[I 2023-08-29 21:11:58.393 LabApp] Build is up to date
+[I 2023-08-30 00:03:32.495 LabApp] Build is up to date
+[W 00:03:47.929 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 00:03:47.966 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 00:03:47.997 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[I 00:07:54.844 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 0.660000ms
+[I 00:09:49.980 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:11:50.099 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:13:50.197 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:15:50.293 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:17:50.445 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:18:32.952 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[W 00:35:24.746 NotebookApp] WebSocket ping timeout after 119914 ms.
+[W 00:35:24.903 NotebookApp] WebSocket ping timeout after 119969 ms.
+[W 00:35:25.045 NotebookApp] WebSocket ping timeout after 119944 ms.
+[W 00:35:25.153 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 00:35:25.272 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 00:35:25.636 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 00:35:25.797 NotebookApp] WebSocket ping timeout after 119964 ms.
+[W 00:35:25.896 NotebookApp] WebSocket ping timeout after 119956 ms.
+[W 00:35:25.996 NotebookApp] WebSocket ping timeout after 119744 ms.
+[I 00:35:29.748 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:6eaa6138-f180-4011-96e3-001d23f9d0a9
+[I 00:35:29.904 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:28794bdf-f856-4f33-a0da-8d88689b3b97
+[I 00:35:30.046 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:b99b4068-810e-44fd-a989-fceb2d9f9dae
+[I 00:35:30.155 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:a378bd77-8221-4e2c-9756-024dfee99195
+[I 00:35:30.276 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:5ae4bdd2-4503-4a78-a83f-fe8f412f92b4
+[I 00:35:30.638 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:e0f1de80-6cce-484f-850a-8df645dbaccc
+[I 00:35:30.799 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:01d62ff9-9e1e-4890-9769-8756c64caf5e
+[I 00:35:30.897 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:a577a1e3-7fcc-4c3f-8538-c8cc2efbc9d5
+[I 00:35:30.998 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:510df134-cf60-4b51-a8e2-89174b0e638a
+[I 2023-08-30 00:47:48.368 LabApp] Build is up to date
+[W 00:47:49.073 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 00:47:49.088 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 00:47:49.126 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 00:47:51.442 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.540000ms
+[I 00:49:50.132 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:51:50.237 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:53:50.346 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 00:55:50.457 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+Executing: sub in for $\mathrm{[Ca^{2+}]}$ expression  
+[Ca^{2+}] = \frac{Ksp[H^{2+}]^2}{Ka_1Ka_2K_HP_{CO_2}}
+[I 00:57:50.549 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+Executing: $\mathrm{2[Ca^{2+}] = [HCO_3^-]}$ &nbsp;&nbsp;&nbsp;&nbsp; put both expressions in
+[I 00:59:50.647 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 01:01:50.756 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 01:03:50.961 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 01:05:51.084 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 01:06:12.952 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 01:06:28.992 NotebookApp] Saving file at /LECTURES/11pHOfTheOcean.ipynb
+[I 01:06:31.675 NotebookApp] Creating new notebook in /LECTURES
+[I 01:06:32.242 NotebookApp] Kernel started: 4c116094-5d67-4627-8b41-dc8bfedaf9d8, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 01:08:32.123 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 01:08:48.864 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 01:18:01.697 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 01:18:17.289 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[W 03:04:51.875 NotebookApp] WebSocket ping timeout after 119974 ms.
+[W 03:04:52.020 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 03:04:52.140 NotebookApp] WebSocket ping timeout after 119972 ms.
+[W 03:04:52.253 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 03:04:52.388 NotebookApp] WebSocket ping timeout after 119967 ms.
+[I 03:04:56.877 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:c500c650-25ce-438f-8034-799bc5fcc835
+[I 03:04:57.023 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:4e9da323-b313-487e-8c44-86950d09ec96
+[I 03:04:57.141 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:2fa36122-7f47-4fed-8a43-3603b6f9f396
+[I 03:04:57.255 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:2bc7a858-7417-4cbd-a52d-59eedb66f8ac
+[I 03:04:57.390 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:2799496a-14c5-485f-ad52-749e5ec1b6c0
+[W 03:05:03.160 NotebookApp] WebSocket ping timeout after 119970 ms.
+[W 03:05:03.292 NotebookApp] WebSocket ping timeout after 119976 ms.
+[I 03:05:08.294 NotebookApp] Starting buffering for 4c116094-5d67-4627-8b41-dc8bfedaf9d8:526c0961-a305-4e9d-aa7e-2cc3a8540e3f
+[W 03:05:21.357 NotebookApp] WebSocket ping timeout after 119969 ms.
+[W 03:05:21.484 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 03:05:21.605 NotebookApp] WebSocket ping timeout after 119956 ms.
+[W 03:05:21.733 NotebookApp] WebSocket ping timeout after 119968 ms.
+[I 03:05:26.358 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:b62d5477-22b5-4479-bcd2-234446cac86f
+[I 03:05:26.485 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:dd57d3fb-df89-4e18-9efa-36dec6710833
+[I 03:05:26.607 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:e678c896-7216-47d3-ae3d-af7537f76419
+[I 03:05:26.735 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:39937867-71f0-4ef3-acdf-b02fcc41cf51
+[I 2023-08-30 15:42:14.060 LabApp] Build is up to date
+[I 20:51:07.763 NotebookApp] 302 GET /lab/tree/LECTURES/12HydroxideSolubility.ipynb (172.23.0.1) 3.940000ms
+[I 14:10:37.049 NotebookApp] 302 POST /login?next=%2Flab%2Ftree%2FLECTURES%2F12HydroxideSolubility.ipynb (172.23.0.1) 229.600000ms
+[I 14:10:39.651 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 0.820000ms
+[I 2023-09-04 14:10:43.482 LabApp] Build is up to date
+[W 14:10:44.473 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 14:10:44.537 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 14:10:44.567 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 14:10:46.313 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.980000ms
+[I 14:16:47.734 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:18:47.864 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[W 14:18:51.133 NotebookApp] Notebook Ushaped_solubility_diagram.ipynb is not trusted
+[W 14:19:02.280 NotebookApp] Notebook Ushaped_solubility_diagram_otherconstants.ipynb is not trusted
+Executing: % plot over a more narrow range
+plot(pH,logFe,'linewidth',2,pH,logFeOH,'linewidth',2,pH,logFeOH2,'linewidth',2,...
+pH,logFeOH4,'linewidth',2,pH,logFeT,'linewidth',2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH','fontsize',12)
+ylabel('log[species]','fontsize',12)
+legend('Fe^{3+}','FeOH^{2+}','Fe(OH)2^+','Fe(OH)4^-','Fe_T','location','north')
+axis([2 10 -11 -3])
+Device pixel ratio: 1
+Render time: 330676
+Encode time: 16468
+Send time: 604
+Draw time: 453832
+Executing: %plot -s 600,500 -f 'svg'
+pH=0:0.1:12;
+Ksp=10^-38.8;
+B1=10^-2.19;
+B2=10^-5.7;
+B4=10^-21.6;
+Kw=1e-14;
+logFe=log10(Ksp./Kw^3)-3*pH; Fe=10.^logFe;
+logFeOH=log10(B1*Ksp/Kw^3)-2*pH; FeOH=10.^logFeOH;
+logFeOH2=log10(B2*Ksp/Kw^3)-pH; FeOH2=10.^logFeOH2;
+logFeOH4=log10(B4*Ksp./Kw^3)+pH; FeOH4=10.^logFeOH4;
+FeT=Fe+FeOH+FeOH2+FeOH4; logFeT=log10(FeT);
+
+plot(pH,logFe,'linewidth',2,pH,logFeOH,'linewidth',2,pH,logFeOH2,'linewidth',2,...
+pH,logFeOH4,'linewidth',2,pH,logFeT,'linewidth',2)
+hold on
+plot([-log10(B1) -log10(B1)],[-40 10],'k--','linewidth',2)
+set(gca,'linewidth',2,'fontsize',12);
+xlabel('pH','fontsize',12)
+ylabel('log[species]','fontsize',12)
+legend('Fe^{3+}','FeOH^{2+}','Fe(OH)2^+','Fe(OH)4^-','Fe_T','location','eastoutside');
+Device pixel ratio: 1
+Render time: 376540
+Encode time: 18200
+Send time: 1356
+Draw time: 409680
+Executing: % plot over a more narrow range
+plot(pH,logFe,'linewidth',2,pH,logFeOH,'linewidth',2,pH,logFeOH2,'linewidth',2,...
+pH,logFeOH4,'linewidth',2,pH,logFeT,'linewidth',2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH','fontsize',12)
+ylabel('log[species]','fontsize',12)
+legend('Fe^{3+}','FeOH^{2+}','Fe(OH)2^+','Fe(OH)4^-','Fe_T','location','north')
+axis([2 10 -11 -3])
+Device pixel ratio: 1
+Render time: 375617
+Encode time: 19120
+Send time: 1288
+Draw time: 410634
+[I 14:22:48.438 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:24:49.067 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:26:49.810 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:28:50.126 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:30:50.377 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:32:50.661 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:34:50.935 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:36:51.217 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:38:51.515 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:40:51.888 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:42:52.122 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:44:52.745 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:46:52.995 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:48:53.333 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:50:53.632 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:52:54.001 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 14:58:54.398 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:00:54.986 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:04:56.058 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:06:56.366 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:10:56.668 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:12:57.313 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:14:57.581 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:16:57.874 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:20:58.213 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:22:58.542 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:24:58.982 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:26:59.355 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:28:59.777 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:31:00.135 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+Executing: SI = 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; equillibrium  
+&nbsp;&nbsp;&nbsp;&nbsp; > 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; supersaturated  
+&nbsp;&nbsp;&nbsp;&nbsp; < 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; undersaturated  
+[I 15:33:00.607 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:35:00.900 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+Executing: % plot over a more narrow range
+plot(pH,logFe,'linewidth',2,pH,logFeOH,'linewidth',2,pH,logFeOH2,'linewidth',2,...
+pH,logFeOH4,'linewidth',2,pH,logFeT,'linewidth',2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH','fontsize',12)
+ylabel('log[species]','fontsize',12)
+legend('Fe^{3+}','FeOH^{2+}','Fe(OH)2^+','Fe(OH)4^-','Fe_T','location','north')
+axis([2 10 -11 -3])
+Device pixel ratio: 1
+Render time: 379045
+Encode time: 19004
+Send time: 1096
+Draw time: 418749
+Executing: % plot over a more narrow range
+plot(pH,logFe,'linewidth',2,pH,logFeOH,'linewidth',2,pH,logFeOH2,'linewidth',2,...
+pH,logFeOH4,'linewidth',2,pH,logFeT,'linewidth',2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH','fontsize',12)
+ylabel('log[species]','fontsize',12)
+legend('Fe^{3+}','FeOH^{2+}','Fe(OH)2^+','Fe(OH)4^-','Fe_T','location','north')
+axis([2 10 -11 -3])
+Device pixel ratio: 1
+Render time: 373956
+Encode time: 20009
+Send time: 1117
+Draw time: 408070
+Executing: % plot over a more narrow range
+plot(pH,logFe,'linewidth',2,pH,logFeOH,'linewidth',2,pH,logFeOH2,'linewidth',2,...
+pH,logFeOH4,'linewidth',2,pH,logFeT,'linewidth',2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH','fontsize',12)
+ylabel('log[species]','fontsize',12)
+legend('Fe^{3+}','FeOH^{2+}','Fe(OH)2^+','Fe(OH)4^-','Fe_T','location','north')
+axis([2 10 -11 -3])
+Device pixel ratio: 1
+Render time: 374158
+Encode time: 19147
+Send time: 1166
+Draw time: 410552
+[W 15:36:12.723 NotebookApp] Notebook EuPO4s_wastewater_treatment.ipynb is not trusted
+[I 15:36:13.548 NotebookApp] Kernel started: e9e86b08-f82f-4a5f-8e60-93844ef15d5e, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 15:36:14.551 NotebookApp] Starting buffering for e9e86b08-f82f-4a5f-8e60-93844ef15d5e:487124a5-9977-49c1-ab4f-7316a3bb1a8f
+[I 15:37:01.139 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:43:01.440 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:45:01.681 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:47:02.306 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:48:05.183 NotebookApp] Saving file at /LECTURES/12HydroxideSolubility.ipynb
+[I 15:48:21.826 NotebookApp] Creating new notebook in /LECTURES
+[I 15:48:22.914 NotebookApp] Kernel started: be4ee3cd-31f5-4b9d-b226-fdfab6de8b20, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 15:49:21.464 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 15:53:21.591 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 15:54:58.302 NotebookApp] Starting buffering for e8c1d7a7-4fa0-4203-ad8b-53bc7f227ae1:51363e64-15ff-43bd-87b3-3a8ff5e9ae5e
+[I 15:55:21.709 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 15:57:21.825 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 15:59:21.960 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:01:22.099 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+Executing: Bf<sub>1</sub> = Kf<sub>1</sub>  
+Bf<sub>2</sub> = Kf<sub>1</sub>Kf<sub>2</sub>  
+Bf<sub>3</sub> = Kf<sub>1</sub>Kf<sub>2</sub>Kf<sub>3</sub>   
+Bf<sub>4</sub> = Kf<sub>1</sub>Kf<sub>2</sub> Kf<sub>3</sub>Kf<sub>4</sub> 
+[I 16:03:22.362 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:07:22.647 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:09:22.770 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:11:22.882 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+Executing: Kf<sub>1</sub>Kf<sub>2</sub>  
+$\mathrm{\frac{(mL]}{[m][L]} * \frac{[m_{L2}]}{[mL][L]} = \frac{m_{L2}}{(m][L]^2} = B_{f2}}$
+[I 16:12:56.244 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[W 16:24:33.098 NotebookApp] WebSocket ping timeout after 119974 ms.
+[I 16:24:38.100 NotebookApp] Starting buffering for 6704a3d3-0f54-4af6-9fd8-c7225b3e5eb2:d3e70e15-01f4-4870-8ee5-ec58ad312e33
+[W 16:24:39.227 NotebookApp] WebSocket ping timeout after 119752 ms.
+[I 16:24:44.229 NotebookApp] Starting buffering for a1fcfc61-2287-4edd-a4e6-cf52b2722c8b:bcd42f9e-e08c-4f6d-9c2b-c8d37be08b48
+[W 16:24:44.663 NotebookApp] WebSocket ping timeout after 119878 ms.
+[W 16:24:46.098 NotebookApp] WebSocket ping timeout after 119877 ms.
+[W 16:24:46.218 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 16:24:46.332 NotebookApp] WebSocket ping timeout after 119947 ms.
+[W 16:24:46.540 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 16:24:46.630 NotebookApp] WebSocket ping timeout after 119971 ms.
+[W 16:24:46.748 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 16:24:46.844 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 16:24:46.944 NotebookApp] WebSocket ping timeout after 119957 ms.
+[W 16:24:47.061 NotebookApp] WebSocket ping timeout after 119972 ms.
+[I 16:24:49.666 NotebookApp] Starting buffering for e9e86b08-f82f-4a5f-8e60-93844ef15d5e:7146ec82-a4fb-456d-a7ea-61bcbf3e67db
+[I 16:24:51.100 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:930ae6ca-f736-49f9-872b-79e7dac3c544
+[I 16:24:51.220 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:7f9abf9e-aaff-44ae-aea8-8628d1f701da
+[I 16:24:51.334 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:1c7667a1-f4fc-40c4-9d12-e9670ec78066
+[I 16:24:51.542 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:7e47a0a4-c3a3-4411-910d-799798e0aff5
+[I 16:24:51.632 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:3324c82e-d3a5-4d26-9b80-ba0a1097beb6
+[I 16:24:51.750 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:a867d15f-6c93-4918-99ec-68bd5604e241
+[I 16:24:51.846 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:73e5a371-bcc1-4e10-8946-9ae2edfc6844
+[I 16:24:51.946 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:1c4473c3-c205-4200-a641-ca42b5df57a0
+[I 16:24:52.063 NotebookApp] Starting buffering for 4c116094-5d67-4627-8b41-dc8bfedaf9d8:66c89d5c-da0f-4ff7-9e7d-32f998e82b40
+[W 16:24:52.143 NotebookApp] WebSocket ping timeout after 119778 ms.
+[W 16:24:53.385 NotebookApp] WebSocket ping timeout after 119790 ms.
+[W 16:24:53.972 NotebookApp] WebSocket ping timeout after 119759 ms.
+[I 16:24:57.146 NotebookApp] Starting buffering for 0fef207d-4dfd-4a43-a5d4-0af276a10c91:33991d5f-81ae-4128-94e3-ca1eee304b30
+[I 16:24:58.387 NotebookApp] Starting buffering for be4ee3cd-31f5-4b9d-b226-fdfab6de8b20:1b83b2c0-e816-4b22-9b9c-49019987db70
+[I 16:24:58.974 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:c88de770-a455-460c-a3a9-e9b6c0608ddf
+[I 2023-09-04 16:32:06.780 LabApp] Build is up to date
+[W 16:32:10.391 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 16:32:10.466 NotebookApp] Notebook Ushaped_solubility_diagram.ipynb is not trusted
+[W 16:32:10.496 NotebookApp] Notebook Ushaped_solubility_diagram_otherconstants.ipynb is not trusted
+[W 16:32:10.564 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 16:32:10.590 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 16:32:15.344 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.120000ms
+[I 16:32:34.945 NotebookApp] Starting buffering for 0fef207d-4dfd-4a43-a5d4-0af276a10c91:d3858c45-54ea-469c-9f8c-28a083933fd0
+[I 16:32:38.566 NotebookApp] Starting buffering for 6704a3d3-0f54-4af6-9fd8-c7225b3e5eb2:362c965f-019d-4fb4-baf5-56ad0096d6f7
+[I 16:34:13.249 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:36:13.370 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:36:47.603 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:42:48.786 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:44:48.921 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:45:15.090 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:47:15.187 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:49:15.290 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:51:15.407 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+Executing: %plot -s 600,500 -f 'svg'
+logB1=4.1; logB2=7.7; logB3=10.3; logB4=12; Kw=1e-14; logKw=log10(Kw);
+logBa1=logB1+logKw; logBa2=logB2+2*logKw; logBa3=logB3+3*logKw; logBa4=logB4+4*logKw;
+Ba1=10^logBa1; Ba2=10^logBa2; Ba3=10^logBa3; Ba4=10^logBa4;
+
+pH=6:0.1:14; H=10.^(-pH); OH=Kw./H;
+denominator=H.^4+Ba1*H.^3+Ba2*H.^2+Ba3*H+Ba4;
+alphaCd=(H.^4)./denominator;
+alphaCdOH=(H.^3*Ba1)./denominator;
+alphaCdOH2=(H.^2*Ba2)./denominator;
+alphaCdOH3=(H*Ba3)./denominator;
+alphaCdOH4=(Ba4)./denominator;
+
+plot(pH,alphaCd,'b','linewidth',2)
+hold on
+plot(pH,alphaCdOH,'g','linewidth',2)
+plot(pH,alphaCdOH2,'m','linewidth',2)
+plot(pH,alphaCdOH3,'k','linewidth',2)
+plot(pH,alphaCdOH4,'c','linewidth',2)
+xlabel('pH'); ylabel('\alpha');
+legend('Cd^{2+}','CdOH^+','Cd(OH)2','Cd(OH)3^-','Cd(OH)4^{2-}','location','west')
+set(gca,'linewidth',2)
+title('Distribution diagram, Cd hydroxo complexation')
+
+% add stepwise values (pH=pKa but we need to convert because we were given overall association constants)
+
+plot([9.9 9.9],[0 1],'k:','linewidth',2)
+plot([10.4 10.4],[0 1],'k:','linewidth',2)
+plot([11.4 11.4],[0 1],'k:','linewidth',2)
+plot([12.3 12.3],[0 1],'k:','linewidth',2)
+
+Device pixel ratio: 1
+Render time: 415826
+Encode time: 21822
+Send time: 1288
+Draw time: 459525
+[I 16:53:15.591 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:55:03.464 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:57:03.634 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 16:59:03.943 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 17:00:55.502 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 17:01:11.213 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[W 17:17:49.028 NotebookApp] WebSocket ping timeout after 119980 ms.
+[W 17:17:49.160 NotebookApp] WebSocket ping timeout after 119969 ms.
+[W 17:17:49.288 NotebookApp] WebSocket ping timeout after 119972 ms.
+[I 17:17:54.030 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:1299cd8f-0579-4142-b606-5feaebb962f3
+[I 17:17:54.162 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:f7427202-2264-4ade-aec4-f80de7d79f92
+[I 17:17:54.291 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:055250d3-40cf-4edd-891e-449282dc78d3
+[W 17:18:15.156 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 17:18:15.564 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 17:18:16.120 NotebookApp] WebSocket ping timeout after 119969 ms.
+[W 17:18:16.745 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 17:18:17.216 NotebookApp] WebSocket ping timeout after 119972 ms.
+[W 17:18:17.587 NotebookApp] WebSocket ping timeout after 119972 ms.
+[W 17:18:18.445 NotebookApp] WebSocket ping timeout after 119978 ms.
+[W 17:18:18.723 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 17:18:18.872 NotebookApp] WebSocket ping timeout after 119973 ms.
+[I 17:18:20.158 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:4530901d-9147-4dc6-807d-510f3af7585c
+[I 17:18:20.567 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:5c2de266-d55c-4db3-b28c-cb967f6357d4
+[I 17:18:21.122 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:786351ce-eae8-4231-a7c4-0e45f55fe8bd
+[I 17:18:21.748 NotebookApp] Starting buffering for a1fcfc61-2287-4edd-a4e6-cf52b2722c8b:fe8a1c07-f565-4ac5-901d-aa42e0bfc97a
+[I 17:18:22.218 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:e88fcac8-7247-4e09-b939-7e4d0178c1c6
+[I 17:18:22.590 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:80a9ceae-1876-492f-9efb-fb5bd729e6e1
+[I 17:18:23.447 NotebookApp] Starting buffering for 4c116094-5d67-4627-8b41-dc8bfedaf9d8:9894b34d-e490-42d9-b65b-a017afb4821b
+[I 17:18:23.725 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:25993174-7e31-452e-b511-476dbc66443c
+[I 17:18:23.874 NotebookApp] Starting buffering for be4ee3cd-31f5-4b9d-b226-fdfab6de8b20:ddf379ed-dc26-4319-82c8-cd8e7a525ee3
+[I 2023-09-05 00:21:20.831 LabApp] Build is up to date
+[W 00:21:23.370 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 00:21:23.410 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 00:21:23.436 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 00:21:36.751 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.320000ms
+[W 03:55:36.581 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 03:55:36.696 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 03:55:36.789 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 03:55:36.912 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 03:55:37.031 NotebookApp] WebSocket ping timeout after 119966 ms.
+[W 03:55:37.147 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 03:55:37.274 NotebookApp] WebSocket ping timeout after 119977 ms.
+[W 03:55:37.417 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 03:55:37.538 NotebookApp] WebSocket ping timeout after 119973 ms.
+[W 03:55:37.638 NotebookApp] WebSocket ping timeout after 119976 ms.
+[W 03:55:37.759 NotebookApp] WebSocket ping timeout after 119966 ms.
+[W 03:55:37.936 NotebookApp] WebSocket ping timeout after 119976 ms.
+[I 03:55:41.583 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:e6fe4968-1fe9-4c46-b489-0618b5f62a6d
+[I 03:55:41.698 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:db6af3d4-2abf-4e0d-8aa5-a11f65f1a426
+[I 03:55:41.790 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:8f2fa171-df53-4f28-aa9c-b89c8da37c68
+[I 03:55:41.914 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:71ace1f2-6268-4e2d-80b4-11a0089fd109
+[I 03:55:42.032 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:a6b2ef1a-5c57-4d6b-898b-e885b8d5bfdb
+[I 03:55:42.151 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:7bd59c44-09e7-40eb-9f81-72c7df30f668
+[I 03:55:42.277 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:a12913c7-2b62-4c88-924e-5b44cd66924b
+[I 03:55:42.419 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:ff254b4f-e4eb-416a-8466-21b08741b5b0
+[I 03:55:42.540 NotebookApp] Starting buffering for 4c116094-5d67-4627-8b41-dc8bfedaf9d8:6a67e3e9-2aaa-47a5-918b-e1b32806363a
+[I 03:55:42.640 NotebookApp] Starting buffering for a1fcfc61-2287-4edd-a4e6-cf52b2722c8b:ee565ad2-ddda-4d5e-8db2-bca03021b96e
+[I 03:55:42.761 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:fc34806c-eba3-4e6e-86cc-1d0fb0760325
+[I 03:55:42.937 NotebookApp] Starting buffering for be4ee3cd-31f5-4b9d-b226-fdfab6de8b20:1149d0c0-3bff-4da5-8188-e4f2b6dcd92b
+[I 2023-09-05 13:46:06.071 LabApp] Build is up to date
+[I 2023-09-05 16:09:20.411 LabApp] Build is up to date
+[I 2023-09-05 20:45:42.987 LabApp] Build is up to date
+[I 20:23:43.686 NotebookApp] 302 GET /lab (172.23.0.1) 9.840000ms
+[W 20:24:10.917 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 160.050000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+[I 20:24:17.391 NotebookApp] 302 POST /login?next=%2Flab (172.23.0.1) 145.380000ms
+[I 20:24:17.626 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 2.030000ms
+[I 2023-09-12 20:24:20.828 LabApp] Build is up to date
+[W 20:24:21.320 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 20:24:21.334 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 20:24:21.359 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 20:24:21.522 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 28.400000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 20:24:21.533 NotebookApp] 404 GET /titrate.png (172.23.0.1) 34.320000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 20:24:22.009 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 8.420000ms
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+Executing: %plot -s 600,500 -f 'svg'
+logB1=4.1; logB2=7.7; logB3=10.3; logB4=12; Kw=1e-14; logKw=log10(Kw);
+logBa1=logB1+logKw; logBa2=logB2+2*logKw; logBa3=logB3+3*logKw; logBa4=logB4+4*logKw;
+Ba1=10^logBa1; Ba2=10^logBa2; Ba3=10^logBa3; Ba4=10^logBa4;
+
+pH=6:0.1:14; H=10.^(-pH); OH=Kw./H;
+denominator=H.^4+Ba1*H.^3+Ba2*H.^2+Ba3*H+Ba4;
+alphaCd=(H.^4)./denominator;
+alphaCdOH=(H.^3*Ba1)./denominator;
+alphaCdOH2=(H.^2*Ba2)./denominator;
+alphaCdOH3=(H*Ba3)./denominator;
+alphaCdOH4=(Ba4)./denominator;
+
+plot(pH,alphaCd,'b','linewidth',2)
+hold on
+plot(pH,alphaCdOH,'g','linewidth',2)
+plot(pH,alphaCdOH2,'m','linewidth',2)
+plot(pH,alphaCdOH3,'k','linewidth',2)
+plot(pH,alphaCdOH4,'c','linewidth',2)
+xlabel('pH'); ylabel('\alpha');
+legend('Cd^{2+}','CdOH^+','Cd(OH)2','Cd(OH)3^-','Cd(OH)4^{2-}','location','west')
+set(gca,'linewidth',2)
+title('Distribution diagram, Cd hydroxo complexation')
+
+% add stepwise values (pH=pKa but we need to convert because we were given overall association constants)
+
+plot([9.9 9.9],[0 1],'k:','linewidth',2)
+plot([10.4 10.4],[0 1],'k:','linewidth',2)
+plot([11.4 11.4],[0 1],'k:','linewidth',2)
+plot([12.3 12.3],[0 1],'k:','linewidth',2)
+
+Device pixel ratio: 1
+Render time: 460927
+Encode time: 23130
+Send time: 1305
+Draw time: 600505
+[I 20:26:21.707 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+[I 20:43:59.282 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:2f2d8712-7bd9-4a2a-ae52-8f085a44d38f
+[I 20:43:59.283 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:b7760163-9709-485b-a3aa-6a738565bcc7
+[I 20:43:59.283 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:db69b172-6a3d-4692-bb7c-4dc7f7814d4b
+[I 20:43:59.284 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:d5962972-3d1c-4229-8cec-5ed3fc51575f
+[I 20:43:59.284 NotebookApp] Starting buffering for 4c116094-5d67-4627-8b41-dc8bfedaf9d8:c58c28fd-1f26-4e1c-b950-5b65c04b97aa
+[I 20:43:59.286 NotebookApp] Starting buffering for a1fcfc61-2287-4edd-a4e6-cf52b2722c8b:15384e1a-badf-47f4-b956-4fbe90cbcb00
+[I 20:43:59.287 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:776e6957-3f8a-4bbf-848b-3a3513d5e47a
+[I 20:43:59.287 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:9f805ae6-b661-42be-8df1-6dead88ab3e6
+[I 20:43:59.288 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:06f7da3f-47f7-412f-b109-a1f460d4eb04
+[I 20:43:59.291 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:baf13266-bea4-437e-b713-25990162ace0
+[I 20:43:59.292 NotebookApp] Starting buffering for be4ee3cd-31f5-4b9d-b226-fdfab6de8b20:a0f3637c-6de1-4187-9861-df35ea457ce6
+[I 20:43:59.293 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:6ed7f1ba-4ec6-47b1-a436-d66743f5aa1a
+[I 2023-09-12 20:55:13.563 LabApp] Build is up to date
+[W 20:55:13.985 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 20:55:14.025 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 20:55:14.134 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 20:55:14.177 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 15.430000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 20:55:14.188 NotebookApp] 404 GET /titrate.png (172.23.0.1) 20.530000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 20:55:25.585 NotebookApp] New terminal with automatic name: 3
