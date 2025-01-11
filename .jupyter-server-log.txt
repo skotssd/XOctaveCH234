@@ -7733,3 +7733,624 @@ string: 1e-18
 string: 
 string: 
 [I 02:39:23.428 NotebookApp] Saving file at /extrastuff/LECTURE5_chemical_equilibrium.ipynb
+[W 02:53:01.137 NotebookApp] Notebook JEQUILIB/TABLEAU_method_pepH_Fe.ipynb is not trusted
+[I 02:53:01.547 NotebookApp] Kernel started: 07af3d0f-29b5-4f16-9748-dde2ed3dc147, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+graphics_toolkit ("notebook")
+clear
+% load packages
+%pkg load statistics
+% clear and warning off
+clear
+warning off
+% end of housekeeping
+Executing: %plot -s 600,500 -f 'svg'
+% start of tableau (problem definition)
+% you can change this part
+
+Tableau=[...
+%H      e        FeIII      logK     phase     species1 
+1       0        0          0        0        {'H'}
+0       1        0          0        0        {'e '}
+0       0        1          0        0        {'FeIII'}
+-1      0        0          -14      0        {'OH'}
+0       1        1          13.2     0        {'FeII'}
+%-1      0        1          -2.19    0        {'FeIIIOH'}
+-3      0        1          -3.4     1        {'FeIIIOH3s'}
+-2      1        1          0.82     1        {'FeIIOH2s'} 
+];
+
+%input totals and pH and pe
+%%%%%%%%%%%%%%%%%%%%%%%%%%55
+FeT=1e-5; T=FeT;
+pH=2:1:12;
+pe=17:-1:-10;
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%pe=-pH; % reducing
+
+% end of tableau.  ------------------ % ----------------------------------------------
+% no changes below this line --------------------------------------------------------
+
+% initialize variables
+H=NaN(length(pe),length(pH)); 
+e=NaN(length(pe),length(pH)); 
+FeIII=NaN(length(pe),length(pH)); 
+FeII=NaN(length(pe),length(pH));
+OH=NaN(length(pe),length(pH)); 
+%FeIIIOH=NaN(length(pe),length(pH)); 
+FeIIIOH3s=NaN(length(pe),length(pH)); 
+FeIIOH2s=NaN(length(pe),length(pH)); 
+MASSERR=NaN(length(pe),length(pH));
+
+flag1=2; flag2=1; % default to logX solution scheme with analtyical derivatives
+database=[]; % deacivated PHREEQC solver.
+
+display='working, please be patient'
+
+for k=1:length(pe)
+      for i=1:length(pH)
+          boundaryox=20.75-pH(i); boundaryred=0-pH(i); %stability limits of water
+          if pe(k)<boundaryox
+              if pe(k)>boundaryred
+                     %disp=[pH(i) pe(k)]
+                     %[FeIII(k,i),FeII(k,i),HFO(k,i),FeIIIOH(k,i),FeIIIOH2(k,i),FeIIIOH3(k,i),FeIIIOH4(k,i),masserr(k,i)]=returnFespeciation(FeT,pH(i),pe(k));
+                     [KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES]=processtableau(Tableau,pH(i),pe(k));
+                     [SPECIESCONCS,SPECIATIONNAMES,MASSERR(k,i),X]=returnspeciationRE(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,database);
+                    for l=1:size(SPECIESCONCS,1)
+                          txt=[SPECIATIONNAMES(l,:),'(k,i)=SPECIESCONCS(l);'];
+                          eval(txt)
+                    end
+            end
+           end
+      end
+end
+
+
+% this will generate the outputs
+
+%subplot(421);
+surf(pH,pe,FeIII./FeT)
+axis([min(pH) max(pH) min(pe) max(pe) 0 1])
+set(gca,'linewidth',2)
+xlabel('pH','fontsize',12); ylabel('pe')
+view([0 90])
+colorbar
+title('Fe^{3+}')
+
+
+
+
+
+
+
+[I 02:55:01.447 NotebookApp] Saving file at /JEQUILIB/TABLEAU_method_pepH_Fe.ipynb
+[W 02:56:15.078 NotebookApp] Notebook JEQUILIB/TABLEAU_method_fixedpH_solids.ipynb is not trusted
+[I 02:56:15.339 NotebookApp] Kernel started: 2d1f604d-d07b-4513-9aaf-8ec55cd7ca2a, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("gnuplot");
+available_graphics_toolkits ();
+graphics_toolkit ("gnuplot")
+clear
+% load packages
+pkg load statistics
+% clear and warning off
+clear
+warning off
+% end of housekeeping
+Executing: % start of tableau (problem definition)
+% you can change this part
+
+Tableau=[...
+%H      e        AlT      logK     phase     species1 
+1       0        0          0        0        {'H'}
+0       1        0          0        0        {'e '}
+0       0        1          0        0        {'Al'}
+-1      0        1          -5.00    0        {'AlOH'}
+-2      0        1          -10.1    0        {'AlOH2'}
+-3      0        1          -16.8    0        {'AlOH3'}
+-4      0        1          -22.87   0        {'AlOH4'} 
+-2      0        2          -7.7     0        {'Al2'}
+-4      0        3          -13.84   0        {'Al3'}
+-32     0        13         -98.73   0        {'Al13'}
+-3      0        1          -8.77    1        {'Gibbsite'} 
+];
+
+%input totals and pH and pe
+AlT=1e-6; T=[AlT]; pH=6; 
+pe=20.75-pH; % oxic
+%pe=-pH; % reducing
+
+% end of tableau.  ------------------ % ----------------------------------------------
+% no changes below this line --------------------------------------------------------
+
+[KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES]=processtableau(Tableau,pH,pe);
+flag1=2; flag2=1; % default to logX solution scheme with analtyical derivatives
+database=[]; % deacivated PHREEQC solver.
+[SPECIESCONCS,SPECIATIONNAMES,MASSERR,X]=returnspeciationRE(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,database);
+
+% this will generate the outputs
+
+for k=1:size(SPECIESCONCS,1)
+      txt=[SPECIATIONNAMES(k,:),'=SPECIESCONCS(k)'];
+      eval(txt)
+end
+
+
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("gnuplot");
+available_graphics_toolkits ();
+graphics_toolkit ("gnuplot")
+clear
+% load packages
+warning off
+pkg load statistics
+% clear and warning off
+clear
+
+% end of housekeeping
+Executing: % start of tableau (problem definition)
+% you can change this part
+
+Tableau=[...
+%H      e        AlT      logK     phase     species1 
+1       0        0          0        0        {'H'}
+0       1        0          0        0        {'e '}
+0       0        1          0        0        {'Al'}
+-1      0        1          -5.00    0        {'AlOH'}
+-2      0        1          -10.1    0        {'AlOH2'}
+-3      0        1          -16.8    0        {'AlOH3'}
+-4      0        1          -22.87   0        {'AlOH4'} 
+-2      0        2          -7.7     0        {'Al2'}
+-4      0        3          -13.84   0        {'Al3'}
+-32     0        13         -98.73   0        {'Al13'}
+-3      0        1          -8.77    1        {'Gibbsite'} 
+];
+
+%input totals and pH and pe
+AlT=1e-6; T=[AlT]; pH=6; 
+pe=20.75-pH; % oxic
+%pe=-pH; % reducing
+
+% end of tableau.  ------------------ % ----------------------------------------------
+% no changes below this line --------------------------------------------------------
+
+[KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES]=processtableau(Tableau,pH,pe);
+flag1=2; flag2=1; % default to logX solution scheme with analtyical derivatives
+database=[]; % deacivated PHREEQC solver.
+[SPECIESCONCS,SPECIATIONNAMES,MASSERR,X]=returnspeciationRE(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,database);
+
+% this will generate the outputs
+
+for k=1:size(SPECIESCONCS,1)
+      txt=[SPECIATIONNAMES(k,:),'=SPECIESCONCS(k)'];
+      eval(txt)
+end
+
+
+[W 02:56:41.606 NotebookApp] Notebook JEQUILIB/TABLEAU_method_fixedpH_bigexample.ipynb is not trusted
+[I 02:56:46.693 NotebookApp] Kernel started: 4cabc874-7783-4df7-aa5c-874891e74064, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+graphics_toolkit ("plotly")
+clear
+% load packages
+pkg load statistics
+% clear and warning off
+clear
+warning off
+% end of housekeeping
+Executing: % simulate reducing conditions increase pH
+% just Fe, P
+
+clear
+
+FeT=1e-3; CT=0; PT=1e-3; MgT=0; NT=0; AAT=0; OxT=0; ASF=0.2; 
+pH=6; pelow=-pH; pehigh=20.75-pH; perange=pelow:0.5:pehigh;
+perange=2:1:10;
+
+for i=1:length(perange)
+
+[HFO(i),Siderite,Strengite(i),Struvite,Vivianite(i),MgOxs,FeIIOxs,HFOP(i),solP(i),solFe(i),MASSERROR(i)]=RE_FeCPNMgAAOxsystem_solvers(pH,perange(i),FeT,CT,PT,NT,MgT,AAT,OxT,ASF);
+
+end
+
+plot(perange,(HFOP)./PT,perange,(Vivianite*2)./PT,perange,Strengite./PT,perange,solP./PT, ...
+    perange,HFOP./PT+(Vivianite*2)./PT+Strengite./PT+solP./PT,'linewidth',2)
+legend('HFO-P','Vivianite','Strengite','solP','P_T');
+set(gca,'linewidth',2)
+
+%figure(2)
+%plot(perange,MASSERROR)
+
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+string: 
+string: 
+string: 
+string: 
+list
+string: HFO-P
+ 21 9.03484 19.4727 -5.76968
+
+list
+string: Vivianite
+ 21 18.3348 24.5211 -5.76968
+
+list
+string: Strengite
+ 21 28.8121 26.6848 -7.2121
+
+list
+string: solP
+ 21 37.8469 12.2606 -5.76968
+
+list
+string: P
+subscript
+string: T
+ 21 48.3242 7.2121 -7.2121
+
+Executing: % simulate reducing conditions increase pH
+% just Fe, P
+
+clear
+
+FeT=1e-3; CT=0; PT=1e-3; MgT=0; NT=0; AAT=0; OxT=0; ASF=0.2; 
+pH=6; pelow=-pH; pehigh=20.75-pH; perange=pelow:0.5:pehigh;
+perange=2:1:10;
+
+for i=1:length(perange)
+
+[HFO(i),Siderite,Strengite(i),Struvite,Vivianite(i),MgOxs,FeIIOxs,HFOP(i),solP(i),solFe(i),MASSERROR(i)]=RE_FeCPNMgAAOxsystem_solvers(pH,perange(i),FeT,CT,PT,NT,MgT,AAT,OxT,ASF);
+
+end
+
+plot(perange,(HFOP)./PT,perange,(Vivianite*2)./PT,perange,Strengite./PT,perange,solP./PT, ...
+    perange,HFOP./PT+(Vivianite*2)./PT+Strengite./PT+solP./PT,'linewidth',2)
+legend('HFO-P','Vivianite','Strengite','solP','P_T');
+set(gca,'linewidth',2)
+
+figure(2)
+plot(perange,MASSERROR)
+
+Device pixel ratio: 1
+Render time: 748890
+Encode time: 17004
+Send time: 4856
+Draw time: 797096
+Executing: %subplot(422);
+surf(pH,pe,FeII./FeT)
+axis([min(pH) max(pH) min(pe) max(pe) 0 1])
+set(gca,'linewidth',2)
+xlabel('pH','fontsize',12); ylabel('pe')
+view([0 90])
+colorbar
+title('Fe^{2+}')
+Device pixel ratio: 1
+Render time: 720253
+Encode time: 16826
+Send time: 4159
+Draw time: 761516
+Executing: %subplot(423);
+surf(pH,pe,FeIIIOH3s./FeT)
+axis([min(pH) max(pH) min(pe) max(pe) 0 1])
+set(gca,'linewidth',2)
+xlabel('pH','fontsize',12); ylabel('pe')
+view([0 90])
+colorbar
+title('FeOH3s')
+
+Device pixel ratio: 1
+Render time: 773628
+Encode time: 16290
+Send time: 4186
+Draw time: 811514
+Executing: 
+%subplot(424);
+surf(pH,pe,FeIIOH2s./FeT)
+axis([min(pH) max(pH) min(pe) max(pe) 0 1])
+set(gca,'linewidth',2)
+xlabel('pH','fontsize',12); ylabel('pe')
+view([0 90])
+colorbar
+title('FeOH2s')
+Device pixel ratio: 1
+Render time: 728658
+Encode time: 17870
+Send time: 4189
+Draw time: 767717
+Executing: MASSERRfactor=max(MASSERR(:)); magnitude=floor(log10(MASSERRfactor));
+MASSERRfactor=10^magnitude
+MASSERR=MASSERR./MASSERRfactor;
+surf(pH,pe,MASSERR)
+axis([min(pH) max(pH) min(pe) max(pe) 0 max(max(MASSERR))])
+set(gca,'linewidth',2)
+xlabel('pH','fontsize',12); ylabel('pe')
+view([0 90])
+colorbar
+zMin = min(MASSERR(:));
+zMax = max(MASSERR(:));
+caxis([zMin, zMax]);
+title('MASSERR')
+Device pixel ratio: 1
+Render time: 899120
+Encode time: 17946
+Send time: 4219
+Draw time: 952599
+[I 02:58:15.256 NotebookApp] Saving file at /JEQUILIB/TABLEAU_method_fixedpH_solids.ipynb
+[I 02:58:41.785 NotebookApp] Saving file at /JEQUILIB/TABLEAU_method_fixedpH_bigexample.ipynb
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 0
+list
+string: 2e-13
+list
+string: 4e-13
+list
+string: 6e-13
+list
+string: 8e-13
+list
+string: 1e-12
+list
+string: 1.2e-12
+list
+string: 1.4e-12
+string: 
+string: 
+Executing: % simulate reducing conditions increase pH
+% just Fe, P
+
+clear
+
+FeT=1e-3; CT=0; PT=1e-3; MgT=0; NT=0; AAT=0; OxT=0; ASF=0.2; 
+pH=6; pelow=-pH; pehigh=20.75-pH; perange=pelow:0.5:pehigh;
+perange=2:1:10;
+
+for i=1:length(perange)
+
+[HFO(i),Siderite,Strengite(i),Struvite,Vivianite(i),MgOxs,FeIIOxs,HFOP(i),solP(i),solFe(i),MASSERROR(i)]=RE_FeCPNMgAAOxsystem_solvers(pH,perange(i),FeT,CT,PT,NT,MgT,AAT,OxT,ASF);
+
+end
+
+plot(perange,(HFOP)./PT,perange,(Vivianite*2)./PT,perange,Strengite./PT,perange,solP./PT, ...
+    perange,HFOP./PT+(Vivianite*2)./PT+Strengite./PT+solP./PT,'linewidth',2)
+legend('HFO-P','Vivianite','Strengite','solP','P_T');
+set(gca,'linewidth',2)
+
+figure(2)
+plot(perange,MASSERROR)
+
+[I 02:59:01.702 NotebookApp] Saving file at /JEQUILIB/TABLEAU_method_pepH_Fe.ipynb
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+string: 
+string: 
+string: 
+string: 
+list
+string: HFO-P
+ 21 9.03484 19.4727 -5.76968
+
+list
+string: Vivianite
+ 21 18.3348 24.5211 -5.76968
+
+list
+string: Strengite
+ 21 28.8121 26.6848 -7.2121
+
+list
+string: solP
+ 21 37.8469 12.2606 -5.76968
+
+list
+string: P
+subscript
+string: T
+ 21 48.3242 7.2121 -7.2121
+
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 0
+list
+string: 2e-13
+list
+string: 4e-13
+list
+string: 6e-13
+list
+string: 8e-13
+list
+string: 1e-12
+list
+string: 1.2e-12
+list
+string: 1.4e-12
+string: 
+string: 
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+graphics_toolkit ("plotly")
+clear
+% load packages
+warning off
+pkg load statistics
+% clear and warning off
+clear
+%warning off
+% end of housekeeping
+Executing: % simulate reducing conditions increase pH
+% just Fe, P
+
+clear
+
+FeT=1e-3; CT=0; PT=1e-3; MgT=0; NT=0; AAT=0; OxT=0; ASF=0.2; 
+pH=6; pelow=-pH; pehigh=20.75-pH; perange=pelow:0.5:pehigh;
+perange=2:1:10;
+
+for i=1:length(perange)
+
+[HFO(i),Siderite,Strengite(i),Struvite,Vivianite(i),MgOxs,FeIIOxs,HFOP(i),solP(i),solFe(i),MASSERROR(i)]=RE_FeCPNMgAAOxsystem_solvers(pH,perange(i),FeT,CT,PT,NT,MgT,AAT,OxT,ASF);
+
+end
+
+plot(perange,(HFOP)./PT,perange,(Vivianite*2)./PT,perange,Strengite./PT,perange,solP./PT, ...
+    perange,HFOP./PT+(Vivianite*2)./PT+Strengite./PT+solP./PT,'linewidth',2)
+legend('HFO-P','Vivianite','Strengite','solP','P_T');
+set(gca,'linewidth',2)
+
+figure(2)
+plot(perange,MASSERROR)
+
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+string: 
+string: 
+string: 
+string: 
+list
+string: HFO-P
+ 21 9.03484 19.4727 -5.76968
+
+list
+string: Vivianite
+ 21 18.3348 24.5211 -5.76968
+
+list
+string: Strengite
+ 21 28.8121 26.6848 -7.2121
+
+list
+string: solP
+ 21 37.8469 12.2606 -5.76968
+
+list
+string: P
+subscript
+string: T
+ 21 48.3242 7.2121 -7.2121
+
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 0
+list
+string: 2e-13
+list
+string: 4e-13
+list
+string: 6e-13
+list
+string: 8e-13
+list
+string: 1e-12
+list
+string: 1.2e-12
+list
+string: 1.4e-12
+string: 
+string: 
+[I 03:00:42.160 NotebookApp] Saving file at /JEQUILIB/TABLEAU_method_fixedpH_bigexample.ipynb
