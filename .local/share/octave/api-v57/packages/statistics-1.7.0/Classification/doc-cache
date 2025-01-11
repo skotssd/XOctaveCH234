@@ -1,0 +1,1176 @@
+# doc-cache created by Octave 7.3.0
+# name: cache
+# type: cell
+# rows: 3
+# columns: 11
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 26
+ClassificationDiscriminant
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 5914
+ -- statistics: OBJ = ClassificationDiscriminant (X, Y)
+ -- statistics: OBJ = ClassificationDiscriminant (..., NAME, VALUE)
+
+     Create a ClassificationDiscriminant class object containing a
+     discriminant analysis model.
+
+     ‘OBJ = ClassificationDiscriminant (X, Y)’ returns a
+     ClassificationDiscriminant object, with X as the predictor data and
+     Y containing the class labels of observations in X.
+
+        • ‘X’ must be a NxP numeric matrix of input data where rows
+          correspond to observations and columns correspond to features
+          or variables.  X will be used to train the discriminant model.
+        • ‘Y’ is Nx1 matrix or cell matrix containing the class labels
+          of corresponding predictor data in X.  Y can contain any type
+          of categorical data.  Y must have the same number of rows as
+          X.
+
+     ‘OBJ = ClassificationDiscriminant (..., NAME, VALUE)’ returns a
+     ClassificationDiscriminant object with parameters specified by
+     Name-Value pair arguments.  Type ‘help ClassificationDiscriminant’
+     for more info.
+
+     A ClassificationDiscriminant object, OBJ, stores the labeled
+     training data and various parameters for the discriminant analysis
+     model, which can be accessed in the following fields:
+
+     FIELD               DESCRIPTION
+                         
+     ---------------------------------------------------------------------------
+     X                   Unstandardized predictor data, specified as a
+                         numeric matrix.  Each column of X represents one
+                         predictor (variable), and each row represents one
+                         observation.
+                         
+     Y                   Class labels, specified as a logical, numeric
+                         vector, or cell array of character vectors.  Each
+                         value in Y is the observed class label for the
+                         corresponding row in X.
+                         
+     NumObservations     Number of observations used in training the
+                         ClassificationDiscriminant model, specified as a
+                         positive integer scalar.
+                         
+     RowsUsed            Rows of the original training data used in fitting
+                         the ClassificationDiscriminant model, specified as a
+                         numerical vector.
+                         
+     PredictorNames      Predictor variable names, specified as a cell array
+                         of character vectors.  The variable names are in the
+                         same order in which they appear in the training data
+                         X.
+                         
+     ResponseName        Response variable name, specified as a character
+                         vector.
+                         
+     ClassNames          Names of the classes in the training data Y with
+                         duplicates removed, specified as a cell array of
+                         character vectors.
+                         
+     Prior               Prior probabilities for each class, specified as a
+                         numeric vector.  The order of the elements in Prior
+                         corresponds to the order of the classes in
+                         ClassNames.
+                         
+     Cost                Cost of the misclassification of a point, specified
+                         as a square matrix.  Cost(i,j) is the cost of
+                         classifying a point into class j if its true class
+                         is i (that is, the rows correspond to the true class
+                         and the columns correspond to the predicted class).
+                         The order of the rows and columns in Cost
+                         corresponds to the order of the classes in
+                         ClassNames.  The number of rows and columns in Cost
+                         is the number of unique classes in the response.  By
+                         default, Cost(i,j) = 1 if i != j, and Cost(i,j) = 0
+                         if i = j.  In other words, the cost is 0 for correct
+                         classification and 1 for incorrect classification.
+                         
+     Sigma               Within-class covariance matrix, specified as a
+                         numeric matrix.  For ’linear’ discriminant type
+                         matrix is of size pxp, where p is the number of
+                         predictors.
+                         
+     Mu                  Class means, specified as a Kxp real matrix.  K is
+                         the number of classes, and p is the number of
+                         predictors.
+                         
+     Coeffs              Coefficient matrices, specified as a struct array.
+                         
+     Delta               Threshold for linear discriminant model, specified
+                         as a numeric scalar.
+                         
+     DiscrimType         Discriminant type, specified as a character vector.
+                         
+     Gamma               Gamma regularization parameter, specified as a
+                         numeric scalar.
+                         
+     MinGamma            Minimum value of Gamma so that the correlation
+                         matrix is invertible, specified as nonnegative
+                         scalar.
+                         
+     LogDetSigma         Logarithm of the determinant of the within-class
+                         covariance matrix.  For linear discriminant analysis
+                         it is specified as a numeric scalar.
+                         
+     XCentered           X data with class means subtracted, returned as a
+                         real matrix.
+                         
+
+     See also: fitcdiscr.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+Create a ClassificationDiscriminant class object containing a
+discriminant an...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 17
+ClassificationGAM
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 10111
+ -- statistics: OBJ = ClassificationGAM (X, Y)
+ -- statistics: OBJ = ClassificationGAM (..., NAME, VALUE)
+
+     Create a ClassificationGAM class object containing a generalized
+     additive classification model.
+
+     The ClassificationGAM class implements a gradient boosting
+     algorithm for classification, using spline fitting as the weak
+     learner.  This approach allows the model to capture non-linear
+     relationships between predictors and the binary response variable.
+
+     ‘OBJ = ClassificationGAM (X, Y)’ returns a ClassificationGAM
+     object, with X as the predictor data and Y containing the class
+     labels of observations in X.
+
+        • ‘X’ must be a NxP numeric matrix of predictor data where rows
+          correspond to observations and columns correspond to features
+          or variables.
+        • ‘Y’ is Nx1 numeric vector containing binary class labels,
+          typically 0 or 1.
+
+     ‘OBJ = ClassificationGAM (..., NAME, VALUE)’ returns a
+     ClassificationGAM object with parameters specified by Name-Value
+     pair arguments.  Type ‘help fitcgam’ for more info.
+
+     A ClassificationGAM object, OBJ, stores the labeled training data
+     and various parameters for the Generalized Additive Model (GAM) for
+     classification, which can be accessed in the following fields:
+
+     FIELD               DESCRIPTION
+                         
+     ---------------------------------------------------------------------------
+     X                   Predictor data, specified as a numeric matrix.  Each
+                         column of X represents one predictor (variable), and
+                         each row represents one observation.
+                         
+     Y                   Class labels, specified as numeric vector of 0’s and
+                         1’s.  Each value in Y is the observed class label
+                         for the corresponding row in X.
+                         
+     BaseModel           A structure containing the parameters of the base
+                         model without any interaction terms.  The base model
+                         represents the generalized additive model (GAM) with
+                         only the main effects (predictor terms) included.
+                         
+     ModelwInt           A structure containing the parameters of the model
+                         that includes interaction terms.  This model extends
+                         the base model by adding interaction terms between
+                         predictors, as specified by the Interactions
+                         property.
+                         
+     IntMatrix           A logical matrix or a matrix of column indices that
+                         describes the interaction terms applied to the
+                         predictor data.
+                         
+     NumObservations     Number of observations used in training the
+                         ClassificationGAM model, specified as a positive
+                         integer scalar.  This number can be less than the
+                         number of rows in the training data because rows
+                         containing NaN values are not part of the fit.
+                         
+     RowsUsed            Rows of the original training data used in fitting
+                         the ClassificationGAM model, specified as a
+                         numerical vector.  If you want to use this vector
+                         for indexing the training data in X, you have to
+                         convert it to a logical vector, i.e X =
+                         obj.X(logical (obj.RowsUsed), :);
+                         
+     NumPredictors       The number of predictors (variables) in X.
+                         
+     PredictorNames      Predictor variable names, specified as a cell array
+                         of character vectors.  The variable names are in the
+                         same order in which they appear in the training data
+                         X.
+                         
+     ResponseName        Response variable name, specified as a character
+                         vector.
+                         
+     ClassNames          Names of the classes in the training data Y with
+                         duplicates removed, specified as a cell array of
+                         character vectors.
+                         
+     Cost                Cost of the misclassification of a point, specified
+                         as a square matrix.  Cost(i,j) is the cost of
+                         classifying a point into class j if its true class
+                         is i (that is, the rows correspond to the true class
+                         and the columns correspond to the predicted class).
+                         The order of the rows and columns in Cost
+                         corresponds to the order of the classes in
+                         ClassNames.  The number of rows and columns in Cost
+                         is the number of unique classes in the response.  By
+                         default, Cost(i,j) = 1 if i != j, and Cost(i,j) = 0
+                         if i = j.  In other words, the cost is 0 for correct
+                         classification and 1 for incorrect classification.
+                         
+     Formula             A model specification given as a string in the form
+                         "Y ~ terms" where Y represents the reponse variable
+                         and terms the predictor variables.  The formula can
+                         be used to specify a subset of variables for
+                         training model.  For example: "Y ~ x1 + x2 + x3 + x4
+                         + x1:x2 + x2:x3" specifies four linear terms for the
+                         first four columns of for predictor data, and x1:x2
+                         and x2:x3 specify the two interaction terms for
+                         1st-2nd and 3rd-4th columns respectively.  Only
+                         these terms will be used for training the model, but
+                         X must have at least as many columns as referenced
+                         in the formula.  If Predictor Variable names have
+                         been defined, then the terms in the formula must
+                         reference to those.  When "formula" is specified,
+                         all terms used for training the model are referenced
+                         in the IntMatrix field of the OBJ class object as a
+                         matrix containing the column indexes for each term
+                         including both the predictors and the interactions
+                         used.
+                         
+     Interactions        A logical matrix, a positive integer scalar, or the
+                         string "all" for defining the interactions between
+                         predictor variables.  When given a logical matrix,
+                         it must have the same number of columns as X and
+                         each row corresponds to a different interaction term
+                         combining the predictors indexed as true.  Each
+                         interaction term is appended as a column vector
+                         after the available predictor column in X.  When
+                         "all" is defined, then all possible combinations of
+                         interactions are appended in X before training.  At
+                         the moment, parsing a positive integer has the same
+                         effect as the "all" option.  When "interactions" is
+                         specified, only the interaction terms appended to X
+                         are referenced in the IntMatrix field of the OBJ
+                         class object.
+                         
+     Knots               A scalar or a row vector with the same columns as X.
+                         It defines the knots for fitting a polynomial when
+                         training the GAM. As a scalar, it is expanded to a
+                         row vector.  The default value is 5, hence expanded
+                         to ones (1, columns (X)) * 5.  You can parse a row
+                         vector with different number of knots for each
+                         predictor variable to be fitted with, although not
+                         recommended.
+                         
+     Order               A scalar or a row vector with the same columns as X.
+                         It defines the order of the polynomial when training
+                         the GAM. As a scalar, it is expanded to a row
+                         vector.  The default values is 3, hence expanded to
+                         ones (1, columns (X)) * 3.  You can parse a row
+                         vector with different number of polynomial order for
+                         each predictor variable to be fitted with, although
+                         not recommended.
+                         
+     DoF                 A scalar or a row vector with the same columns as X.
+                         It defines the degrees of freedom for fitting a
+                         polynomial when training the GAM. As a scalar, it is
+                         expanded to a row vector.  The default value is 8,
+                         hence expanded to ones (1, columns (X)) * 8.  You
+                         can parse a row vector with different degrees of
+                         freedom for each predictor variable to be fitted
+                         with, although not recommended.
+                         
+
+     You can parse either a "Formula" or an "Interactions" optional
+     parameter.  Parsing both parameters will result an error.
+     Accordingly, you can only pass up to two parameters among "Knots",
+     "Order", and "DoF" to define the required polynomial for training
+     the GAM model.
+
+     See also: fitcgam, CompactClassificationGAM,
+     ClassificationPartitionedModel.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+Create a ClassificationGAM class object containing a generalized
+additive cla...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 17
+ClassificationKNN
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 9454
+ -- statistics: OBJ = ClassificationKNN (X, Y)
+ -- statistics: OBJ = ClassificationKNN (..., NAME, VALUE)
+
+     Create a ClassificationKNN class object containing a k-Nearest
+     Neighbor classification model.
+
+     ‘OBJ = ClassificationKNN (X, Y)’ returns a ClassificationKNN
+     object, with X as the predictor data and Y containing the class
+     labels of observations in X.
+
+        • ‘X’ must be a NxP numeric matrix of input data where rows
+          correspond to observations and columns correspond to features
+          or variables.  X will be used to train the kNN model.
+        • ‘Y’ is Nx1 matrix or cell matrix containing the class labels
+          of corresponding predictor data in X.  Y can contain any type
+          of categorical data.  Y must have same numbers of Rows as X.
+
+     ‘OBJ = ClassificationKNN (..., NAME, VALUE)’ returns a
+     ClassificationKNN object with parameters specified by Name-Value
+     pair arguments.  Type ‘help fitcknn’ for more info.
+
+     A ClassificationKNN object, OBJ, stores the labelled training data
+     and various parameters for the k-Nearest Neighbor classification
+     model, which can be accessed in the following fields:
+
+     FIELD               DESCRIPTION
+                         
+     ---------------------------------------------------------------------------
+     X                   Unstandardized predictor data, specified as a
+                         numeric matrix.  Each column of X represents one
+                         predictor (variable), and each row represents one
+                         observation.
+                         
+     Y                   Class labels, specified as a logical or numeric
+                         vector, or cell array of character vectors.  Each
+                         value in Y is the observed class label for the
+                         corresponding row in X.
+                         
+     NumObservations     Number of observations used in training the
+                         ClassificationKNN model, specified as a positive
+                         integer scalar.  This number can be less than the
+                         number of rows in the training data because rows
+                         containing NaN values are not part of the fit.
+                         
+     RowsUsed            Rows of the original training data used in fitting
+                         the ClassificationKNN model, specified as a
+                         numerical vector.  If you want to use this vector
+                         for indexing the training data in X, you have to
+                         convert it to a logical vector, i.e X =
+                         obj.X(logical (obj.RowsUsed), :);
+                         
+     Standardize         A boolean flag indicating whether the data in X have
+                         been standardized prior to training.
+                         
+     Sigma               Predictor standard deviations, specified as a
+                         numeric vector of the same length as the columns in
+                         X.  If the predictor variables have not been
+                         standardized, then "obj.Sigma" is empty.
+                         
+     Mu                  Predictor means, specified as a numeric vector of
+                         the same length as the columns in X.  If the
+                         predictor variables have not been standardized, then
+                         "obj.Mu" is empty.
+                         
+     NumPredictors       The number of predictors (variables) in X.
+                         
+     PredictorNames      Predictor variable names, specified as a cell array
+                         of character vectors.  The variable names are in the
+                         same order in which they appear in the training data
+                         X.
+                         
+     ResponseName        Response variable name, specified as a character
+                         vector.
+                         
+     ClassNames          Names of the classes in the training data Y with
+                         duplicates removed, specified as a cell array of
+                         character vectors.
+                         
+     BreakTies           Tie-breaking algorithm used by predict when multiple
+                         classes have the same smallest cost, specified as
+                         one of the following character arrays: "smallest"
+                         (default), which favors the class with the smallest
+                         index among the tied groups, i.e.  the one that
+                         appears first in the training labelled data.
+                         "nearest", which favors the class with the nearest
+                         neighbor among the tied groups, i.e.  the class with
+                         the closest member point according to the distance
+                         metric used.  "random", which randomly picks one
+                         class among the tied groups.
+                         
+     Prior               Prior probabilities for each class, specified as a
+                         numeric vector.  The order of the elements in Prior
+                         corresponds to the order of the classes in
+                         ClassNames.
+                         
+     Cost                Cost of the misclassification of a point, specified
+                         as a square matrix.  Cost(i,j) is the cost of
+                         classifying a point into class j if its true class
+                         is i (that is, the rows correspond to the true class
+                         and the columns correspond to the predicted class).
+                         The order of the rows and columns in Cost
+                         corresponds to the order of the classes in
+                         ClassNames.  The number of rows and columns in Cost
+                         is the number of unique classes in the response.  By
+                         default, Cost(i,j) = 1 if i != j, and Cost(i,j) = 0
+                         if i = j.  In other words, the cost is 0 for correct
+                         classification and 1 for incorrect classification.
+                         
+     ScoreTransform      A function_handle which is used for transforming the
+                         kNN prediction score into a posterior probability.
+                         By default, it is ’none’, in which case the
+                         ‘predict’ and ‘resubPredict’ methods return the
+                         prediction scores.
+                         
+     NumNeighbors        Number of nearest neighbors in X used to classify
+                         each point during prediction, specified as a
+                         positive integer value.
+                         
+     Distance            Distance metric, specified as a character vector.
+                         The allowable distance metric names depend on the
+                         choice of the neighbor-searcher method.  See the
+                         available distance metrics in ‘knnseaarch’ for more
+                         info.
+                         
+     DistanceWeight      Distance weighting function, specified as a function
+                         handle, which accepts a matrix of nonnegative
+                         distances, and returns a matrix the same size
+                         containing nonnegative distance weights.
+                         
+     DistParameter       Parameter for the distance metric, specified either
+                         as a positive definite covariance matrix (when the
+                         distance metric is "mahalanobis", or a positive
+                         scalar as the Minkowski distance exponent (when the
+                         distance metric is "minkowski", or a vector of
+                         positive scale values with length equal to the
+                         number of columns of X (when the distance metric is
+                         "seuclidean".  For any other distance metric, the
+                         value of DistParameter is empty.
+                         
+     NSMethod            Nearest neighbor search method, specified as either
+                         "kdtree", which creates and uses a Kd-tree to find
+                         nearest neighbors, or "exhaustive", which uses the
+                         exhaustive search algorithm by computing the
+                         distance values from all points in X to find nearest
+                         neighbors.
+                         
+     IncludeTies         A boolean flag indicating whether prediction
+                         includes all the neighbors whose distance values are
+                         equal to the k^th smallest distance.  If IncludeTies
+                         is true, prediction includes all of these neighbors.
+                         Otherwise, prediction uses exactly k neighbors.
+                         
+     BucketSize          Maximum number of data points in the leaf node of
+                         the Kd-tree, specified as positive integer value.
+                         This argument is meaningful only when NSMethod is
+                         "kdtree".
+                         
+
+     See also: fitcknn, knnsearch, rangesearch, pdist2.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+Create a ClassificationKNN class object containing a k-Nearest Neighbor
+class...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 27
+ClassificationNeuralNetwork
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 7850
+ -- statistics: OBJ = ClassificationNeuralNetwork (X, Y)
+ -- statistics: OBJ = ClassificationNeuralNetwork (..., NAME, VALUE)
+
+     Create a ClassificationNeuralNetwork class object containing a
+     Neural Network classification model.
+
+     ‘OBJ = ClassificationNeuralNetwork (X, Y)’ returns a
+     ClassificationNeuralNetwork object, with X as the predictor data
+     and Y containing the class labels of observations in X.
+
+        • ‘X’ must be a NxP numeric matrix of input data where rows
+          correspond to observations and columns correspond to features
+          or variables.  X will be used to train the model.
+        • ‘Y’ is Nx1 matrix or cell matrix containing the class labels
+          of corresponding predictor data in X.  Y can contain any type
+          of categorical data.  Y must have same numbers of rows as X.
+
+     ‘OBJ = ClassificationNeuralNetwork (..., NAME, VALUE)’ returns a
+     ClassificationNeuralNetwork object with parameters specified by
+     Name-Value pair arguments.  Type ‘help fitcnet’ for more info.
+
+     A ClassificationNeuralNetwork object, OBJ, stores the labelled
+     training data and various parameters for the Neural Network
+     classification model, which can be accessed in the following
+     fields:
+
+     FIELD               DESCRIPTION
+                         
+     ---------------------------------------------------------------------------
+     X                   Unstandardized predictor data, specified as a
+                         numeric matrix.  Each column of X represents one
+                         predictor (variable), and each row represents one
+                         observation.
+                         
+     Y                   Class labels, specified as a logical or numeric
+                         vector, or cell array of character vectors.  Each
+                         value in Y is the observed class label for the
+                         corresponding row in X.
+                         
+     NumObservations     Number of observations used in training the model,
+                         specified as a positive integer scalar.  This number
+                         can be less than the number of rows in the training
+                         data because rows containing NaN values are not part
+                         of the fit.
+                         
+     RowsUsed            Rows of the original training data used in fitting
+                         the ClassificationNeuralNetwork model, specified as
+                         a numerical vector.  If you want to use this vector
+                         for indexing the training data in X, you have to
+                         convert it to a logical vector, i.e X =
+                         obj.X(logical (obj.RowsUsed), :);
+                         
+     Standardize         A boolean flag indicating whether the data in X have
+                         been standardized prior to training.
+                         
+     Sigma               Predictor standard deviations, specified as a
+                         numeric vector of the same length as the columns in
+                         X.  If the predictor variables have not been
+                         standardized, then "obj.Sigma" is empty.
+                         
+     Mu                  Predictor means, specified as a numeric vector of
+                         the same length as the columns in X.  If the
+                         predictor variables have not been standardized, then
+                         "obj.Mu" is empty.
+                         
+     NumPredictors       The number of predictors (variables) in X.
+                         
+     PredictorNames      Predictor variable names, specified as a cell array
+                         of character vectors.  The variable names are in the
+                         same order in which they appear in the training data
+                         X.
+                         
+     ResponseName        Response variable name, specified as a character
+                         vector.
+                         
+     ClassNames          Names of the classes in the class labels, Y, used
+                         for fitting the ClassificationNeuralNetwork model.
+                         ClassNames are of the same type as the class labels
+                         in Y.
+                         
+     LayerSizes          Sizes of the fully connected layers in the neural
+                         network model, returned as a positive integer
+                         vector.  The ith element of LayerSizes is the number
+                         of outputs in the ith fully connected layer of the
+                         neural network model.  LayerSizes does not include
+                         the size of the final fully connected layer.  This
+                         layer always has K outputs, where K is the number of
+                         classes in Y.
+                         
+     Activations         A character vector or a cell array of character
+                         vector specifying the activation functions used in
+                         the hidden layers of the neural network.
+                         
+     OutputLayerActivationA character vector specifying the activation
+                         function of the output layer the neural network.
+                         
+     LearningRate        A positive scalar value defining the learning rate
+                         used by the gradient descend algorithm during
+                         training.
+                         
+     IterationLimit      A positive scalar value defining the number of
+                         epochs for training the model.
+                         
+     DisplayInfo         A boolean flag indicating whether to print
+                         information during training.
+                         
+     ModelParameters     A structure containing the parameters used to train
+                         the Neural Network classifier model containing the
+                         fields ‘LayerWeights’ and ‘Activations’ as generated
+                         by the ‘fcnntrain’ function.
+                         
+     ConvergenceInfo     A structure containing the Convergence info of the
+                         Neural Network classifier model with the following
+                         fields:
+                         
+                             FIELDS           DESCRIPTION
+                         -------------------------------------------------------------
+                             Accuracy         The prediction accuracy at each
+                                              iteration during the neural network
+                                              model’s training process.
+                             TrainingLoss     The loss value recorded at each
+                                              iteration during the neural network
+                                              model’s training process.
+                             Time             The cumulative time taken for all
+                                              iterations, measured in seconds.
+                         
+     Solver              Solver used to train the neural network model,
+                         returned as ’Gradient Search’.
+                         
+     ScoreTransform      A function_handle which is used for transforming the
+                         Neural Network prediction score into a posterior
+                         probability.  By default, it is ’none’, in which
+                         case the ‘predict’ and ‘resubPredict’ methods return
+                         the prediction scores.
+                         
+
+     See also: fitcnet, fcnntrain, fcnnpredict.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+Create a ClassificationNeuralNetwork class object containing a Neural
+Network...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 30
+ClassificationPartitionedModel
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 5467
+ -- statistics: CVMDL = ClassificationPartitionedModel (MDL, PARTITION)
+
+     Create a ClassificationPartitionedModel class for cross-validation
+     of classification models.
+
+     ‘CVMDL = ClassificationPartitionedModel (MDL, PARTITION)’ returns a
+     ClassificationPartitionedModel object, with MDL as the trained
+     ClassificationKNN or ClassificationSVM object and PARTITION as the
+     partitioning object obtained using cvpartition function.
+
+     A ClassificationPartitionedModel object, CVMDL, stores the
+     classification models trained on cross-validated folds and various
+     parameters for the cross-validated model, which can be accessed in
+     the following fields:
+
+     FIELD               DESCRIPTION
+                         
+     ---------------------------------------------------------------------------
+     X                   Unstandardized predictor data, specified as a
+                         numeric matrix.  Each column of X represents one
+                         predictor (variable), and each row represents one
+                         observation.
+                         
+     Y                   Class labels, specified as a logical or numeric
+                         vector, or cell array of character vectors.  Each
+                         value in Y is the observed class label for the
+                         corresponding row in X.
+                         
+     ClassNames          Names of the classes in the training data Y with
+                         duplicates removed, specified as a cell array of
+                         character vectors.
+                         
+     Cost                Cost of the misclassification of a point, specified
+                         as a square matrix.  Cost(i,j) is the cost of
+                         classifying a point into class j if its true class
+                         is i (that is, the rows correspond to the true class
+                         and the columns correspond to the predicted class).
+                         The order of the rows and columns in Cost
+                         corresponds to the order of the classes in
+                         ClassNames.  The number of rows and columns in Cost
+                         is the number of unique classes in the response.  By
+                         default, Cost(i,j) = 1 if i != j, and Cost(i,j) = 0
+                         if i = j.  In other words, the cost is 0 for correct
+                         classification and 1 for incorrect classification.
+                         
+     CrossValidatedModel Class of the cross-validated model, specified as a
+                         character vector.  This field contains the type of
+                         model that was used for the training, e.g.,
+                         "ClassificationKNN".
+                         
+     KFold               Number of cross-validated folds, specified as a
+                         positive interger scalar.  Represents how many folds
+                         the data was divided into for cross-validation
+                         purposes.
+                         
+     ModelParameters     Model parameters used during training, specified as
+                         a structure.  This includes any model-specific
+                         parameters that were configured prior to training,
+                         such as NumNeighbors or Distance in the case of a
+                         KNN model.
+                         
+     NumObservations     Number of observations used in training the
+                         ClassificationKNN model, specified as a positive
+                         integer scalar.  This number can be less than the
+                         number of rows in the training data because rows
+                         containing NaN values are not part of the fit.
+                         
+     Partition           Partition configuration used for cross-validation,
+                         specified as a cvpartition object.  This field
+                         stores the cvpartition instance that describes how
+                         the data was split into training and validation
+                         sets.
+                         
+     PredictorNames      Predictor variable names, specified as a cell array
+                         of character vectors.  The variable names are in the
+                         same order in which they appear in the training data
+                         X.
+                         
+     Prior               Prior probabilities for each class, specified as a
+                         numeric vector.  The order of the elements in Prior
+                         corresponds to the order of the classes in
+                         ClassNames.
+                         
+     ResponseName        Response variable name, specified as a character
+                         vector.
+                         
+     Trained             Models trained on each fold, specified as a cell
+                         array of models.  Each cell contains a model trained
+                         on the minus-one fold of the data (all but one fold
+                         used for training and the remaining fold used for
+                         validation).
+                         
+
+     See also: cvpartition, ClassificationDiscriminant,
+     ClassificationGAM, ClassificationKNN, ClassificationNeuralNetwork,
+     ClassificationSVM.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+Create a ClassificationPartitionedModel class for cross-validation of
+classif...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 17
+ClassificationSVM
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 9289
+ -- statistics: OBJ = ClassificationSVM (X, Y)
+ -- statistics: OBJ = ClassificationSVM (..., NAME, VALUE)
+
+     Create a ClassificationSVM class object containing a Support Vector
+     Machine classification model for one-class or two-class problems.
+
+     ‘OBJ = ClassificationSVM (X, Y)’ returns a ClassificationSVM
+     object, with X as the predictor data and Y containing the class
+     labels of observations in X.
+
+        • ‘X’ must be a NxP numeric matrix of input data where rows
+          correspond to observations and columns correspond to features
+          or variables.  X will be used to train the SVM model.
+        • ‘Y’ is Nx1 matrix or cell matrix containing the class labels
+          of corresponding predictor data in X.  Y can be either
+          numeric, logical, or cell array of character vectors.  It must
+          have same numbers of rows as X.
+
+     ‘OBJ = ClassificationSVM (..., NAME, VALUE)’ returns a
+     ClassificationSVM object with parameters specified by Name-Value
+     pair arguments.  Type ‘help fitcsvm’ for more info.
+
+     A ClassificationSVM object, OBJ, stores the labelled training data
+     and various parameters for the Support Vector machine
+     classification model, which can be accessed in the following
+     fields:
+
+     FIELD               DESCRIPTION
+                         
+     ---------------------------------------------------------------------------
+     X                   Unstandardized predictor data, specified as a
+                         numeric matrix.  Each column of X represents one
+                         predictor (variable), and each row represents one
+                         observation.
+                         
+     Y                   Class labels, specified as a logical or numeric
+                         vector, or cell array of character vectors.  Each
+                         value in Y is the observed class label for the
+                         corresponding row in X.
+                         
+     NumObservations     Number of observations used in training the
+                         ClassificationSVM model, specified as a positive
+                         integer scalar.  This number can be less than the
+                         number of rows in the training data because rows
+                         containing NaN values are not part of the fit.
+                         
+     RowsUsed            Rows of the original training data used in fitting
+                         the ClassificationSVM model, specified as a
+                         numerical vector.  If you want to use this vector
+                         for indexing the training data in X, you have to
+                         convert it to a logical vector, i.e X =
+                         obj.X(logical (obj.RowsUsed), :);
+                         
+     Standardize         A boolean flag indicating whether the data in X have
+                         been standardized prior to training.
+                         
+     Sigma               Predictor standard deviations, specified as a
+                         numeric vector of the same length as the columns in
+                         X.  If the predictor variables have not been
+                         standardized, then "obj.Sigma" is empty.
+                         
+     Mu                  Predictor means, specified as a numeric vector of
+                         the same length as the columns in X.  If the
+                         predictor variables have not been standardized, then
+                         "obj.Mu" is empty.
+                         
+     NumPredictors       The number of predictors (variables) in X.
+                         
+     PredictorNames      Predictor variable names, specified as a cell array
+                         of character vectors.  The variable names are in the
+                         same order in which they appear in the training data
+                         X.
+                         
+     ResponseName        Response variable name, specified as a character
+                         vector.
+                         
+     ClassNames          Names of the classes in the class labels, Y, used
+                         for fitting the SVM model.  ClassNames are of the
+                         same type as the class labels in Y.
+                         
+     Prior               Prior probabilities for each class, specified as a
+                         numeric vector.  The order of the elements in Prior
+                         corresponds to the order of the classes in
+                         ClassNames.
+                         
+     Cost                Cost of the misclassification of a point, specified
+                         as a square matrix.  Cost(i,j) is the cost of
+                         classifying a point into class j if its true class
+                         is i (that is, the rows correspond to the true class
+                         and the columns correspond to the predicted class).
+                         The order of the rows and columns in Cost
+                         corresponds to the order of the classes in
+                         ClassNames.  The number of rows and columns in Cost
+                         is the number of unique classes in the response.  By
+                         default, Cost(i,j) = 1 if i != j, and Cost(i,j) = 0
+                         if i = j.  In other words, the cost is 0 for correct
+                         classification and 1 for incorrect classification.
+                         
+     ScoreTransform      A function_handle which is used for transforming the
+                         SVM prediction score into a posterior probability.
+                         By default, it is ’none’, in which case the
+                         ‘predict’ and ‘resubPredict’ methods return the
+                         prediction scores.  Use the ‘fitPosterior’ method to
+                         compute the appropriate ‘ScoreTransform’, in which
+                         case the ‘predict’ and ‘resubPredict’ methods return
+                         the posterior probabilities.
+                         
+     ModelParameters     A structure containing the parameters used to train
+                         the SVM model with the following fields: ‘SVMtype’,
+                         ‘BoxConstraint’, ‘CacheSize’, ‘KernelScale’,
+                         ‘KernelOffset’, ‘KernelFunction’, ‘PolynomialOrder’,
+                         ‘Nu’, ‘Tolerance’, and ‘Shrinking’.  Type ‘help
+                         fitcsvm’ for more info on their usage and default
+                         values.
+                         
+     Model               A structure containing the trained model in ’libsvm’
+                         format.
+                         
+     Alpha               The coefficients of the trained SVM classifier
+                         specified as an sx1 numeric vector, where s is the
+                         number of support vectors equal to sum
+                         (obj.IsSupportVector).  If the SVM classifier was
+                         trained with a ’linear’ kernel function, then
+                         obj.Alpha is left empty.
+                         
+     Beta                The linear predictor coefficients specified as an
+                         sx1 numeric vector, where s is the number of support
+                         vectors equal to sum (obj.IsSupportVector).  If the
+                         SVM classifier was trained with a kernel function
+                         other than ’linear’, then obj.Beta is left empty.
+                         
+     Bias                The bias term specified as a scalar.
+                         
+     IsSupportVector     Support vector indicator, specified as an Nx1
+                         logical vector that flags whether a corresponding
+                         observation in the predictor data matrix is a
+                         Support Vector.  N is the number of observations in
+                         the training data (see ‘NumObservations’).
+                         
+     SupportVectorLabels The support vector class labels specified as an sx1
+                         numeric vector, where s is the number of support
+                         vectors equal to sum (obj.IsSupportVector).  A value
+                         of +1 in ‘SupportVectorLabels’ indicates that the
+                         corresponding support vector belongs to the positive
+                         class (ClassNames{2}).  A value of -1 indicates that
+                         the corresponding support vector belongs to the
+                         negative class (ClassNames{1}).
+                         
+     SupportVectors      The support vectors of the trained SVM classifier
+                         specified an sxp numeric matrix, where s is the
+                         number of support vectors equal to sum
+                         (obj.IsSupportVector), and p is the number of
+                         predictor variables in the predictor data.
+                         
+
+     See also: fitcsvm, svmtrain, svmpredict.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+Create a ClassificationSVM class object containing a Support Vector
+Machine c...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 33
+CompactClassificationDiscriminant
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 787
+ -- statistics: CompactClassificationDiscriminant
+
+     A CompactClassificationDiscriminant object is a compact version of
+     a discriminant analysis model, ClassificationDiscriminant.
+
+     The CompactClassificationDiscriminant does not include the training
+     data resulting to a smaller classifier size, which can be used for
+     making predictions from new data, but not for tasks such as cross
+     validation.  It can only be created from a
+     ClassificationDiscriminant model by using the ‘compact’ object
+     method.
+
+     The available methods for a CompactClassificationDiscriminant
+     object are:
+        • ‘predict’
+        • ‘loss’
+        • ‘margin’
+        • ‘savemodel’
+
+     See also: fitcdiscr, compact, ClassificationDiscriminant.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+A CompactClassificationDiscriminant object is a compact version of a
+discrimi...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 24
+CompactClassificationGAM
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 686
+ -- statistics: CompactClassificationGAM
+
+     A CompactClassificationGAM object is a compact version of a
+     Generalized Additive Model, ClassificationGAM.
+
+     The CompactClassificationDiscriminant does not include the training
+     data resulting to a smaller classifier size, which can be used for
+     making predictions from new data, but not for tasks such as cross
+     validation.  It can only be created from a
+     ClassificationDiscriminant model by using the ‘compact’ object
+     method.
+
+     The available methods for a CompactClassificationGAM object are:
+        • ‘predict’
+        • ‘savemodel’
+
+     See also: fitcgam, compact, ClassificationGAM.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+A CompactClassificationGAM object is a compact version of a Generalized
+Addit...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 34
+CompactClassificationNeuralNetwork
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 742
+ -- statistics: CompactClassificationNeuralNetwork
+
+     A CompactClassificationNeuralNetwork object is a compact version of
+     a discriminant analysis model, CompactClassificationNeuralNetwork.
+
+     The CompactClassificationDiscriminant does not include the training
+     data resulting to a smaller classifier size, which can be used for
+     making predictions from new data, but not for tasks such as cross
+     validation.  It can only be created from a
+     ClassificationNeuralNetwork model by using the ‘compact’ object
+     method.
+
+     The available methods for a CompactClassificationNeuralNetwork
+     object are:
+        • ‘predict’
+        • ‘savemodel’
+
+     See also: fitcdiscr, ClassificationDiscriminant.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+A CompactClassificationNeuralNetwork object is a compact version of a
+discrim...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 24
+CompactClassificationSVM
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 712
+ -- statistics: CompactClassificationSVM
+
+     A CompactClassificationSVM object is a compact version of a support
+     vectors machine model, CompactClassificationSVM.
+
+     The CompactClassificationSVM does not include the training data
+     resulting to a smaller classifier size, which can be used for
+     making predictions from new data, but not for tasks such as cross
+     validation.  It can only be created from a ClassificationSVM model
+     by using the ‘compact’ object method.
+
+     The available methods for a CompactClassificationSVM object are:
+        • ‘predict’
+        • ‘loss’
+        • ‘margin’
+        • ‘savemodel’
+
+     See also: fitcsvm, ClassificationSVM.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+A CompactClassificationSVM object is a compact version of a support
+vectors m...
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 20
+ConfusionMatrixChart
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 938
+ -- statistics: CMC = ConfusionMatrixChart ()
+     Create object CMC, a Confusion Matrix Chart object.
+
+     "DiagonalColor"
+          The color of the patches on the diagonal, default is [0.0,
+          0.4471, 0.7412].
+
+     "OffDiagonalColor"
+          The color of the patches off the diagonal, default is [0.851,
+          0.3255, 0.098].
+
+     "GridVisible"
+          Available values: on (default), off.
+
+     "Normalization"
+          Available values: absolute (default), column-normalized,
+          row-normalized, total-normalized.
+
+     "ColumnSummary"
+          Available values: off (default), absolute,
+          column-normalized,total-normalized.
+
+     "RowSummary"
+          Available values: off (default), absolute, row-normalized,
+          total-normalized.
+
+     MATLAB compatibility – the not implemented properties are:
+     FontColor, PositionConstraint, InnerPosition, Layout.
+
+     See also: confusionchart.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 51
+Create object CMC, a Confusion Matrix Chart object.
+
+
+
+
+

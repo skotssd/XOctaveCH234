@@ -1,0 +1,18 @@
+## DO NOT EDIT!
+## Generated automatically from libsvmwrite.cc
+## by configure_make.m during package installation.
+
+%!shared L, D
+%! [L, D] = libsvmread (file_in_loadpath ("heart_scale.dat"));
+%!error <libsvmwrite: error opening file for write.> libsvmwrite ("", L, D);
+%!error <libsvmwrite: length of label vector does not match instances.> ...
+%! libsvmwrite (tempname (), [L;L], D);
+%!error <libsvmwrite: wrong number of output arguments.> ...
+%! OUT = libsvmwrite (tempname (), L, D);
+%!error <libsvmwrite: label vector and instance matrix must be double.> ...
+%! libsvmwrite (tempname (), single (L), D);
+%!error <libsvmwrite: filename must be a string.> libsvmwrite (13412, L, D);
+%!error <libsvmwrite: instance_matrix must be sparse.> ...
+%! libsvmwrite (tempname (), L, full (D));
+%!error <libsvmwrite: wrong number of input arguments.> ...
+%! libsvmwrite (tempname (), L, D, D);

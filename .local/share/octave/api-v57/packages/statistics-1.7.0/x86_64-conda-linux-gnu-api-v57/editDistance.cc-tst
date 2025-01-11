@@ -1,0 +1,96 @@
+## DO NOT EDIT!
+## Generated automatically from editDistance.cc
+## by configure_make.m during package installation.
+
+%!error <editDistance: too many input arguments.> d = editDistance (1, 2, 3, 4);
+%!error <editDistance: too many output arguments.> ...
+%! [C, IA, IC, I] = editDistance ({"AS","SD","AD"}, 1);
+%!error <editDistance: too many output arguments.> ...
+%! [C, IA] = editDistance ({"AS","SD","AD"});
+%!error <editDistance: minDist must be a scalar value.> ...
+%! d = editDistance ({"AS","SD","AD"}, [1, 2]);
+%!error <editDistance: minDist must be a nonnegative integer.> ...
+%! d = editDistance ({"AS","SD","AD"}, -2);
+%!error <editDistance: minDist must be a nonnegative integer.> ...
+%! d = editDistance ({"AS","SD","AD"}, 1.25);
+%!error <editDistance: minDist must be a scalar value.> ...
+%! d = editDistance ({"AS","SD","AD"}, {"AS","SD","AD"}, [1, 2]);
+%!error <editDistance: minDist must be a nonnegative integer.> ...
+%! d = editDistance ({"AS","SD","AD"}, {"AS","SD","AD"}, -2);
+%!error <editDistance: minDist must be a nonnegative integer.> ...
+%! d = editDistance ({"AS","SD","AD"}, {"AS","SD","AD"}, 1.25);
+%!error <editDistance: minDist must be a scalar value.> ...
+%! d = editDistance ("string1", "string2", [1, 2]);
+%!error <editDistance: minDist must be a nonnegative integer.> ...
+%! d = editDistance ("string1", "string2", -2);
+%!error <editDistance: minDist must be a nonnegative integer.> ...
+%! d = editDistance ("string1", "string2", 1.25);
+%!error <editDistance: tokenizedDocument must contain cellstr arrays.> ...
+%! d = editDistance ({{"string1", "string2"}, 2});
+%!error <editDistance: tokenizedDocument must contain cellstr arrays.> ...
+%! d = editDistance ({{"string1", "string2"}, 2}, 2);
+%!error <editDistance: STR1 must be a cellstr.> ...
+%! d = editDistance ([1, 2, 3]);
+%!error <editDistance: STR1 must be a cellstr.> ...
+%! d = editDistance (["AS","SD","AD","AS"]);
+%!error <editDistance: STR1 must be a cellstr.> ...
+%! d = editDistance (["AS","SD","AD"], 2);
+%!error <editDistance: STR1 and STR2 must be either strings or cellstr.> ...
+%! d = editDistance (logical ([1,2,3]), {"AS","AS","AD"});
+%!error <editDistance: STR1 and STR2 must be either strings or cellstr.> ...
+%! d = editDistance ({"AS","SD","AD"}, logical ([1,2,3]));
+%!error <editDistance: STR1 and STR2 must be either strings or cellstr.> ...
+%! d = editDistance ([1,2,3], {"AS","AS","AD"});
+%!error <editDistance: first tokenizedDocument does not contain cellstr arrays.> ...
+%! d = editDistance ({1,2,3}, {"AS","SD","AD"});
+%!error <editDistance: second tokenizedDocument does not contain cellstr arrays.> ...
+%! d = editDistance ({"AS","SD","AD"}, {1,2,3});
+%!error <editDistance: cellstr input arguments size mismatch.> ...
+%! d = editDistance ({"AS","SD","AD"}, {"AS", "AS"});
+%!test
+%! d = editDistance ({"AS","SD","AD"});
+%! assert (d, [2; 1; 1]);
+%! assert (class (d), "double");
+%!test
+%! C = editDistance ({"AS","SD","AD"}, 1);
+%! assert (iscellstr (C), true);
+%! assert (C, {"AS";"SD"});
+%!test
+%! [C, IA] = editDistance ({"AS","SD","AD"}, 1);
+%! assert (class (IA), "double");
+%! assert (IA, [1;2]);
+%!test
+%! A = {"ASS"; "SDS"; "FDE"; "EDS"; "OPA"};
+%! [C, IA] = editDistance (A, 2, "OutputAllIndices", false);
+%! assert (class (IA), "double");
+%! assert (A(IA), C);
+%!test
+%! A = {"ASS"; "SDS"; "FDE"; "EDS"; "OPA"};
+%! [C, IA] = editDistance (A, 2, "OutputAllIndices", true);
+%! assert (class (IA), "cell");
+%! assert (C, {"ASS"; "FDE"; "OPA"});
+%! assert (A(IA{1}), {"ASS"; "SDS"; "EDS"});
+%! assert (A(IA{2}), {"FDE"; "EDS"});
+%! assert (A(IA{3}), {"OPA"});
+%!test
+%! A = {"ASS"; "SDS"; "FDE"; "EDS"; "OPA"};
+%! [C, IA, IC] = editDistance (A, 2);
+%! assert (class (IA), "double");
+%! assert (A(IA), C);
+%! assert (IC, [1; 1; 3; 1; 5]);
+%!test
+%! d = editDistance ({"AS","SD","AD"}, {"AS", "AD", "SE"});
+%! assert (d, [0; 1; 2]);
+%! assert (class (d), "double");
+%!test
+%! d = editDistance ({"AS","SD","AD"}, {"AS"});
+%! assert (d, [0; 2; 1]);
+%! assert (class (d), "double");
+%!test
+%! d = editDistance ({"AS"}, {"AS","SD","AD"});
+%! assert (d, [0; 2; 1]);
+%! assert (class (d), "double");
+%!test
+%! b = editDistance ("Octave", "octave");
+%! assert (b, 1);
+%! assert (class (b), "double");

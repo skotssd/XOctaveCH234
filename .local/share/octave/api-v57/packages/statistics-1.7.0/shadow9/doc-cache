@@ -1,0 +1,398 @@
+# doc-cache created by Octave 7.3.0
+# name: cache
+# type: cell
+# rows: 3
+# columns: 5
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+mad
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1904
+ -- statistics: M = mad (X)
+ -- statistics: M = mad (X, FLAG)
+ -- statistics: M = mad (X, FLAG, "all")
+ -- statistics: M = mad (X, FLAG, DIM)
+ -- statistics: M = mad (X, FLAG, VECDIM)
+
+     Compute the mean or median absolute deviation (MAD).
+
+     ‘mad (X)’ returns the mean absolute deviation of the values in X.
+     ‘mad’ treats NaNs as missing values and removes them.
+
+        • If X is a vector, then ‘mad’ returns the mean or median
+          absolute deviation of the values in X.
+        • If X is a matrix, then ‘mad’ returns the mean or median
+          absolute deviation of each column of X.
+        • If X is an multidimensional array, then ‘mad (X)’ operates
+          along the first non-singleton dimension of X.
+
+     ‘mad (X, FLAG)’ specifies whether to compute the mean absolute
+     deviation (flag = 0, the default) or the median absolute deviation
+     (flag = 1).  Passing an empty variable, defaults to 0.
+
+     ‘mad (X, FLAG, "all")’ returns the MAD of all the elements in X.
+
+     The optional variable DIM forces ‘mad’ to operate over the
+     specified dimension, which must be a positive integer-valued
+     number.  Specifying any singleton dimension in X, including any
+     dimension exceeding ‘ndims (X)’, will result in a MAD equal to
+     ‘zeros (size (X))’, while non-finite elements are returned as NaNs.
+
+     ‘mad (X, FLAG, VECDIM)’ returns the MAD over the dimensions
+     specified in the vector VECDIM.  For example, if X is a 2-by-3-by-4
+     array, then ‘mad (X, [1 2])’ returns a 1-by-1-by-4 array.  Each
+     element of the output array is the median of the elements on the
+     corresponding page of X.  If VECDIM indexes all dimensions of X,
+     then it is equivalent to ‘mad (X, "all")’.  Any dimension in VECDIM
+     greater than ‘ndims (X)’ is ignored.
+
+     See also: median, mean, mode.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 52
+Compute the mean or median absolute deviation (MAD).
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+mean
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2475
+ -- statistics: M = mean (X)
+ -- statistics: M = mean (X, "all")
+ -- statistics: M = mean (X, DIM)
+ -- statistics: M = mean (X, VECDIM)
+ -- statistics: M = mean (..., OUTTYPE)
+ -- statistics: M = mean (..., NANFLAG)
+
+     Compute the mean of the elements of X.
+
+        • If X is a vector, then ‘mean(X)’ returns the mean of the
+          elements in X defined as
+
+               mean (X) = SUM_i X(i) / N
+
+          where N is the length of the X vector.
+
+        • If X is a matrix, then ‘mean(X)’ returns a row vector with the
+          mean of each columns in X.
+
+        • If X is a multidimensional array, then ‘mean(X)’ operates
+          along the first nonsingleton dimension of X.
+
+     ‘mean (X, DIM)’ returns the mean along the operating dimension DIM
+     of X.  For DIM greater than ‘ndims (X)’, then M = X.
+
+     ‘mean (X, VECDIM)’ returns the mean over the dimensions specified
+     in the vector VECDIM.  For example, if X is a 2-by-3-by-4 array,
+     then ‘mean (X, [1 2])’ returns a 1-by-1-by-4 array.  Each element
+     of the output array is the mean of the elements on the
+     corresponding page of X.  If VECDIM indexes all dimensions of X,
+     then it is equivalent to ‘mean (X, "all")’.  Any dimension in
+     VECDIM greater than ‘ndims (X)’ is ignored.
+
+     ‘mean (X, "all")’ returns the mean of all the elements in X.  The
+     optional flag "all" cannot be used together with DIM or VECDIM
+     input arguments.
+
+     ‘mean (..., OUTTYPE)’ returns the mean with a specified data type,
+     using any of the input arguments in the previous syntaxes.  OUTTYPE
+     can take the following values:
+        • "default" Output is of type double, unless the input is single
+          in which case the output is of type single.
+
+        • "double" Output is of type double.
+
+        • "native".  Output is of the same type as the input (‘class
+          (X)’), unless the input is logical in which case the output is
+          of type double or a character array in which case an error is
+          produced.
+
+     ‘mean (..., NANFLAG)’ specifies whether to exclude NaN values from
+     the calculation, using any of the input argument combinations in
+     previous syntaxes.  By default, NaN values are included in the
+     calculation (NANFLAG has the value "includenan").  To exclude NaN
+     values, set the value of NANFLAG to "omitnan".
+
+     See also: trimmean, median, mad, mode.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 38
+Compute the mean of the elements of X.
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 6
+median
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2638
+ -- statistics: M = median (X)
+ -- statistics: M = median (X, "all")
+ -- statistics: M = median (X, DIM)
+ -- statistics: M = median (X, VECDIM)
+ -- statistics: M = median (..., OUTTYPE)
+ -- statistics: M = median (..., NANFLAG)
+
+     Compute the median value of the elements of X.
+
+     When the elements of X are sorted, say ‘S = sort (X)’, the median
+     is defined as
+
+                       |  S(ceil (N/2))          N odd
+          median (X) = |
+                       | (S(N/2) + S(N/2+1))/2   N even
+
+     where N is the number of elements of X.
+
+     If X is an array, then ‘median (X)’ operates along the first
+     non-singleton dimension of X.
+
+     The optional variable DIM forces ‘median’ to operate over the
+     specified dimension, which must be a positive integer-valued
+     number.  Specifying any singleton dimension in X, including any
+     dimension exceeding ‘ndims (X)’, will result in a median equal to
+     X.
+
+     ‘median (X, VECDIM)’ returns the median over the dimensions
+     specified in the vector VECDIM.  For example, if X is a 2-by-3-by-4
+     array, then ‘median (X, [1 2])’ returns a 1-by-1-by-4 array.  Each
+     element of the output array is the median of the elements on the
+     corresponding page of X.  If VECDIM indexes all dimensions of X,
+     then it is equivalent to ‘median (X, "all")’.  Any dimension in
+     VECDIM greater than ‘ndims (X)’ is ignored.
+
+     ‘median (X, "all")’ returns the median of all the elements in X.
+     The optional flag "all" cannot be used together with DIM or VECDIM
+     input arguments.
+
+     ‘median (..., OUTTYPE)’ returns the median with a specified data
+     type, using any of the input arguments in the previous syntaxes.
+     OUTTYPE can take the following values:
+        • "default" Output is of type double, unless the input is single
+          in which case the output is of type single.
+
+        • "double" Output is of type double.
+
+        • "native" Output is of the same type as the input (‘class
+          (X)’), unless the input is logical in which case the output is
+          of type double.
+
+     The optional variable NANFLAG specifies whether to include or
+     exclude NaN values from the calculation using any of the previously
+     specified input argument combinations.  The default value for
+     NANFLAG is "includenan" which keeps NaN values in the calculation.
+     To exclude NaN values set the value of NANFLAG to "omitnan".  The
+     output will still contain NaN values if X consists of all NaN
+     values in the operating dimension.
+
+     See also: mean, mad, mode.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 46
+Compute the median value of the elements of X.
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+std
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3127
+ -- statistics: S = std (X)
+ -- statistics: S = std (X, W)
+ -- statistics: S = std (X, W, "all")
+ -- statistics: S = std (X, W, DIM)
+ -- statistics: S = std (X, W, VECDIM)
+ -- statistics: S = std (..., NANFLAG)
+ -- statistics: [S, M] = std (...)
+
+     Compute the standard deviation of the elements of X.
+
+        • If X is a vector, then ‘std (X)’ returns the standard
+          deviation of the elements in X defined as
+
+               std (X) = sqrt ((1 / (N-1)) * SUM_i (|X(i) - mean (X)|^2))
+
+          where N is the length of the X vector.
+
+        • If X is a matrix, then ‘std (X)’ returns a row vector with the
+          standard deviation of each column in X.
+
+        • If X is a multi-dimensional array, then ‘std (X)’ operates
+          along the first non-singleton dimension of X.
+
+     ‘std (X, W)’ specifies a weighting scheme.  When W = 0 (default),
+     the standard deviation is normalized by N-1 (population standard
+     deviation), where N is the number of observations.  When W = 1, the
+     standard deviation is normalized by the number of observations
+     (sample standard deviation).  To use the default value you may pass
+     an empty input argument [] before entering other options.
+
+     W can also be an array of non-negative numbers.  When W is a
+     vector, it must have the same length as the number of elements in
+     the operating dimension of X.  If W is a matrix or n-D array, or
+     the operating dimension is supplied as a VECDIM or "all", W must be
+     the same size as X.  NaN values are permitted in W, will be
+     multiplied with the associated values in X, and can be excluded by
+     the NANFLAG option.
+
+     ‘std (X, [], DIM)’ returns the standard deviation along the
+     operating dimension DIM of X.  For DIM greater than ‘ndims (X)’,
+     then S is returned as zeros of the same size as X and M = X.
+
+     ‘std (X, [], VECDIM)’ returns the standard deviation over the
+     dimensions specified in the vector VECDIM.  For example, if X is a
+     2-by-3-by-4 array, then ‘var (X, [1 2])’ returns a 1-by-1-by-4
+     array.  Each element of the output array is the standard deviation
+     of the elements on the corresponding page of X.  If VECDIM indexes
+     all dimensions of X, then it is equivalent to ‘std (X, "all")’.
+     Any dimension in VECDIM greater than ‘ndims (X)’ is ignored.
+
+     ‘std (X, "all")’ returns the standard deviation of all the elements
+     in X.  The optional flag "all" cannot be used together with DIM or
+     VECDIM input arguments.
+
+     ‘std (..., NANFLAG)’ specifies whether to exclude NaN values from
+     the calculation using any of the input argument combinations in
+     previous syntaxes.  The default value for NANFLAG is "includenan",
+     and keeps NaN values in the calculation.  To exclude NaN values,
+     set the value of NANFLAG to "omitnan".
+
+     ‘[S, M] = std (...)’ also returns the mean of the elements of X
+     used to calculate the standard deviation.  If S is the weighted
+     standard deviation, then M is the weighted mean.
+
+     See also: var, mean.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 52
+Compute the standard deviation of the elements of X.
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+var
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2982
+ -- statistics: V = var (X)
+ -- statistics: V = var (X, W)
+ -- statistics: V = var (X, W, "all")
+ -- statistics: V = var (X, W, DIM)
+ -- statistics: V = var (X, W, VECDIM)
+ -- statistics: V = var (..., NANFLAG)
+ -- statistics: [V, M] = var (...)
+
+     Compute the variance of the elements of X.
+
+        • If X is a vector, then ‘var(X)’ returns the variance of the
+          elements in X defined as
+
+               var (X) = (1 / (N-1)) * SUM_i (|X(i) - mean (X)|^2)
+
+          where N is the length of the X vector.
+
+        • If X is a matrix, then ‘var (X)’ returns a row vector with the
+          variance of each column in X.
+
+        • If X is a multi-dimensional array, then ‘var (X)’ operates
+          along the first non-singleton dimension of X.
+
+     ‘var (X, W)’ specifies a weighting scheme.  When W = 0 (default),
+     the variance is normalized by N-1 (population variance) where N is
+     the number of observations.  When W = 1, the variance is normalized
+     by the number of observations (sample variance).  To use the
+     default value you may pass an empty input argument [] before
+     entering other options.
+
+     W can also be an array of non-negative numbers.  When W is a
+     vector, it must have the same length as the number of elements in
+     the operating dimension of X.  If W is a matrix or n-D array, or
+     the operating dimension is supplied as a VECDIM or "all", W must be
+     the same size as X.  NaN values are permitted in W, will be
+     multiplied with the associated values in X, and can be excluded by
+     the NANFLAG option.
+
+     ‘var (X, [], DIM)’ returns the variance along the operating
+     dimension DIM of X.  For DIM greater than ‘ndims (X)’ V is returned
+     as zeros of the same size as X and M = X.
+
+     ‘var (X, [], VECDIM)’ returns the variance over the dimensions
+     specified in the vector VECDIM.  For example, if X is a 2-by-3-by-4
+     array, then ‘var (X, [1 2])’ returns a 1-by-1-by-4 array.  Each
+     element of the output array is the variance of the elements on the
+     corresponding page of X.  If VECDIM indexes all dimensions of X,
+     then it is equivalent to ‘var (X, "all")’.  Any dimension in VECDIM
+     greater than ‘ndims (X)’ is ignored.
+
+     ‘var (X, "all")’ returns the variance of all the elements in X.
+     The optional flag "all" cannot be used together with DIM or VECDIM
+     input arguments.
+
+     ‘var (..., NANFLAG)’ specifies whether to exclude NaN values from
+     the calculation using any of the input argument combinations in
+     previous syntaxes.  The default value for NANFLAG is "includenan",
+     and keeps NaN values in the calculation.  To exclude NaN values,
+     set the value of NANFLAG to "omitnan".
+
+     ‘[V, M] = var (...)’ also returns the mean of the elements of X
+     used to calculate the variance.  If V is the weighted variance,
+     then M is the weighted mean.
+
+     See also: std, mean.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 42
+Compute the variance of the elements of X.
+
+
+
+
+

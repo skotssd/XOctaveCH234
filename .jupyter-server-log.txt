@@ -5461,3 +5461,2275 @@ Draw time: 600505
 [W 20:55:14.177 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 15.430000ms referer=https://jupyter5.clearnasdss.synology.me/lab
 [W 20:55:14.188 NotebookApp] 404 GET /titrate.png (172.23.0.1) 20.530000ms referer=https://jupyter5.clearnasdss.synology.me/lab
 [I 20:55:25.585 NotebookApp] New terminal with automatic name: 3
+[I 20:56:18.871 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:c11a4056-f02e-4fcf-bb6f-49e4b6f71675
+[I 20:56:18.873 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:a09948bc-14e5-43f7-94e1-38e88987b1ed
+[I 20:56:18.874 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:d1fb5159-0e92-43a9-ba78-cd9b96e2df4d
+[I 20:56:18.874 NotebookApp] Starting buffering for a1fcfc61-2287-4edd-a4e6-cf52b2722c8b:8e976ad2-31b8-47cb-b312-ab01ad77287d
+[I 20:56:18.875 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:6e971908-831e-41e3-9229-38c85ba5c0d9
+[I 20:56:18.876 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:2737faa8-e838-4547-b892-3b33a94959e7
+[I 20:56:18.877 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:0631b1bc-b306-4fbb-a257-b05b1bff21d7
+[I 20:56:18.878 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:4c08b475-5dea-4655-8c6f-7495f92b20bc
+[I 20:56:18.882 NotebookApp] Starting buffering for 4c116094-5d67-4627-8b41-dc8bfedaf9d8:b874d2db-cae6-4281-85ff-7b9a468839f3
+[I 20:56:18.883 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:aaa7a3a9-db49-4233-8c0e-3e81d9c61ba8
+[I 20:56:18.884 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:216b06cf-0c3a-4923-ac9f-b55665b7b5a2
+[I 20:56:18.885 NotebookApp] Starting buffering for be4ee3cd-31f5-4b9d-b226-fdfab6de8b20:3dc028b3-321d-49da-bc5e-b41e0fa8e24a
+[I 02:30:25.905 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 16.190000ms
+[I 2023-09-16 02:30:29.710 LabApp] Build is up to date
+[W 02:30:30.360 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 02:30:30.372 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 02:30:30.402 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 02:30:31.807 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 2.210000ms
+[I 02:30:42.437 NotebookApp] Starting buffering for a1fcfc61-2287-4edd-a4e6-cf52b2722c8b:a22bb0cb-dcd7-498e-8b86-b0e3145c7046
+[I 02:30:42.439 NotebookApp] Starting buffering for 3eabce56-61e9-4342-9607-7b0509069db1:950a37e0-42e6-4b22-9f02-9f0f56e14890
+[I 02:30:42.440 NotebookApp] Starting buffering for 591e6a6a-8c12-4d40-bd7a-156719607f07:e5b040f6-130e-4845-b06f-0fc9891834a0
+[I 02:30:42.442 NotebookApp] Starting buffering for 7331a2b5-e591-4054-bc96-23cf2c6ce410:eebcfa37-4b4d-4207-abf1-895865e5495c
+[I 02:30:42.442 NotebookApp] Starting buffering for 7fbd023a-fd95-4f2a-bb9a-62cdce4f2022:ca33a3d0-0b01-404d-b6f9-f3bf0287ad15
+[I 02:30:42.445 NotebookApp] Starting buffering for be4ee3cd-31f5-4b9d-b226-fdfab6de8b20:c8a3bdf3-f454-4eeb-ad56-92735b629627
+[I 02:30:42.447 NotebookApp] Starting buffering for 4c116094-5d67-4627-8b41-dc8bfedaf9d8:0fceb089-8be7-4782-ad9e-914e078cdc5c
+[I 02:30:42.448 NotebookApp] Starting buffering for 7ec3affd-3299-41fd-aeaa-7a8e5cd57123:98b20544-ae10-4e82-a181-a83f96d20d5e
+[I 02:30:42.449 NotebookApp] Starting buffering for 60e2ade2-2134-4a79-a00e-0bdbb82e349d:de874630-7d49-4a06-aa9b-696ec6fe7e06
+[I 02:30:42.452 NotebookApp] Starting buffering for 460ecfe7-06b7-490e-88aa-3b690f8bbb57:61698364-27b1-4c9f-8dc1-5c2e0d2a0cdd
+[I 02:30:42.453 NotebookApp] Starting buffering for 6713b7c3-cf36-41bd-b22c-b4bd5d717368:f4e4e274-6ee7-4ab5-b59a-27ecfc085a4a
+[I 02:30:42.453 NotebookApp] Starting buffering for f0721de4-987f-4bc9-abb0-2bfd14cfe5e7:fd4cc18e-91ae-4779-a1a2-852650634ad6
+[W 16:07:57.691 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-09-24 16:08:13.326 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-24 16:08:13.342 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-24 16:08:13.347 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-24 16:08:13.348 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-09-24 16:08:13.499 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-09-24 16:08:13.500 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:08:13.540 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 16:08:13.620 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:08:13.620 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 16:08:13.620 NotebookApp] http://653495fa3991:8888/
+[I 16:08:13.620 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:08:13.796 NotebookApp] No web browser found: could not locate runnable browser.
+[I 2023-09-25 13:00:47.544 LabApp] Build is up to date
+[I 13:00:47.893 NotebookApp] New terminal with automatic name: 1
+[W 13:00:48.324 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 13:00:48.373 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 13:00:48.400 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 13:00:48.608 NotebookApp] 404 GET /titrate.png (172.23.0.1) 86.190000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 13:00:48.620 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 88.820000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 13:00:49.268 NotebookApp] Kernel started: 61dbeeff-4650-40f3-ae8d-fcd31093bb8b, name: xoctave
+[I 13:00:49.302 NotebookApp] Kernel started: ce03ed3f-81ca-4ae4-9b3e-b81a7d6ac946, name: xoctave
+[I 13:00:49.319 NotebookApp] Kernel started: 13730e04-75a4-4177-b772-78143bbdd65f, name: xoctave
+[I 13:00:49.350 NotebookApp] Kernel started: cf41201c-6f6a-4743-945f-53e013d2e912, name: xoctave
+[I 13:00:49.387 NotebookApp] Kernel started: 6fb32dfe-cced-4f70-9945-1ef85c1f72d6, name: xoctave
+[I 13:00:49.398 NotebookApp] Kernel started: 1b4eab1f-14f4-4b1b-9032-e266bf8d87e1, name: xoctave
+[I 13:00:49.433 NotebookApp] Kernel started: bdade353-9586-4068-9d45-0d2bdda9221f, name: xoctave
+[I 13:00:49.480 NotebookApp] Kernel started: 3243af2f-d614-4573-9af3-32c39ad8f006, name: xoctave
+[I 13:00:49.506 NotebookApp] Kernel started: f1e18f2a-f55a-4c80-a5bc-7c20d8518150, name: xoctave
+[I 13:00:49.546 NotebookApp] Kernel started: daeaf33a-f675-40dd-a348-a3e731ed34b1, name: xoctave
+[I 13:00:49.617 NotebookApp] Kernel started: 5eaa571d-319b-4a73-ae2f-0a208e41dd43, name: xoctave
+[I 13:00:49.680 NotebookApp] Kernel started: b07e5ce1-6b04-44f5-a3fa-1a46ec9ddd52, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Address already in use
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.Run with XEUS 3.0.5
+5
+Run with XEUS Run with XEUS 3.0.5
+3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+[I 13:00:51.968 NotebookApp] KernelRestarter: restarting kernel (1/5), new random ports
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+[I 13:00:52.076 NotebookApp] Starting buffering for b07e5ce1-6b04-44f5-a3fa-1a46ec9ddd52:45a8b273-e886-48e0-9542-eb6f735d80fc
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Address already in use
+[I 13:00:55.003 NotebookApp] KernelRestarter: restarting kernel (2/5), new random ports
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Address already in use
+[I 13:00:56.453 NotebookApp] Starting buffering for ce03ed3f-81ca-4ae4-9b3e-b81a7d6ac946:44ca4e7f-dde8-4eb7-ab29-2b8d9f9a8a23
+[I 13:00:56.455 NotebookApp] Starting buffering for 3243af2f-d614-4573-9af3-32c39ad8f006:ffd41e86-1cef-4a63-96a4-bf9645c8c6ee
+[I 13:00:56.456 NotebookApp] Starting buffering for daeaf33a-f675-40dd-a348-a3e731ed34b1:85b2bce5-a991-4d18-a50c-96317f44755c
+[I 13:00:56.456 NotebookApp] Starting buffering for f1e18f2a-f55a-4c80-a5bc-7c20d8518150:bd9ee9d7-c06f-417e-8922-212f7260693f
+[I 13:00:56.457 NotebookApp] Starting buffering for 1b4eab1f-14f4-4b1b-9032-e266bf8d87e1:0c4a0f3c-4f8e-4688-9bce-ba70a5860c80
+[I 13:00:56.458 NotebookApp] Starting buffering for 13730e04-75a4-4177-b772-78143bbdd65f:4e6cc4c0-fc3d-4be5-9d49-a46521536b70
+[I 13:00:56.458 NotebookApp] Starting buffering for 6fb32dfe-cced-4f70-9945-1ef85c1f72d6:73717c44-106c-485b-8c78-e5e94865fdd7
+[I 13:00:56.459 NotebookApp] Starting buffering for 5eaa571d-319b-4a73-ae2f-0a208e41dd43:6f7ae565-417d-4396-a86f-083077f5a3bd
+[I 13:00:56.461 NotebookApp] Starting buffering for bdade353-9586-4068-9d45-0d2bdda9221f:9bb69259-91b8-48ad-90a9-400cfb409a30
+[I 13:00:56.462 NotebookApp] Starting buffering for b07e5ce1-6b04-44f5-a3fa-1a46ec9ddd52:d6be5025-043c-46f6-92d3-786de0eb3c1f
+[I 13:00:56.462 NotebookApp] Starting buffering for cf41201c-6f6a-4743-945f-53e013d2e912:7c226741-59a1-4b4a-be23-92398f30b48e
+[I 13:00:58.027 NotebookApp] KernelRestarter: restarting kernel (3/5), new random ports
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Address already in use
+[I 13:01:01.055 NotebookApp] KernelRestarter: restarting kernel (4/5), new random ports
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Address already in use
+[I 13:01:04.080 NotebookApp] KernelRestarter: restarting kernel (5/5), new random ports
+terminate called after throwing an instance of 'zmq::error_t'
+  what():  Address already in use
+[W 13:01:07.103 NotebookApp] KernelRestarter: restart failed
+[W 13:01:07.104 NotebookApp] Kernel 61dbeeff-4650-40f3-ae8d-fcd31093bb8b died, removing from map.
+[W 13:01:50.562 NotebookApp] Timeout waiting for kernel_info reply from 61dbeeff-4650-40f3-ae8d-fcd31093bb8b
+[E 13:01:50.563 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: 61dbeeff-4650-40f3-ae8d-fcd31093bb8b)
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+[W 06:02:39.797 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-09-26 06:02:41.241 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-26 06:02:41.242 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-26 06:02:41.242 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-26 06:02:41.242 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-09-26 06:02:41.255 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-09-26 06:02:41.255 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 06:02:41.267 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 06:02:41.270 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 06:02:41.270 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 06:02:41.270 NotebookApp] http://653495fa3991:8888/
+[I 06:02:41.270 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 06:02:41.288 NotebookApp] No web browser found: could not locate runnable browser.
+[I 2023-09-26 06:03:06.883 LabApp] Build is up to date
+[I 06:03:07.238 NotebookApp] New terminal with automatic name: 1
+[I 06:03:07.381 NotebookApp] New terminal with automatic name: 2
+[W 06:03:07.671 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 06:03:07.952 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 06:03:08.030 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 06:03:08.240 NotebookApp] 404 GET /titrate.png (172.23.0.1) 96.490000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 06:03:08.251 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 98.720000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 06:03:09.381 NotebookApp] Kernel started: 3e08621d-469e-4251-874b-c61f217e00f2, name: xoctave
+[I 06:03:09.444 NotebookApp] Kernel started: 3d8c6068-c7ec-4bba-aaed-c84ac2060957, name: xoctave
+[I 06:03:09.476 NotebookApp] Kernel started: b0590d10-69af-4bca-94e6-f268f09fe571, name: xoctave
+[I 06:03:09.504 NotebookApp] Kernel started: ba52f579-09d1-4f2e-9671-3d37f8ec414b, name: xoctave
+[I 06:03:09.537 NotebookApp] Kernel started: 03475d28-cd86-4339-9ebe-68988298aa8a, name: xoctave
+[I 06:03:09.599 NotebookApp] Kernel started: 368f8127-5f7b-4896-b0db-4900fe5d3602, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+[I 06:03:09.641 NotebookApp] Kernel started: 5ab7c7c4-65ee-4a35-942c-71a99a4f35ba, name: xoctave
+[I 06:03:09.711 NotebookApp] Kernel started: 4eb70bde-276b-44d5-8e4b-8cd527ddc201, name: xoctave
+[I 06:03:09.774 NotebookApp] Kernel started: 93dbcbae-8f48-4a2a-a90c-14520e138257, name: xoctave
+[I 06:03:09.816 NotebookApp] Kernel started: e3e78582-fa94-4c87-b14d-0b5a4407853f, name: xoctave
+[I 06:03:09.859 NotebookApp] Kernel started: 26fa412c-6b43-43d1-91a9-10c11ceac062, name: xoctave
+[I 06:03:09.908 NotebookApp] Kernel started: 80e8215c-3ed9-4a58-b282-1cc5ab018998, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+[I 06:03:12.590 NotebookApp] Starting buffering for 80e8215c-3ed9-4a58-b282-1cc5ab018998:8a4179ff-eb6b-4aa3-bc1a-f669116ed660
+[I 06:03:17.522 NotebookApp] Starting buffering for 5ab7c7c4-65ee-4a35-942c-71a99a4f35ba:11a914f8-18d8-41d1-858f-8f1f80f9fca6
+[I 06:03:17.523 NotebookApp] Starting buffering for 3e08621d-469e-4251-874b-c61f217e00f2:33d106e8-48c9-46d5-87f7-1dba4cdd6484
+[I 06:03:17.524 NotebookApp] Starting buffering for 3d8c6068-c7ec-4bba-aaed-c84ac2060957:a3e02abf-f613-46c7-9169-9c63a98e573d
+[I 06:03:17.526 NotebookApp] Starting buffering for ba52f579-09d1-4f2e-9671-3d37f8ec414b:a3bc377e-5725-488e-bf9c-a03d33e85d0f
+[I 06:03:17.527 NotebookApp] Starting buffering for 03475d28-cd86-4339-9ebe-68988298aa8a:88d63cca-00e4-445a-b9f7-f1ea9425e68c
+[I 06:03:17.527 NotebookApp] Starting buffering for 93dbcbae-8f48-4a2a-a90c-14520e138257:3c7285dc-943b-4b52-82b6-5633decb924e
+[I 06:03:17.528 NotebookApp] Starting buffering for e3e78582-fa94-4c87-b14d-0b5a4407853f:a03f9561-55ed-40ea-99a7-f89b4d2558d0
+[I 06:03:17.528 NotebookApp] Starting buffering for 80e8215c-3ed9-4a58-b282-1cc5ab018998:70f9b2b5-2401-411d-a5d2-ada1a75757e7
+[I 06:03:17.529 NotebookApp] Starting buffering for 368f8127-5f7b-4896-b0db-4900fe5d3602:19874a49-d1c9-420d-ada4-18a073b6eb8c
+[I 06:03:17.534 NotebookApp] Starting buffering for 26fa412c-6b43-43d1-91a9-10c11ceac062:51ec8fcd-d398-42ec-9409-a095b2d5f27f
+[I 06:03:17.535 NotebookApp] Starting buffering for 4eb70bde-276b-44d5-8e4b-8cd527ddc201:e80df24d-b47e-4705-b9de-bfd01de47972
+[I 06:03:17.536 NotebookApp] Starting buffering for b0590d10-69af-4bca-94e6-f268f09fe571:ca18ff0c-c355-46da-b08e-2c20c4e6a356
+[I 2023-09-26 19:59:12.875 LabApp] Build is up to date
+[I 19:59:13.322 NotebookApp] New terminal with automatic name: 3
+[W 19:59:14.071 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 19:59:14.091 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 19:59:14.132 NotebookApp] Notebook BLM.ipynb is not trusted
+[I 19:59:21.962 NotebookApp] Starting buffering for 4eb70bde-276b-44d5-8e4b-8cd527ddc201:b926f3b1-1fde-4680-bd77-485becee05d7
+[I 19:59:21.963 NotebookApp] Starting buffering for e3e78582-fa94-4c87-b14d-0b5a4407853f:f6bce26c-3e04-41bc-9415-41e799cb3893
+[I 19:59:21.964 NotebookApp] Starting buffering for 3e08621d-469e-4251-874b-c61f217e00f2:c8195a64-a14d-4b91-9616-1f6b3511766a
+[I 19:59:21.964 NotebookApp] Starting buffering for 3d8c6068-c7ec-4bba-aaed-c84ac2060957:a7eca67c-c7ad-4ca9-85f3-e2d6bf2aea31
+[I 19:59:21.965 NotebookApp] Starting buffering for 26fa412c-6b43-43d1-91a9-10c11ceac062:5cce8711-c397-4fa0-a014-da5ce06be75a
+[I 19:59:21.965 NotebookApp] Starting buffering for b0590d10-69af-4bca-94e6-f268f09fe571:d6698920-b6df-420d-9efa-260543739405
+[I 19:59:21.966 NotebookApp] Starting buffering for 5ab7c7c4-65ee-4a35-942c-71a99a4f35ba:e34c78c1-7dea-4c8c-9a18-44054e16cab5
+[I 19:59:21.967 NotebookApp] Starting buffering for 80e8215c-3ed9-4a58-b282-1cc5ab018998:f2f8d8d2-26f3-4af8-84f8-2fb1274678bc
+[I 19:59:21.967 NotebookApp] Starting buffering for 93dbcbae-8f48-4a2a-a90c-14520e138257:b8477f7a-fa9f-485f-8450-f399e3c37ef9
+[I 19:59:21.968 NotebookApp] Starting buffering for 368f8127-5f7b-4896-b0db-4900fe5d3602:7ccdff9f-e92c-483c-a1ac-04b576ed4b8a
+[I 19:59:21.969 NotebookApp] Starting buffering for ba52f579-09d1-4f2e-9671-3d37f8ec414b:216a17e6-dd89-4e44-ae4f-67e92661e1bf
+[I 19:59:21.970 NotebookApp] Starting buffering for 03475d28-cd86-4339-9ebe-68988298aa8a:45c5198d-db8b-487c-8a0a-0d9914b05b32
+[W 23:59:35.407 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-09-27 23:59:50.051 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-27 23:59:50.051 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-27 23:59:50.051 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-27 23:59:50.051 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-09-27 23:59:50.251 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-09-27 23:59:50.251 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 23:59:50.470 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 23:59:50.522 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 23:59:50.522 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 23:59:50.530 NotebookApp] http://653495fa3991:8888/
+[I 23:59:50.530 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 23:59:50.764 NotebookApp] No web browser found: could not locate runnable browser.
+[I 2023-09-29 16:57:01.907 LabApp] Build is up to date
+[I 2023-09-29 17:58:38.825 LabApp] Build is up to date
+[I 18:37:59.433 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 0.620000ms
+[I 2023-09-29 18:38:02.743 LabApp] Build is up to date
+[I 18:38:03.080 NotebookApp] New terminal with automatic name: 1
+[I 18:38:03.210 NotebookApp] New terminal with automatic name: 2
+[I 18:38:03.377 NotebookApp] New terminal with automatic name: 3
+[W 18:38:04.068 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 18:38:04.168 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 18:38:04.219 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 18:38:04.453 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 104.810000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 18:38:04.463 NotebookApp] 404 GET /titrate.png (172.23.0.1) 108.550000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 18:38:05.511 NotebookApp] Kernel started: 72459d60-24a0-49b7-8907-526360a09ffa, name: xoctave
+[I 18:38:05.553 NotebookApp] Kernel started: 12476605-b9ad-4770-8dae-eefe505d287e, name: xoctave
+[I 18:38:05.574 NotebookApp] Kernel started: af27cb8a-1c58-48c1-96a2-3a55b38c57ac, name: xoctave
+[I 18:38:05.592 NotebookApp] Kernel started: 8f3529ef-9c2b-4df0-9a92-bebc3cf3226a, name: xoctave
+[I 18:38:05.619 NotebookApp] Kernel started: 08c1fd8d-372a-479a-8381-ccfd2dfc2c48, name: xoctave
+[I 18:38:05.646 NotebookApp] Kernel started: cb64b193-fc49-4e28-8ce6-eb306f1c9417, name: xoctave
+[I 18:38:05.673 NotebookApp] Kernel started: b654c86b-3156-4fa4-ac43-93e74075eee9, name: xoctave
+[I 18:38:05.695 NotebookApp] Kernel started: 758b9ea8-649e-44c3-86bc-034e934f8acd, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+[I 18:38:05.791 NotebookApp] Kernel started: 522b06c2-2f60-46f9-b7bb-9a2a2f869c95, name: xoctave
+[I 18:38:05.904 NotebookApp] Kernel started: 523067ea-05e6-4f1f-814c-1f731d4d6175, name: xoctave
+[I 18:38:05.956 NotebookApp] Kernel started: 9fd862e1-e075-48a1-96e3-9a65ca49967d, name: xoctave
+[I 18:38:06.010 NotebookApp] Kernel started: d88f1eb7-f995-47ef-a403-6aacd032170e, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+[I 18:38:08.749 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 8.600000ms
+[I 18:38:08.831 NotebookApp] Starting buffering for d88f1eb7-f995-47ef-a403-6aacd032170e:a4d8d33a-6c19-4f46-a8b4-b6b6f38ca33e
+[I 18:38:10.068 NotebookApp] Starting buffering for d88f1eb7-f995-47ef-a403-6aacd032170e:bdeb08d7-6d4a-4d50-8dc6-06297856fbec
+[I 18:38:10.069 NotebookApp] Starting buffering for 8f3529ef-9c2b-4df0-9a92-bebc3cf3226a:be79073f-f9a3-4297-aa84-97dd3183bc4c
+[I 18:38:10.070 NotebookApp] Starting buffering for 522b06c2-2f60-46f9-b7bb-9a2a2f869c95:4b3ca54f-e2e6-4e34-90d3-0233e6f32989
+[I 18:38:10.071 NotebookApp] Starting buffering for cb64b193-fc49-4e28-8ce6-eb306f1c9417:e03273d6-7699-4d81-b9ca-a8504202728e
+[I 18:38:10.072 NotebookApp] Starting buffering for 758b9ea8-649e-44c3-86bc-034e934f8acd:350a0f72-a2fc-459f-9f7e-33201e5675c7
+[I 18:38:10.073 NotebookApp] Starting buffering for 12476605-b9ad-4770-8dae-eefe505d287e:b88b5141-75a3-4fe4-9549-bd0bede7b11b
+[I 18:38:10.073 NotebookApp] Starting buffering for 08c1fd8d-372a-479a-8381-ccfd2dfc2c48:5197a27f-45fa-4cf2-bfb5-d5fdbd5394c0
+[I 18:38:10.075 NotebookApp] Starting buffering for 72459d60-24a0-49b7-8907-526360a09ffa:93e73ccf-0a06-4f5b-8d35-164670d8e5a5
+[I 18:38:10.075 NotebookApp] Starting buffering for b654c86b-3156-4fa4-ac43-93e74075eee9:01d76358-fc10-4f95-99fd-92ed61d76212
+[I 18:38:10.076 NotebookApp] Starting buffering for af27cb8a-1c58-48c1-96a2-3a55b38c57ac:624b8e04-c010-4b32-9eca-0c6cd6affaa4
+[I 18:38:10.076 NotebookApp] Starting buffering for 523067ea-05e6-4f1f-814c-1f731d4d6175:e01a4730-30f7-4693-97a8-dcbdbb2cadf0
+[I 18:38:10.077 NotebookApp] Starting buffering for 9fd862e1-e075-48a1-96e3-9a65ca49967d:9447df05-cfba-404e-b50c-43d738ede2e1
+xvfb-run: error: Xvfb failed to start
+[W 18:52:06.970 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-09-29 18:52:08.441 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-29 18:52:08.441 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-29 18:52:08.441 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-29 18:52:08.441 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-09-29 18:52:08.455 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-09-29 18:52:08.455 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 18:52:08.466 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 18:52:08.469 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 18:52:08.469 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 18:52:08.469 NotebookApp] http://653495fa3991:8888/
+[I 18:52:08.469 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:52:08.484 NotebookApp] No web browser found: could not locate runnable browser.
+[I 2023-09-29 18:54:54.399 LabApp] Build is up to date
+[I 18:54:54.720 NotebookApp] New terminal with automatic name: 1
+[I 18:54:54.850 NotebookApp] New terminal with automatic name: 2
+[I 18:54:55.031 NotebookApp] New terminal with automatic name: 3
+[W 18:54:55.769 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 18:54:55.788 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 18:54:55.824 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 18:54:56.096 NotebookApp] 404 GET /titrate.png (172.23.0.1) 127.460000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 18:54:56.113 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 130.660000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 18:54:57.167 NotebookApp] Kernel started: a2c88760-1d91-4d15-8ac7-abcfbf3122aa, name: xoctave
+[I 18:54:57.216 NotebookApp] Kernel started: e5d9abdc-8641-4a57-855c-fa1125b08ebf, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+[I 18:54:57.293 NotebookApp] Kernel started: 01242357-5b9d-454e-9a23-bb41fb87a3c2, name: xoctave
+[I 18:54:57.336 NotebookApp] Kernel started: 82b358ac-e7e5-47b4-a67e-b288f175e185, name: xoctave
+[I 18:54:57.354 NotebookApp] Kernel started: c37f93bb-3d78-45ea-8b7b-cdaae8dc7d32, name: xoctave
+[I 18:54:57.393 NotebookApp] Kernel started: de0bb90d-1e8f-45fe-a299-d842248f144c, name: xoctave
+[I 18:54:57.445 NotebookApp] Kernel started: 6b945a45-6d6f-4cab-b746-0dad8218202d, name: xoctave
+[I 18:54:57.500 NotebookApp] Kernel started: fdc611f8-18d5-4947-a893-e35144149270, name: xoctave
+[I 18:54:57.525 NotebookApp] Kernel started: adfdd79f-2974-479e-9d6d-3876d270a53b, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+[I 18:54:57.565 NotebookApp] Kernel started: 7945cd30-3ecc-46f5-ab93-c892f5dbdafe, name: xoctave
+[I 18:54:57.634 NotebookApp] Kernel started: 77a20c6b-32bf-42ee-92f1-d35f8084a06e, name: xoctave
+[I 18:54:57.731 NotebookApp] Kernel started: dba77477-d33c-40f7-8ed3-b705578be45c, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+Serving notebooks from local directory: /home/jovyan
+12 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+[I 18:55:00.810 NotebookApp] Starting buffering for dba77477-d33c-40f7-8ed3-b705578be45c:7901d79d-823e-4a60-8021-2cf99173927c
+[I 18:55:01.748 NotebookApp] Starting buffering for 6b945a45-6d6f-4cab-b746-0dad8218202d:f25a56d2-4e39-42a9-ac36-14b8f6168820
+[I 18:55:01.749 NotebookApp] Starting buffering for de0bb90d-1e8f-45fe-a299-d842248f144c:6fbcac86-d4c0-433b-93ce-7a035d6b706c
+[I 18:55:01.751 NotebookApp] Starting buffering for 82b358ac-e7e5-47b4-a67e-b288f175e185:79a2c963-ec23-4e97-8ddc-64dd9e59068a
+[I 18:55:01.753 NotebookApp] Starting buffering for dba77477-d33c-40f7-8ed3-b705578be45c:1207b341-b58f-40ae-a3da-966323875d08
+[I 18:55:01.754 NotebookApp] Starting buffering for fdc611f8-18d5-4947-a893-e35144149270:7015cb8d-e36e-4270-9a45-57896edbeebc
+[I 18:55:01.754 NotebookApp] Starting buffering for adfdd79f-2974-479e-9d6d-3876d270a53b:ac98ff2d-ec4f-4dac-baa1-7530993c5f10
+[I 18:55:01.763 NotebookApp] Starting buffering for e5d9abdc-8641-4a57-855c-fa1125b08ebf:6a3d0b44-f716-4313-9583-2b5d6e1fcf84
+[I 18:55:01.764 NotebookApp] Starting buffering for 01242357-5b9d-454e-9a23-bb41fb87a3c2:92957f2b-79b7-487b-b4a4-e7b493c4aa60
+[I 18:55:01.764 NotebookApp] Starting buffering for c37f93bb-3d78-45ea-8b7b-cdaae8dc7d32:94126dd9-0459-40fe-8010-6d0ff3a6a610
+[I 18:55:01.765 NotebookApp] Starting buffering for 77a20c6b-32bf-42ee-92f1-d35f8084a06e:716775a6-d5ef-4139-bac9-fa6c723453b0
+[I 18:55:01.766 NotebookApp] Starting buffering for a2c88760-1d91-4d15-8ac7-abcfbf3122aa:ffb80c66-a136-4d46-972b-8e62482806b7
+[I 18:55:01.766 NotebookApp] Starting buffering for 7945cd30-3ecc-46f5-ab93-c892f5dbdafe:03c6a185-dc92-4177-b4e5-2e9a419e1568
+[I 2023-09-29 21:14:55.773 LabApp] Build is up to date
+[W 21:14:56.550 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 21:14:56.614 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 21:14:56.639 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 21:14:56.852 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 107.110000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[W 21:14:56.859 NotebookApp] 404 GET /titrate.png (172.23.0.1) 111.130000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("notebook");
+register_graphics_toolkit ("plotly");
+clear
+format short e
+% end of housekeeping
+pkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/nan-3.7.0.tar.gz"
+ls: cannot access './bin/mexext': No such file or directory
+[I 21:18:50.835 NotebookApp] Saving file at /LECTURES/13Hydrocomplexication.ipynb
+svm_model_matlab.c: In function 'matlab_matrix_to_model':
+svm_model_matlab.c:263:54: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  263 |         rhs = (mxArray **) mxMalloc(sizeof(mxArray *)*num_of_fields);
+      |                                                      ^
+svm_model_matlab.c:295:40: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  295 |         model->rho = (double*) malloc(n*sizeof(double));
+      |                                        ^
+svm_model_matlab.c:304:61: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  304 |                 model->label = (int*) malloc(model->nr_class*sizeof(int));
+      |                                                             ^
+svm_model_matlab.c:314:59: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  314 |                 model->sv_indices = (int*) malloc(model->l*sizeof(int));
+      |                                                           ^
+svm_model_matlab.c:324:50: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  324 |                 model->probA = (double*) malloc(n*sizeof(double));
+      |                                                  ^
+svm_model_matlab.c:334:50: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  334 |                 model->probB = (double*) malloc(n*sizeof(double));
+      |                                                  ^
+svm_model_matlab.c:344:59: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  344 |                 model->nSV = (int*) malloc(model->nr_class*sizeof(int));
+      |                                                           ^
+svm_model_matlab.c:353:63: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  353 |         model->sv_coef = (double**) malloc((model->nr_class-1)*sizeof(double));
+      |                                                               ^
+svm_model_matlab.c:355:64: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  355 |                 model->sv_coef[i] = (double*) malloc((model->l)*sizeof(double));
+      |                                                                ^
+svm_model_matlab.c:388:60: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  388 |                 model->SV = (struct svm_node **) malloc(sr * sizeof(struct svm_node *));
+      |                                                            ^
+svm_model_matlab.c:389:62: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  389 |                 x_space = (struct svm_node *)malloc(elements * sizeof(struct svm_node));
+      |                                                              ^
+[I 21:18:52.244 NotebookApp] Starting buffering for 77a20c6b-32bf-42ee-92f1-d35f8084a06e:e68a5a2e-65f1-47a7-b89b-3cf69dc9acae
+[I 21:18:52.246 NotebookApp] Starting buffering for 82b358ac-e7e5-47b4-a67e-b288f175e185:9ca1a72f-5334-4af5-b85d-42cc0849a972
+[I 21:18:52.247 NotebookApp] Starting buffering for a2c88760-1d91-4d15-8ac7-abcfbf3122aa:83c7e963-b9f5-4215-ad34-70f9a87673c7
+[I 21:18:52.249 NotebookApp] Starting buffering for 6b945a45-6d6f-4cab-b746-0dad8218202d:977cf5e7-4a6b-45d8-8843-00607e84cd90
+[I 21:18:52.251 NotebookApp] Starting buffering for fdc611f8-18d5-4947-a893-e35144149270:2407e904-36b2-4a87-a9fa-ab8959949308
+[I 21:18:52.252 NotebookApp] Starting buffering for e5d9abdc-8641-4a57-855c-fa1125b08ebf:a3bd5ce0-a935-4800-83d8-392419917d75
+[I 21:18:52.256 NotebookApp] Starting buffering for adfdd79f-2974-479e-9d6d-3876d270a53b:967c5e1f-0c0a-47fe-94b4-8d83fff25073
+[I 21:18:52.258 NotebookApp] Starting buffering for 7945cd30-3ecc-46f5-ab93-c892f5dbdafe:a3fdb074-c346-48b7-af4d-3733d6933499
+[I 21:18:52.262 NotebookApp] Starting buffering for de0bb90d-1e8f-45fe-a299-d842248f144c:91f4e59b-08e6-47a7-b81c-2f5577ba6591
+[I 21:18:52.264 NotebookApp] Starting buffering for dba77477-d33c-40f7-8ed3-b705578be45c:8b6d3c65-a8e8-4925-82f8-4ddf2eafa9bd
+[I 21:18:52.269 NotebookApp] Starting buffering for c37f93bb-3d78-45ea-8b7b-cdaae8dc7d32:bc7789cf-ea79-441a-9f97-66e41cab709b
+[I 21:18:52.272 NotebookApp] Starting buffering for 01242357-5b9d-454e-9a23-bb41fb87a3c2:98b660f2-6cdc-4269-989f-721d1291bedf
+xptopen.cpp: In function 'void mexFunction(int, mxArray**, int, const mxArray**)':
+xptopen.cpp:510:30: warning: ignoring return value of 'size_t fread(void*, size_t, size_t, FILE*)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  510 |                         fread(data, bi[NS], M, fid);
+      |                         ~~~~~^~~~~~~~~~~~~~~~~~~~~~
+train.c: In function 'print_null':
+train.c:56:29: warning: unused parameter 's' [-Wunused-parameter]
+   56 | void print_null(const char *s) {}
+      |                 ~~~~~~~~~~~~^
+train.c: In function 'do_cross_validation':
+train.c:53:42: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+   53 | #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
+      |                                          ^
+train.c:138:26: note: in expansion of macro 'Malloc'
+  138 |         double *target = Malloc(double, prob.l);
+      |                          ^~~~~~
+train.c: In function 'parse_command_line':
+train.c:207:58: warning: conversion to 'mwSize' {aka 'long int'} from 'size_t' {aka 'long unsigned int'} may change the sign of the result [-Wsign-conversion]
+  207 |                 mxGetString(prhs[3], cmd, mxGetN(prhs[3])+1);
+      |                                           ~~~~~~~~~~~~~~~^~
+train.c:215:60: warning: conversion to 'mwSize' {aka 'long int'} from 'size_t' {aka 'long unsigned int'} may change the sign of the result [-Wsign-conversion]
+  215 |                 mxGetString(prhs[2], cmd,  mxGetN(prhs[2]) + 1);
+      |                                            ~~~~~~~~~~~~~~~~^~~
+train.c:258:100: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  258 |                                 param.weight_label = (int *) realloc(param.weight_label,sizeof(int)*param.nr_weight);
+      |                                                                                                    ^
+train.c:259:94: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  259 |                                 param.weight = (double *) realloc(param.weight,sizeof(double)*param.nr_weight);
+      |                                                                                              ^
+train.c:178:63: warning: unused parameter 'model_file_name' [-Wunused-parameter]
+  178 | int parse_command_line(int nrhs, const mxArray *prhs[], char *model_file_name)
+      |                                                         ~~~~~~^~~~~~~~~~~~~~~
+train.c: In function 'read_problem_sparse':
+train.c:381:32: warning: conversion to 'long unsigned int' from 'mwSize' {aka 'long int'} may change the sign of the result [-Wsign-conversion]
+  381 |         elements = num_samples + l*2;
+      |                                ^
+linear_model_matlab.c: In function 'matlab_matrix_to_model':
+linear_model_matlab.c:151:54: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  151 |         rhs = (mxArray **) mxMalloc(sizeof(mxArray *)*num_of_fields);
+      |                                                      ^
+linear_model_matlab.c:49:42: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+   49 | #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
+      |                                          ^
+linear_model_matlab.c:196:33: note: in expansion of macro 'Malloc'
+  196 |                 model_->label = Malloc(int, model_->nr_class);
+      |                                 ^~~~~~
+linear_model_matlab.c:49:42: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+   49 | #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
+      |                                          ^
+linear_model_matlab.c:204:19: note: in expansion of macro 'Malloc'
+  204 |         model_->w=Malloc(double, w_size*nr_w);
+      |                   ^~~~~~
+xvfb-run: error: Xvfb failed to start
+[W 20:38:32.693 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-10-05 20:38:37.979 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-10-05 20:38:37.980 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-10-05 20:38:37.980 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-10-05 20:38:37.980 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-10-05 20:38:38.043 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-10-05 20:38:38.043 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 20:38:38.062 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 20:38:38.068 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 20:38:38.069 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 20:38:38.069 NotebookApp] http://653495fa3991:8888/
+[I 20:38:38.070 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:38:38.125 NotebookApp] No web browser found: could not locate runnable browser.
+[W 19:25:44.766 NotebookApp] 401 POST /login?next=%2Flab%3F (172.23.0.1) 233.600000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab%3F
+[W 19:27:13.139 NotebookApp] 401 POST /login?next=%2Flab%3F (172.23.0.1) 261.440000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab%3F
+xvfb-run: error: Xvfb failed to start
+[W 16:16:58.873 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-11-20 16:17:08.942 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-20 16:17:08.947 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-20 16:17:08.948 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-20 16:17:08.949 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-11-20 16:17:09.016 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-11-20 16:17:09.018 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:17:09.048 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 16:17:09.057 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:17:09.059 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 16:17:09.059 NotebookApp] http://653495fa3991:8888/
+[I 16:17:09.059 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:17:09.102 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+[W 18:34:40.643 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-11-27 18:34:49.019 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-27 18:34:49.020 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-27 18:34:49.020 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-27 18:34:49.021 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-11-27 18:34:49.035 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-11-27 18:34:49.036 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 18:34:49.048 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 18:34:49.052 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 18:34:49.053 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 18:34:49.053 NotebookApp] http://653495fa3991:8888/
+[I 18:34:49.053 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:34:49.070 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+[W 15:48:13.379 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2023-12-24 15:48:17.688 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-12-24 15:48:17.689 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-12-24 15:48:17.690 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-12-24 15:48:17.690 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-12-24 15:48:17.709 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-12-24 15:48:17.709 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 15:48:17.727 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 15:48:17.732 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 15:48:17.732 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 15:48:17.732 NotebookApp] http://653495fa3991:8888/
+[I 15:48:17.733 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:48:17.757 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+[W 18:35:22.870 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-01-04 18:35:25.690 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-01-04 18:35:25.691 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-01-04 18:35:25.691 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-01-04 18:35:25.691 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-01-04 18:35:25.708 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-01-04 18:35:25.708 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 18:35:25.722 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 18:35:25.725 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 18:35:25.725 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 18:35:25.725 NotebookApp] http://653495fa3991:8888/
+[I 18:35:25.725 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:35:25.743 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+[W 13:21:44.414 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-03-18 13:21:46.091 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-18 13:21:46.091 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-18 13:21:46.091 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-18 13:21:46.091 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-03-18 13:21:46.107 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-03-18 13:21:46.107 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 13:21:46.119 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 13:21:46.123 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 13:21:46.123 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 13:21:46.123 NotebookApp] http://653495fa3991:8888/
+[I 13:21:46.123 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:21:46.140 NotebookApp] No web browser found: could not locate runnable browser.
+[W 16:30:48.749 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-05-03 16:31:09.515 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-03 16:31:09.519 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-03 16:31:09.519 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-03 16:31:09.519 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-05-03 16:31:09.596 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-05-03 16:31:09.600 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:31:09.655 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 16:31:09.701 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:31:09.706 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 16:31:09.710 NotebookApp] http://653495fa3991:8888/
+[I 16:31:09.713 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:31:09.847 NotebookApp] No web browser found: could not locate runnable browser.
+[I 19:39:08.882 NotebookApp] 302 GET /lab (172.23.0.1) 10.680000ms
+[W 19:39:14.015 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 246.900000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+[W 19:39:19.175 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 146.140000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+[I 15:45:05.556 NotebookApp] 302 GET /lab (172.23.0.1) 7.870000ms
+[W 15:45:45.170 NotebookApp] 401 POST /login?next=%2Flab (172.23.0.1) 146.330000ms referer=https://jupyter5.clearnasdss.synology.me/login?next=%2Flab
+xvfb-run: error: Xvfb failed to start
+[W 01:28:39.587 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-06-12 01:28:46.574 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-12 01:28:46.576 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-12 01:28:46.576 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-12 01:28:46.577 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-06-12 01:28:46.599 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-06-12 01:28:46.601 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 01:28:46.620 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 01:28:46.625 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 01:28:46.627 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 01:28:46.628 NotebookApp] http://653495fa3991:8888/
+[I 01:28:46.628 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:28:46.657 NotebookApp] No web browser found: could not locate runnable browser.
+[W 14:39:22.050 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-06-23 14:39:39.973 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-23 14:39:39.978 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-23 14:39:39.978 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-23 14:39:39.978 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-06-23 14:39:40.198 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-06-23 14:39:40.199 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 14:39:40.440 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 14:39:40.524 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 14:39:40.524 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 14:39:40.524 NotebookApp] http://653495fa3991:8888/
+[I 14:39:40.532 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:39:40.742 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+[W 13:11:43.208 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-07-11 13:11:45.158 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-11 13:11:45.158 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-11 13:11:45.158 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-11 13:11:45.158 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-07-11 13:11:45.173 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-07-11 13:11:45.173 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 13:11:45.184 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 13:11:45.186 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 13:11:45.186 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 13:11:45.186 NotebookApp] http://653495fa3991:8888/
+[I 13:11:45.186 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:11:45.204 NotebookApp] No web browser found: could not locate runnable browser.
+[W 00:16:02.176 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-07-26 00:16:15.414 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-26 00:16:15.415 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-26 00:16:15.418 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-26 00:16:15.419 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-07-26 00:16:15.463 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-07-26 00:16:15.463 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 00:16:15.497 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 00:16:15.504 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 00:16:15.504 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 00:16:15.504 NotebookApp] http://653495fa3991:8888/
+[I 00:16:15.504 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:16:15.532 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+[W 13:50:54.016 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-08-13 13:51:02.314 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-08-13 13:51:02.315 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-08-13 13:51:02.316 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-08-13 13:51:02.317 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-08-13 13:51:02.348 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-08-13 13:51:02.349 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 13:51:02.374 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 13:51:02.387 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 13:51:02.388 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 13:51:02.388 NotebookApp] http://653495fa3991:8888/
+[I 13:51:02.389 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:51:02.441 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+[W 19:59:15.948 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-09-03 19:59:20.176 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-03 19:59:20.176 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-03 19:59:20.176 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-09-03 19:59:20.176 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-09-03 19:59:20.190 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-09-03 19:59:20.190 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 19:59:20.202 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 19:59:20.205 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 19:59:20.205 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 19:59:20.205 NotebookApp] http://653495fa3991:8888/
+[I 19:59:20.205 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:59:20.221 NotebookApp] No web browser found: could not locate runnable browser.
+[I 21:34:30.116 NotebookApp] 302 GET /lab (172.23.0.1) 1.800000ms
+[I 05:51:18.491 NotebookApp] 302 GET /tree (172.23.0.1) 0.950000ms
+[W 20:19:41.834 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-10-14 20:19:59.647 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-10-14 20:19:59.658 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-10-14 20:19:59.658 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-10-14 20:19:59.658 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-10-14 20:19:59.797 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-10-14 20:19:59.798 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 20:20:00.101 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 20:20:00.160 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 20:20:00.173 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 20:20:00.182 NotebookApp] http://653495fa3991:8888/
+[I 20:20:00.183 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:20:00.384 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+[W 21:21:40.568 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-10-14 21:21:46.497 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-10-14 21:21:46.498 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-10-14 21:21:46.498 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-10-14 21:21:46.498 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-10-14 21:21:46.523 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-10-14 21:21:46.524 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 21:21:46.543 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 21:21:46.548 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 21:21:46.548 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 21:21:46.548 NotebookApp] http://653495fa3991:8888/
+[I 21:21:46.549 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:21:46.575 NotebookApp] No web browser found: could not locate runnable browser.
+[W 21:10:00.255 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-11-01 21:10:10.765 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-01 21:10:10.767 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-01 21:10:10.768 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-01 21:10:10.768 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-11-01 21:10:10.819 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-11-01 21:10:10.822 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 21:10:10.872 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 21:10:10.888 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 21:10:10.888 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 21:10:10.894 NotebookApp] http://653495fa3991:8888/
+[I 21:10:10.894 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:10:10.921 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+[W 21:41:14.545 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-11-01 21:41:20.010 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-01 21:41:20.011 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-01 21:41:20.011 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-01 21:41:20.012 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-11-01 21:41:20.029 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-11-01 21:41:20.029 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 21:41:20.044 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 21:41:20.048 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 21:41:20.048 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 21:41:20.048 NotebookApp] http://653495fa3991:8888/
+[I 21:41:20.048 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:41:20.068 NotebookApp] No web browser found: could not locate runnable browser.
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+xvfb-run: error: Xvfb failed to start
+[W 15:46:22.381 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-11-12 15:46:24.240 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-12 15:46:24.240 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-12 15:46:24.240 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-12 15:46:24.240 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-11-12 15:46:24.254 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-11-12 15:46:24.254 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 15:46:24.269 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 15:46:24.275 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 15:46:24.276 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 15:46:24.277 NotebookApp] http://653495fa3991:8888/
+[I 15:46:24.277 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:46:24.306 NotebookApp] No web browser found: could not locate runnable browser.
+[W 17:13:43.389 NotebookApp] Collisions detected in /home/jovyan/.jupyter/jupyter_notebook_config.py and /home/jovyan/.jupyter/jupyter_notebook_config.json config files. /home/jovyan/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'' ignored, using 'argon2:$argon2id$v=19$m=10240,t=10,p=8$CE+pRkloLfmLHH0J0PTQQQ$CElo6BeWSLBIp3w5x1e0GNFQWLEJXXw436hMS9QMp/E'"
+      }
+    }
+[W 2024-12-04 17:14:00.305 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-04 17:14:00.310 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-04 17:14:00.310 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-04 17:14:00.310 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-12-04 17:14:00.449 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2024-12-04 17:14:00.454 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 17:14:00.586 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 17:14:00.620 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 17:14:00.621 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 17:14:00.621 NotebookApp] http://653495fa3991:8888/
+[I 17:14:00.633 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:14:00.695 NotebookApp] No web browser found: could not locate runnable browser.
+[I 01:43:14.939 NotebookApp] 302 GET /lab (172.23.0.1) 9.930000ms
+[I 01:43:24.260 NotebookApp] 302 POST /login?next=%2Flab (172.23.0.1) 248.550000ms
+[I 01:43:26.306 NotebookApp] 301 GET /static/favicons/favicon.ico (172.23.0.1) 7.580000ms
+[I 2025-01-11 01:43:29.905 LabApp] Build is up to date
+[I 01:43:30.344 NotebookApp] New terminal with automatic name: 1
+[I 01:43:30.478 NotebookApp] New terminal with automatic name: 2
+[I 01:43:30.643 NotebookApp] New terminal with automatic name: 3
+[W 01:43:31.400 NotebookApp] Notebook Cd_hydroxycomplexation_fromBa.ipynb is not trusted
+[W 01:43:31.478 NotebookApp] Notebook BLM.ipynb is not trusted
+[W 01:43:31.525 NotebookApp] Notebook Cd_chlorocomplexation.ipynb is not trusted
+[W 01:43:31.624 NotebookApp] 404 GET /moreacidsgraph.png (172.23.0.1) 40.920000ms referer=https://jupyter5.clearnasdss.synology.me/lab
+[I 01:43:32.472 NotebookApp] Kernel started: 6dd2b26f-3c12-4923-9871-de3f174293e6, name: xoctave
+[I 01:43:32.479 NotebookApp] Kernel started: a46a88d9-d313-4eff-8883-4e36df191fb6, name: xoctave
+Serving notebooks from local directory: /home/jovyan
+2 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+Serving notebooks from local directory: /home/jovyan
+2 active kernels
+Jupyter Notebook 6.4.12 is running at:
+http://653495fa3991:8888/
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+[I 01:43:34.084 NotebookApp] Kernel started: 2ec0a80a-b351-4ee5-b621-946ba9c4e8a3, name: xoctave
+[I 01:43:34.116 NotebookApp] Kernel started: 6eefe5c0-4da8-4485-972f-02c4a2b8c196, name: xoctave
+[I 01:43:34.261 NotebookApp] Kernel started: dd65229f-c47a-4876-a175-4224f748d0bd, name: xoctave
+[I 01:43:34.291 NotebookApp] Kernel started: 7aaf2ece-d63c-48d1-9070-f42e659d6979, name: xoctave
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+[I 01:43:34.991 NotebookApp] Kernel started: 8290bd18-4995-47f8-916a-ddad56db1fde, name: xoctave
+[I 01:43:35.013 NotebookApp] Kernel started: 54acc944-47ef-4455-97a4-a92d7fe060d1, name: xoctave
+[I 01:43:35.035 NotebookApp] Kernel started: 70286fcc-fe2a-42fc-8112-ef6faa3c0f89, name: xoctave
+Run with XEUS 3.0.5
+[I 01:43:35.145 NotebookApp] Kernel started: 246ebda4-3a51-4ecd-8863-f01d9e838f68, name: xoctave
+[I 01:43:35.281 NotebookApp] Kernel started: 821f49ed-a3b8-4fa7-8fff-3ca332fd870b, name: xoctave
+[I 01:43:35.348 NotebookApp] Kernel started: 9fcfddb2-cf6c-4b3b-ac08-ae96a6c28a2a, name: xoctave
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+[I 01:43:36.097 NotebookApp] Starting buffering for a46a88d9-d313-4eff-8883-4e36df191fb6:d16e8d49-6bf0-469a-958a-4e76cc97f287
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 01:43:36.452 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (172.23.0.1) 16.620000ms
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+Run with XEUS 3.0.5
+[I 01:43:45.795 NotebookApp] Starting buffering for dd65229f-c47a-4876-a175-4224f748d0bd:824f32c4-0fbd-4a52-bbd0-1c157324a1bf
+[I 01:43:48.263 NotebookApp] Starting buffering for 54acc944-47ef-4455-97a4-a92d7fe060d1:7b15172d-b480-4e08-973b-7c93bc400b49
+[I 01:43:49.149 NotebookApp] Starting buffering for 2ec0a80a-b351-4ee5-b621-946ba9c4e8a3:7ab23429-2460-41ed-aaee-c1810043851d
+[I 01:43:50.480 NotebookApp] Starting buffering for 246ebda4-3a51-4ecd-8863-f01d9e838f68:edcac145-cc57-4393-be86-d2cae23c8cff
+[I 01:43:50.921 NotebookApp] Starting buffering for 6dd2b26f-3c12-4923-9871-de3f174293e6:db047b92-4dd6-4d40-8959-34bbf0247cbb
+[I 01:43:51.577 NotebookApp] Starting buffering for 8290bd18-4995-47f8-916a-ddad56db1fde:05da04a9-f68c-4d02-a200-de6518b7056a
+[I 01:43:53.640 NotebookApp] Starting buffering for 70286fcc-fe2a-42fc-8112-ef6faa3c0f89:c26f9faa-d0a9-4f8e-8808-f46d570b109b
+[I 01:43:56.198 NotebookApp] Starting buffering for 821f49ed-a3b8-4fa7-8fff-3ca332fd870b:f377b6e4-2db6-4e21-837c-12174d676c2a
+[W 01:44:19.669 NotebookApp] Notebook Example_tableau_Fe_hydroxide_speciation.ipynb is not trusted
+[I 01:44:20.029 NotebookApp] Kernel started: 6107c1fd-4be2-4226-9aa4-0423da3c3034, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+graphics_toolkit ("plotly")
+clear
+% end of housekeeping
+Executing: [KSOLUTION,ASOLUTION,SOLUTIONNAMES]=get_equilib_defn;
+
+FeT=1; 
+pH=2:0.5:12; T=[FeT]; 
+
+for i=1:size(pH,2)
+    [Ksolution,Asolution]=get_equilib_fixed_pH(KSOLUTION,ASOLUTION,pH(i));
+    X=T./10; [xguess,masserr,J,C] = nl_massbalancerrnosolid_NR(X,Asolution,Ksolution,T);
+    c=0;
+    for k=1:size(SOLUTIONNAMES,1)
+        txt=[SOLUTIONNAMES(k,:),'(i)=C(k);'];
+        eval(txt)
+        c=c+1;
+    end
+    masserrV(i)=masserr;
+end
+
+Executing: %plot -s 600,500 -f 'svg'
+plot(pH,masserrV,'linewidth',2); set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH'); ylabel('error')
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: -4e-15
+list
+string: -2e-15
+list
+string: 0
+list
+string: 2e-15
+list
+string: 4e-15
+list
+string: 6e-15
+list
+string: 8e-15
+list
+string: pH
+list
+string: error
+Executing: %plot -s 600,500 -f 'svg'
+
+plot(pH,FeIII,'linewidth',2,pH,FeIIIOH,'linewidth',2,pH,FeIIIOH2,'linewidth',2,...
+pH,FeIIIOH3,'linewidth',2,pH,FeIIIOH4,'linewidth',2,pH,FeIII2OH2,'linewidth',2,pH,FeIII3OH4,'linewidth',2)
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH'); ylabel('fraction of total Fe')
+legend('Fe^{3+}','FeOH^{2+}','Fe(OH)_2^+','Fe(OH)_3','Fe(OH)_4^-','Fe_2(OH)_2^{4+}','Fe_3(OH)_4^{5+}','location','northwest')
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+list
+string: pH
+list
+string: fraction of total Fe
+string: 
+string: 
+list
+string: Fe
+superscript
+list
+string: 3+
+ 21 11.6545 14.4242 -8.65452
+
+list
+string: FeOH
+superscript
+list
+string: 2+
+ 21 23.309 25.9636 -8.65452
+
+list
+string: Fe(OH)
+combination
+ 21 34.9636 28.8484 -8.65452
+
+list
+string: Fe(OH)
+subscript
+string: 3
+ 21 46.6181 28.8484 -8.65452
+
+list
+string: Fe(OH)
+combination
+ 21 58.2726 28.8484 -8.65452
+
+list
+string: Fe
+subscript
+string: 2
+string: (OH)
+combination
+ 21 72.0907 34.6181 -10.8181
+
+list
+string: Fe
+subscript
+string: 3
+string: (OH)
+combination
+ 21 85.9089 34.6181 -10.8181
+
+Executing: %plot -s 600,500 -f 'svg'
+plot(pH,FeIII2OH2./FeT,'linewidth',2,pH,FeIII3OH4./FeT,'linewidth',2)
+legend('Fe_2(OH)_2^{4+}','Fe_3(OH)_4^{5+}','location','northeast')
+set(gca,'linewidth',2,'fontsize',12)
+xlabel('pH'); ylabel('fraction of total Fe')
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: 0
+list
+string: 0.05
+list
+string: 0.1
+list
+string: 0.15
+list
+string: 0.2
+list
+string: 0.25
+list
+string: 0.3
+list
+string: 0.35
+list
+string: pH
+list
+string: fraction of total Fe
+string: 
+string: 
+list
+string: Fe
+subscript
+string: 2
+string: (OH)
+combination
+ 21 13.8181 34.6181 -10.8181
+
+list
+string: Fe
+subscript
+string: 3
+string: (OH)
+combination
+ 21 27.6363 34.6181 -10.8181
+
+[I 01:46:20.723 NotebookApp] Saving file at /Example_tableau_Fe_hydroxide_speciation.ipynb
+[I 01:50:15.534 NotebookApp] Starting buffering for 6eefe5c0-4da8-4485-972f-02c4a2b8c196:4aec1eb7-d4fb-4d2f-9af5-9b7b45cafc43
+[I 01:50:15.535 NotebookApp] Starting buffering for 7aaf2ece-d63c-48d1-9070-f42e659d6979:320a2de6-1b05-445f-98bd-0724e49404e3
+[I 01:50:15.538 NotebookApp] Starting buffering for a46a88d9-d313-4eff-8883-4e36df191fb6:70101a49-d922-4836-9804-5d6e9594674d
+[I 01:50:15.539 NotebookApp] Starting buffering for 9fcfddb2-cf6c-4b3b-ac08-ae96a6c28a2a:3709c35b-8411-4a77-b82e-ae7209b58ba8
+[I 01:50:15.540 NotebookApp] Starting buffering for 6107c1fd-4be2-4226-9aa4-0423da3c3034:1e3f9b89-ba1d-449f-8fbd-7562f930927b
+[I 2025-01-11 01:50:19.166 LabApp] Build is up to date
+[I 01:50:45.831 NotebookApp] New terminal with automatic name: 4
+[I 01:52:20.453 NotebookApp] Saving file at /Example_tableau_Fe_hydroxide_speciation.ipynb
+[W 02:06:25.910 NotebookApp] Notebook extrastuff/LECTURE4_nonlinear_regression.ipynb is not trusted
+[I 02:06:26.678 NotebookApp] Kernel started: cc5d6dbd-5db0-4658-a58d-a0e32b9c580f, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+[I 02:06:27.740 NotebookApp] Starting buffering for cc5d6dbd-5db0-4658-a58d-a0e32b9c580f:53389a8a-bcd2-4716-8c52-ace95f5236c4
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+%graphics_toolkit ("gnuplot")
+%graphics_toolkit ("notebook")
+graphics_toolkit ("plotly")
+clear
+% load packages
+warning off
+pkg load statistics
+% end of housekeeping
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+%graphics_toolkit ("gnuplot")
+%graphics_toolkit ("notebook")
+graphics_toolkit ("plotly")
+clear
+% load packages
+pkg install -forge statistics
+warning off
+pkg load statistics
+% end of housekeeping
+[I 02:08:26.243 NotebookApp] Saving file at /extrastuff/LECTURE4_nonlinear_regression.ipynb
+[I 02:14:07.343 NotebookApp] Saving file at /extrastuff/LECTURE4_nonlinear_regression.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+%graphics_toolkit ("gnuplot")
+%graphics_toolkit ("notebook")
+graphics_toolkit ("plotly")
+clear
+% load packages
+%pkg install -forge statistics
+warning off
+pkg load statistics
+% end of housekeeping
+Executing: %plot -s 600,600 -f 'svg'
+
+% define the variables and constants
+N0=0.01; k=0.4; t=0:1:10;
+
+% define the function.  remember the anonymous function from Lecture 1?
+firstorderdecay = @(t,N0,k) (N0.*exp(-k*t));
+
+%calculate N as a function of time
+N=firstorderdecay(t,N0,k); Nnoerror=N;
+
+%plot it
+plot(t,N,'ko')
+
+%let's add some noise
+err=0.02*max(N);
+N=N+err*randn(1,length(N));
+
+%plot with error
+plot(t,N,'ko',t,Nnoerror,'k-')
+xlabel('time'); ylabel('Signal')
+
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.002
+list
+string: 0
+list
+string: 0.002
+list
+string: 0.004
+list
+string: 0.006
+list
+string: 0.008
+list
+string: 0.01
+list
+string: 0.012
+list
+string: time
+list
+string: Signal
+Executing: %plot -s 600,600 -f 'svg'
+
+graphics_toolkit ("notebook")
+
+% make parameter ranges based on % of the parameter values
+% you could "hard code" this with specific numbers but using 
+% percent let's you span a good range I think.
+
+N0range=0.01*N0:0.1*N0:2*N0;
+krange=0.01*k:0.1*k:3*k;
+
+% now a loop to calcualte the error
+
+for i=1:length(N0range)
+    for j=1:length(krange)
+        model=firstorderdecay(t,N0range(i),krange(j)); 
+        SSE(j,i)=sum((model-N).^2);
+    end
+end
+
+% and contour it.  try also contour as SSE and you will see
+% how log of the error helps
+% and also look at the mesh
+
+contour(N0range,krange,log10(SSE),10)
+%mesh(N0range,krange,log10(SSE))
+xlabel('[Initial Concentration]'); ylabel('rate constant')
+
+Device pixel ratio: 1
+Render time: 558371
+Encode time: 19714
+Send time: 1261
+Draw time: 616942
+Executing: mesh(N0range,krange,log10(SSE))
+xlabel('[Initial Concentration]'); ylabel('rate constant'); zlabel('log(SSE)')
+Device pixel ratio: 1
+Render time: 440401
+Encode time: 20046
+Send time: 1978
+Draw time: 477482
+Executing: % so to optmize it we need to first define the error function
+% this is what will get minimized
+
+graphics_toolkit ("plotly")
+
+% initial guess
+
+errorfunction = @(p,N,t) (log10(sum((N-p(1).*exp(-p(2)*t)).^2)));
+
+ktst=0.3; N0tst=0.01; ptst=[N0tst ktst];
+
+err=errorfunction(ptst,N,t)
+
+Ntst=firstorderdecay(t,N0tst,ktst); 
+
+plot(t,N,'ko',t,Ntst,'k-'); 
+xlabel('time'); ylabel('Signal')
+
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.002
+list
+string: 0
+list
+string: 0.002
+list
+string: 0.004
+list
+string: 0.006
+list
+string: 0.008
+list
+string: 0.01
+list
+string: 0.012
+list
+string: time
+list
+string: Signal
+Executing: % now best fit
+
+options = optimset('Display','iter','TolFun',1e-4,'TolX',1e-4);
+
+pbest=fminsearch(@(p) errorfunction(p,N,t),ptst,options)
+
+Nbst=firstorderdecay(t,pbest(1),pbest(2)); 
+
+plot(t,N,'ko',t,Nbst,'b-')
+xlabel('time'); ylabel('Signal')
+
+
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.002
+list
+string: 0
+list
+string: 0.002
+list
+string: 0.004
+list
+string: 0.006
+list
+string: 0.008
+list
+string: 0.01
+list
+string: 0.012
+list
+string: time
+list
+string: Signal
+Executing: % plot the residuals
+
+plot(t,N-Nbst,'ko',t,zeros(size(N)),'k-')
+xlabel('time'); ylabel('Residuals')
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.0006
+list
+string: -0.0004
+list
+string: -0.0002
+list
+string: 0
+list
+string: 0.0002
+list
+string: 0.0004
+list
+string: time
+list
+string: Residuals
+Executing: residuals=N-Nbst; sestimate=std(residuals);
+
+% need to make simulated dataset
+
+count = 1:length(N); % an integer vector with an entry in order per each point in the data
+
+% replacing all data seems to work better
+
+%noreplace=round(length(N)/3); % replace 1/3 of the datapoints
+noreplace=round(length(N)/2); % replace 1/2 of the datapoints
+%noreplace=round(length(N)/1); % replace all of the datapoints
+
+indexreplace = randsample(count,noreplace); % pick at random wich of the 1/3 of the points to replace.
+
+Nnew=Nbst; % initialize the simulated data just as the original data.
+Nnew=N; % initialize the simulated data just as the original data.
+
+for i=1:length(indexreplace)
+    Nnew(indexreplace(i))=Nbst(indexreplace(i))+randn(1,1)*sestimate*3;
+end
+
+graphics_toolkit ("notebook")
+plot(t,N,'ko',t,Nnew,'k.')
+xlabel('time'); ylabel('Signal')
+
+Device pixel ratio: 1
+Render time: 338279
+Encode time: 15128
+Send time: 839
+Draw time: 366985
+Executing: % monte carlo analysis
+
+graphics_toolkit ("notebook")
+
+%Nbst=Nnoerror; %if set that the first fit was exactly correct we get the mean value as the true values.
+
+for j=1:100
+    indexreplace = randsample(count,noreplace); % pick at random wich of the 1/3 of the points to replace
+    Nnew=N; % initialize the simulated data just as the original data.
+
+    for i=1:length(indexreplace)
+        Nnew(indexreplace(i))=Nbst(indexreplace(i))+randn(1,1)*sestimate*3;
+    end
+    
+    MCbetas(:,j)=fminsearch(@(p) errorfunction(p,Nnew,t),pbest);
+    
+end
+
+MCk=MCbetas(2,:); MCN0=MCbetas(1,:);
+
+subplot(211); 
+hist(MCk,10);
+xlabel('Initial concentration')
+
+subplot(212)
+hist(MCN0,10);
+xlabel('Rate constant')
+
+
+
+Device pixel ratio: 1
+Render time: 493751
+Encode time: 15528
+Send time: 895
+Draw time: 524678
+[I 02:15:52.453 NotebookApp] Saving file at /extrastuff/LECTURE4_nonlinear_regression.ipynb
+Executing: % some housekeeping stuff
+%register_graphics_toolkit ("gnuplot");
+%available_graphics_toolkits ();
+%graphics_toolkit ("gnuplot")
+%graphics_toolkit ("notebook")
+graphics_toolkit ("plotly")
+clear
+% load packages
+%pkg install -forge statistics
+warning off
+pkg load statistics
+% end of housekeeping
+Executing: %plot -s 600,600 -f 'svg'
+
+% define the variables and constants
+N0=0.01; k=0.4; t=0:1:10;
+
+% define the function.  remember the anonymous function from Lecture 1?
+firstorderdecay = @(t,N0,k) (N0.*exp(-k*t));
+
+%calculate N as a function of time
+N=firstorderdecay(t,N0,k); Nnoerror=N;
+
+%plot it
+plot(t,N,'ko')
+
+%let's add some noise
+err=0.02*max(N);
+N=N+err*randn(1,length(N));
+
+%plot with error
+plot(t,N,'ko',t,Nnoerror,'k-')
+xlabel('time'); ylabel('Signal')
+
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.002
+list
+string: 0
+list
+string: 0.002
+list
+string: 0.004
+list
+string: 0.006
+list
+string: 0.008
+list
+string: 0.01
+list
+string: time
+list
+string: Signal
+Executing: %plot -s 600,600 -f 'svg'
+
+graphics_toolkit ("notebook")
+
+% make parameter ranges based on % of the parameter values
+% you could "hard code" this with specific numbers but using 
+% percent let's you span a good range I think.
+
+N0range=0.01*N0:0.1*N0:2*N0;
+krange=0.01*k:0.1*k:3*k;
+
+% now a loop to calcualte the error
+
+for i=1:length(N0range)
+    for j=1:length(krange)
+        model=firstorderdecay(t,N0range(i),krange(j)); 
+        SSE(j,i)=sum((model-N).^2);
+    end
+end
+
+% and contour it.  try also contour as SSE and you will see
+% how log of the error helps
+% and also look at the mesh
+
+contour(N0range,krange,log10(SSE),10)
+%mesh(N0range,krange,log10(SSE))
+xlabel('[Initial Concentration]'); ylabel('rate constant')
+
+Device pixel ratio: 1
+Render time: 328684
+Encode time: 19251
+Send time: 1598
+Draw time: 362643
+Executing: mesh(N0range,krange,log10(SSE))
+xlabel('[Initial Concentration]'); ylabel('rate constant'); zlabel('log(SSE)')
+Device pixel ratio: 1
+Render time: 443505
+Encode time: 20178
+Send time: 2332
+Draw time: 481900
+Executing: % so to optmize it we need to first define the error function
+% this is what will get minimized
+
+graphics_toolkit ("plotly")
+
+% initial guess
+
+errorfunction = @(p,N,t) (log10(sum((N-p(1).*exp(-p(2)*t)).^2)));
+
+ktst=0.3; N0tst=0.01; ptst=[N0tst ktst];
+
+err=errorfunction(ptst,N,t)
+
+Ntst=firstorderdecay(t,N0tst,ktst); 
+
+plot(t,N,'ko',t,Ntst,'k-'); 
+xlabel('time'); ylabel('Signal')
+
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.002
+list
+string: 0
+list
+string: 0.002
+list
+string: 0.004
+list
+string: 0.006
+list
+string: 0.008
+list
+string: 0.01
+list
+string: time
+list
+string: Signal
+Executing: % now best fit
+
+options = optimset('Display','iter','TolFun',1e-4,'TolX',1e-4);
+
+pbest=fminsearch(@(p) errorfunction(p,N,t),ptst,options)
+
+Nbst=firstorderdecay(t,pbest(1),pbest(2)); 
+
+plot(t,N,'ko',t,Nbst,'b-')
+xlabel('time'); ylabel('Signal')
+
+
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.002
+list
+string: 0
+list
+string: 0.002
+list
+string: 0.004
+list
+string: 0.006
+list
+string: 0.008
+list
+string: 0.01
+list
+string: time
+list
+string: Signal
+Executing: % plot the residuals
+
+plot(t,N-Nbst,'ko',t,zeros(size(N)),'k-')
+xlabel('time'); ylabel('Residuals')
+list
+string: 0
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: -0.0004
+list
+string: -0.0002
+list
+string: 0
+list
+string: 0.0002
+list
+string: 0.0004
+list
+string: 0.0006
+list
+string: time
+list
+string: Residuals
+Executing: residuals=N-Nbst; sestimate=std(residuals);
+
+% need to make simulated dataset
+
+count = 1:length(N); % an integer vector with an entry in order per each point in the data
+
+% replacing all data seems to work better
+
+%noreplace=round(length(N)/3); % replace 1/3 of the datapoints
+noreplace=round(length(N)/2); % replace 1/2 of the datapoints
+%noreplace=round(length(N)/1); % replace all of the datapoints
+
+indexreplace = randsample(count,noreplace); % pick at random wich of the 1/3 of the points to replace.
+
+Nnew=Nbst; % initialize the simulated data just as the original data.
+Nnew=N; % initialize the simulated data just as the original data.
+
+for i=1:length(indexreplace)
+    Nnew(indexreplace(i))=Nbst(indexreplace(i))+randn(1,1)*sestimate*3;
+end
+
+graphics_toolkit ("notebook")
+plot(t,N,'ko',t,Nnew,'k.')
+xlabel('time'); ylabel('Signal')
+
+Device pixel ratio: 1
+Render time: 338484
+Encode time: 15319
+Send time: 920
+Draw time: 368709
+Executing: % monte carlo analysis
+
+graphics_toolkit ("notebook")
+
+%Nbst=Nnoerror; %if set that the first fit was exactly correct we get the mean value as the true values.
+
+for j=1:100
+    indexreplace = randsample(count,noreplace); % pick at random wich of the 1/3 of the points to replace
+    Nnew=N; % initialize the simulated data just as the original data.
+
+    for i=1:length(indexreplace)
+        Nnew(indexreplace(i))=Nbst(indexreplace(i))+randn(1,1)*sestimate*3;
+    end
+    
+    MCbetas(:,j)=fminsearch(@(p) errorfunction(p,Nnew,t),pbest);
+    
+end
+
+MCk=MCbetas(2,:); MCN0=MCbetas(1,:);
+
+subplot(211); 
+hist(MCk,10);
+xlabel('Initial concentration')
+
+subplot(212)
+hist(MCN0,10);
+xlabel('Rate constant')
+
+
+
+Device pixel ratio: 1
+Render time: 488760
+Encode time: 15340
+Send time: 780
+Draw time: 523787
+[I 02:35:54.140 NotebookApp] Saving file at /extrastuff/LECTURE4_nonlinear_regression.ipynb
+[W 02:38:39.682 NotebookApp] Notebook extrastuff/LECTURE5_chemical_equilibrium.ipynb is not trusted
+[I 02:38:40.192 NotebookApp] Kernel started: 274c50c4-96e5-4fe5-bb18-ce1b27098297, name: xoctave
+OpenGL vendor: VMware, Inc.
+OpenGL renderer: llvmpipe (LLVM 10.0.0, 128 bits)
+OpenGL version: 3.1 Mesa 20.0.8
+Run with XEUS 3.0.5
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("gnuplot");
+available_graphics_toolkits ();
+%graphics_toolkit ("gnuplot")
+graphics_toolkit ("plotly")
+clear
+% load packages
+pkg load statistics
+warning off
+% end of housekeeping
+Executing: function [KSOLUTION,ASOLUTION,SOLUTIONNAMES] = get_equilib_defn 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Tableau=[...
+%H	  FeIII        logK            species
+ 1	  0	            0              {'H'}
+ 0	  1	            0              {'Fe'}
+-1	  0	            -14            {'OH'}
+-1    1             -2.19          {'FeOH'}
+-2    1             -5.67          {'FeOH2'}
+-4    1             -21.6          {'FeOH4'}
+];
+
+n=size(Tableau,2);
+ASOLUTION=cell2mat(Tableau(:,1:n-2));
+KSOLUTION=cell2mat(Tableau(:,n-1));
+SOLUTIONNAMES=strvcat(Tableau(:,n));
+
+end
+
+Executing: % ----------- for fixed pH ----------------
+
+function [Ksolution,Asolution]=get_equilib_fixed_pH(KSOLUTION,ASOLUTION,pH)
+
+    [N,M]=size(ASOLUTION);
+    Ksolution=KSOLUTION-ASOLUTION(:,1)*pH;
+    Asolution=[ASOLUTION(:,2:M)];
+
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Executing: %%file nl_massbalancerrnosolid_NR.m
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+function [X,F,J,C] = nl_massbalancerrnosolid_NR(X,Asolution,Ksolution,T)
+
+[Nc,Nx]=size(Asolution); %Xsolution=X(1:Nx);
+criteria=1e-15;
+
+for i=1:1000
+
+logC=(Ksolution)+Asolution*log10(X); C=10.^(logC); % calc species
+R=Asolution'*C-T;
+
+% Evaluate the Jacobian 
+   z=zeros(Nx,Nx); 
+for j=1:Nx 
+	for k=1:Nx 
+		for i=1:Nc; z(j,k)=z(j,k)+Asolution(i,j)*Asolution(i,k)*C(i)/X(k); end
+   	end
+end
+
+J = z;
+
+deltaX=z\(-1*R);
+one_over_del=max([1, -1*deltaX'./(0.5*X')]);
+del=1/one_over_del; X=X+del*deltaX;
+    
+tst=sum(abs(R));
+if tst<=criteria; break; end
+
+end
+
+F=[R]; 
+
+end
+
+Executing: %plot -s 600,600 -f 'svg'
+
+%define the equilibrium sytem (The tableau)
+[KSOLUTION,ASOLUTION,SOLUTIONNAMES] = get_equilib_defn;
+% initial guess (just Fe becasue pH is fixed)
+Feguess=[-5.5]; guess=[10.^Feguess];
+
+%set the pH range and total
+pH=2:0.1:12; FeT=1e-4; T=[FeT];
+
+%now for each pH solve
+for i=1:length(pH)
+% adjust for fixed pH
+[Ksolution,Asolution]=get_equilib_fixed_pH(KSOLUTION,ASOLUTION,pH(i));
+% calculate species using NR
+[X,F,J,C] = nl_massbalancerrnosolid_NR(guess,Asolution,Ksolution,T);
+species_summary(:,i)=C; err(i)=F;
+end
+
+for i=1:size(species_summary,1)
+txt=[SOLUTIONNAMES(i,:),"=species_summary(i,:);"]; eval(txt);
+end
+
+h=plot(pH,Fe/T,pH,FeOH/T,pH,FeOH2/T,pH,FeOH4/T);
+set(gca,"fontsize",12); set(h,'linewidth',2); set(gca,'linewidth',2);
+h=xlabel('pH'); set(h,'fontsize',12); h=ylabel('fraction of total Fe'); set(h,'fontsize',12);
+legend('Fe','FeOH','FeOH2','FeOH4','Location','northeast','Orientation','vertical');
+axis([min(pH) max(pH) 0 1])
+
+
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+list
+string: pH
+list
+string: fraction of total Fe
+string: 
+string: 
+list
+string: Fe
+ 21 10.0254 8.65452 -6.49089
+
+list
+string: FeOH
+ 21 20.5854 20.1939 -6.49089
+
+list
+string: FeOH2
+ 21 31.1454 24.5211 -6.49089
+
+list
+string: FeOH4
+ 21 41.7054 24.5211 -6.49089
+
+Executing: plot(pH,err)
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: -1e-18
+list
+string: -5e-19
+list
+string: 0
+list
+string: 5e-19
+list
+string: 1e-18
+string: 
+string: 
+Executing: % some housekeeping stuff
+register_graphics_toolkit ("gnuplot");
+available_graphics_toolkits ();
+%graphics_toolkit ("gnuplot")
+graphics_toolkit ("plotly")
+clear
+% load packages
+warning off
+pkg load statistics
+% end of housekeeping
+Executing: function [KSOLUTION,ASOLUTION,SOLUTIONNAMES] = get_equilib_defn 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Tableau=[...
+%H	  FeIII        logK            species
+ 1	  0	            0              {'H'}
+ 0	  1	            0              {'Fe'}
+-1	  0	            -14            {'OH'}
+-1    1             -2.19          {'FeOH'}
+-2    1             -5.67          {'FeOH2'}
+-4    1             -21.6          {'FeOH4'}
+];
+
+n=size(Tableau,2);
+ASOLUTION=cell2mat(Tableau(:,1:n-2));
+KSOLUTION=cell2mat(Tableau(:,n-1));
+SOLUTIONNAMES=strvcat(Tableau(:,n));
+
+end
+
+Executing: % ----------- for fixed pH ----------------
+
+function [Ksolution,Asolution]=get_equilib_fixed_pH(KSOLUTION,ASOLUTION,pH)
+
+    [N,M]=size(ASOLUTION);
+    Ksolution=KSOLUTION-ASOLUTION(:,1)*pH;
+    Asolution=[ASOLUTION(:,2:M)];
+
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Executing: %%file nl_massbalancerrnosolid_NR.m
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+function [X,F,J,C] = nl_massbalancerrnosolid_NR(X,Asolution,Ksolution,T)
+
+[Nc,Nx]=size(Asolution); %Xsolution=X(1:Nx);
+criteria=1e-15;
+
+for i=1:1000
+
+logC=(Ksolution)+Asolution*log10(X); C=10.^(logC); % calc species
+R=Asolution'*C-T;
+
+% Evaluate the Jacobian 
+   z=zeros(Nx,Nx); 
+for j=1:Nx 
+	for k=1:Nx 
+		for i=1:Nc; z(j,k)=z(j,k)+Asolution(i,j)*Asolution(i,k)*C(i)/X(k); end
+   	end
+end
+
+J = z;
+
+deltaX=z\(-1*R);
+one_over_del=max([1, -1*deltaX'./(0.5*X')]);
+del=1/one_over_del; X=X+del*deltaX;
+    
+tst=sum(abs(R));
+if tst<=criteria; break; end
+
+end
+
+F=[R]; 
+
+end
+
+Executing: %plot -s 600,600 -f 'svg'
+
+%define the equilibrium sytem (The tableau)
+[KSOLUTION,ASOLUTION,SOLUTIONNAMES] = get_equilib_defn;
+% initial guess (just Fe becasue pH is fixed)
+Feguess=[-5.5]; guess=[10.^Feguess];
+
+%set the pH range and total
+pH=2:0.1:12; FeT=1e-4; T=[FeT];
+
+%now for each pH solve
+for i=1:length(pH)
+% adjust for fixed pH
+[Ksolution,Asolution]=get_equilib_fixed_pH(KSOLUTION,ASOLUTION,pH(i));
+% calculate species using NR
+[X,F,J,C] = nl_massbalancerrnosolid_NR(guess,Asolution,Ksolution,T);
+species_summary(:,i)=C; err(i)=F;
+end
+
+for i=1:size(species_summary,1)
+txt=[SOLUTIONNAMES(i,:),"=species_summary(i,:);"]; eval(txt);
+end
+
+h=plot(pH,Fe/T,pH,FeOH/T,pH,FeOH2/T,pH,FeOH4/T);
+set(gca,"fontsize",12); set(h,'linewidth',2); set(gca,'linewidth',2);
+h=xlabel('pH'); set(h,'fontsize',12); h=ylabel('fraction of total Fe'); set(h,'fontsize',12);
+legend('Fe','FeOH','FeOH2','FeOH4','Location','northeast','Orientation','vertical');
+axis([min(pH) max(pH) 0 1])
+
+
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: 0
+list
+string: 0.2
+list
+string: 0.4
+list
+string: 0.6
+list
+string: 0.8
+list
+string: 1
+list
+string: pH
+list
+string: fraction of total Fe
+string: 
+string: 
+list
+string: Fe
+ 21 10.0254 8.65452 -6.49089
+
+list
+string: FeOH
+ 21 20.5854 20.1939 -6.49089
+
+list
+string: FeOH2
+ 21 31.1454 24.5211 -6.49089
+
+list
+string: FeOH4
+ 21 41.7054 24.5211 -6.49089
+
+Executing: plot(pH,err)
+list
+string: 2
+list
+string: 4
+list
+string: 6
+list
+string: 8
+list
+string: 10
+list
+string: 12
+list
+string: -1e-18
+list
+string: -5e-19
+list
+string: 0
+list
+string: 5e-19
+list
+string: 1e-18
+string: 
+string: 
+[I 02:39:23.428 NotebookApp] Saving file at /extrastuff/LECTURE5_chemical_equilibrium.ipynb

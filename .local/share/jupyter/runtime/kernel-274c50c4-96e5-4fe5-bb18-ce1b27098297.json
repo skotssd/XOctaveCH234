@@ -1,0 +1,12 @@
+{
+  "shell_port": 49080,
+  "iopub_port": 37895,
+  "stdin_port": 55332,
+  "control_port": 59367,
+  "hb_port": 33592,
+  "ip": "127.0.0.1",
+  "key": "f11bff3b-da31652b7e6bdeed8f0c5f6c",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "xoctave"
+}

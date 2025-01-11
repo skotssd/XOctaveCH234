@@ -1,0 +1,20 @@
+## DO NOT EDIT!
+## Generated automatically from svmtrain.cc
+## by configure_make.m during package installation.
+
+%!test
+%! [L, D] = libsvmread (file_in_loadpath ("heart_scale.dat"));
+%! model = svmtrain(L, D, '-c 1 -g 0.07');
+%! [predict_label, accuracy, dec_values] = svmpredict(L, D, model);
+%! assert (isstruct (model), true);
+%! assert (isfield (model, "Parameters"), true);
+%! assert (model.totalSV, 130);
+%! assert (model.nr_class, 2);
+%! assert (size (model.Label), [2, 1]);
+%!shared L, D
+%! [L, D] = libsvmread (file_in_loadpath ("heart_scale.dat"));
+%!error <svmtrain: wrong number of output arguments.> [L, D] = svmtrain (L, D);
+%!error <svmtrain: label vector and instance matrix must be double.> ...
+%! model = svmtrain (single (L), D);
+%!error <svmtrain: wrong number of input arguments.> ...
+%! model = svmtrain (L, D, "", "");
