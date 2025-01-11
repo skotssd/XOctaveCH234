@@ -94,3 +94,5 @@ compile_commands.json
 # Editors
 .vscode
 *.code-workspace
+
+*.git
