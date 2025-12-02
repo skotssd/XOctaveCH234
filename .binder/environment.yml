@@ -3,18 +3,18 @@ channels:
   - conda-forge
 dependencies:
   # Workaround
-  - xeus-zmq=1.0.2=h0541b36_2
-  - xeus-octave==0.1.0
+  #- xeus-zmq=1.0.2=h0541b36_2
+  #- xeus-octave==0.1.0
   # For Plotly graphical toolkit
   - plotly
   # Runtime dependency for Octave ``symbolic`` package.
-  - sympy
+  #- sympy
   # For compiling the Octave ``control`` and ``signal`` packages
-  - compilers
-  - make
+  #- compilers
+  #- make
   # for fltk graphictoolkit option
-  - fltk
+  #- fltk
   # for qt graphictoolkit option
-  - qt
+  #- qt
   
 
