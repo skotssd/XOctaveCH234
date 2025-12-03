@@ -1,41 +1,7 @@
 name: xeus-octave
 channels:
-  - conda-forge
+    - conda-forge
 dependencies:
-  # Build dependencies
-  - cxx-compiler
-  - c-compiler
-  - cmake
-  - make
-  - pkg-config
-  # Host dependencies
-  - libuuid
-  - xeus>=5.0.0
-  - xeus-zmq>=3.0,<4.0
-  - nlohmann_json=3.11.3
-  - octave =9.*
-  - glad
-  - glfw
-  - libpng
-  # Test dependencies
-  - pre-commit
-  - clang-tools
-  - clang
-  - jupyter_kernel_test>=0.5,<0.6
-  - nbval
-  - pytest
-  - pytest-rerunfailures
-  # Doc dependencies
-  - doxygen
-  - sphinx <6
-  - breathe
-  - sphinx_rtd_theme
-  # Dev dependencies
-  - jupyterlab
-  - nodejs
-  - ccache
-  - cmake-format
-  - plotly
-  - ipywidgets
-  - jupyter-dash
-
+    - xeus-octave ==0.2.0
+    # for plotly
+    - plotly

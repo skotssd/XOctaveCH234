@@ -1,7 +1,7 @@
 #!/bin/bash
 # Fail fast
-#set -o errexit
-#set -o nounset
+set -o errexit
+set -o nounset
 #set -e #don't allow to fail silently
 
 # Installation of Octave packages is dependent on current user.
@@ -23,6 +23,6 @@
 #chmod +x /srv/conda/bin/phreeqc
 
 #turn off password and tokens for jupyter
-jupyter notebook --generate-config
-echo "c.NotebookApp.token = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
-echo "c.NotebookApp.password = ''"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+#jupyter notebook --generate-config
+#echo "c.NotebookApp.token = ''" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+#echo "c.NotebookApp.password = ''"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
