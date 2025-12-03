@@ -1,2 +1,7 @@
-libgl1-mesa-dev
+gnuplot
+ghostscript
+octave
 xvfb
+fonts-freefont-otf
+libgl1-mesa-dri
+mesa-utils

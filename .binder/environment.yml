@@ -1,7 +1,5 @@
-name: xeus-octave
-channels:
-    - conda-forge
+channels:  - conda-forge
 dependencies:
-    - xeus-octave ==0.2.0
-    # for plotly
-    - plotly
+  - jupyter==1.1.1
+  - ipython<9
+  - octave_kernel==0.36.0

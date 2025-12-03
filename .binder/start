@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+export DISPLAY=":1"
+export OCTAVE_EXECUTABLE="/usr/bin/octave"
 
-xvfb-run exec "$@"
+xvfb-run exec "$@" 2>&1 | tee .jupyter-server-log.txt
 
