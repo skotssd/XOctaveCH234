@@ -3,5 +3,7 @@ RUN pip install --no-cache notebook jupyterlab
 ENV HOME=/tmp
 RUN git config --global user.email "ssmith@wlu.ca"
 RUN git config --global user.name "Scott Smith"
-RUN git pull
-RUN touch makedummyfile.txt
+RUN git fetch origin
+RUN git merge origin/main
+#RUN git pull
+
