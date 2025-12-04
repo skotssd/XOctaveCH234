@@ -1,13 +1,6 @@
-name: notebook
 channels:
-  - conda-forge
-  - defaults
+- conda-forge
 dependencies:
-  - jupyterlab=3.4.8=pyhd8ed1ab_0
-  - octave=7.3.0=h4bc5dab_3
-  - python=3.7.12=hf930737_100_cpython
-  - qt-main=5.15.8=h5d23da1_6
-  - texinfo=7.0=pl5321h0f457ee_0
-  - xeus=3.0.5=hac2b420_1
-  - xeus-octave=0.1.0=he98adf6_5
-  - xeus-zmq=1.0.2=h0541b36_2
+  - jupyter==1.1.1
+  - ipython<9
+  - octave_kernel==0.36.0
