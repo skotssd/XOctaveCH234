@@ -1,6 +1,6 @@
+FROM dscottsmith/xch234:5adf9b59a356
 RUN python3 -m pip install --no-cache-dir notebook jupyterlab
 RUN pip install --no-cache-dir jupyterhub
-FROM dscottsmith/xch234:5adf9b59a356
 ARG NB_USER=jovyan
 ARG NB_UID=1000
 ENV USER ${NB_USER}
