@@ -1,6 +1,6 @@
 channels:
 - conda-forge
 dependencies:
-  - jupyter==1.1.1
-  - ipython<9
-  - octave_kernel==0.36.0
+  - jupyterlab==3.4.8
+  - xeus-octave==0.1.0
+  - octave==7.3.0
