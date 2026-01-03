@@ -1,7 +1,6 @@
 gnuplot
 ghostscript
 octave
-octave-statistics
 xvfb
 fonts-freefont-otf
 libgl1-mesa-dri
