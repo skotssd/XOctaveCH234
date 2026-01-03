@@ -1,7 +1,2 @@
-gnuplot
-ghostscript
-octave
+libgl1-mesa-dev
 xvfb
-fonts-freefont-otf
-libgl1-mesa-dri
-mesa-utils
