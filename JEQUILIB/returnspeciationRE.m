@@ -1,5 +1,5 @@
 
-function [C, SPECIATIONNAMES,MASSERR,X]=returnspeciationRE(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,database,acid)
+function [C, SPECIATIONNAMES,MASSERR,X]=returnspeciationRE(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,flag3,flag4,flag5)
 
 % NR on X with either analytical or numerical gradients --------------
 
@@ -11,6 +11,7 @@ if flag1==1
              if tst(j)=='-'; tst(j)='m'; end
              if tst(j)=='('; tst(j)='L'; end
              if tst(j)==')'; tst(j)='R'; end
+             if tst(j)==':'; tst(j)='C'; end
          end
          SOLUTIONNAMES(i,:)=tst;
      end
@@ -20,11 +21,12 @@ if flag1==1
          for j=1:length(tst)
              if tst(j)=='('; tst(j)='L'; end
              if tst(j)==')'; tst(j)='R'; end
+             if tst(j)==':'; tst(j)='C'; end
          end
          SOLIDNAMES(i,:)=tst;
      end
      
-     [C, SPECIATIONNAMES,MASSERR,X]=NRX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2);
+     [C, SPECIATIONNAMES,MASSERR,X]=NRX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,flag3);
 end
 
 if flag1==2
@@ -45,11 +47,12 @@ if flag1==2
          for j=1:length(tst)
              if tst(j)=='('; tst(j)='L'; end
              if tst(j)==')'; tst(j)='R'; end
+             if tst(j)==':'; tst(j)='C'; end
          end
          SOLIDNAMES(i,:)=tst;
      end
      
-     [C, SPECIATIONNAMES,MASSERR,X]=NRlogX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2);
+     [C, SPECIATIONNAMES,MASSERR,X]=NRlogX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,flag3,flag4,flag5);
 end
 
 if flag1==3
@@ -60,7 +63,7 @@ end
 
 %---------------__SOLVERS ------NRX NRlogX PHREEQC -----------------------------------
 
-function [C, SPECIATIONNAMES,MASSERR,X]=NRX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2)
+function [C, SPECIATIONNAMES,MASSERR,X]=NRX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,flag3)
 
 FACTOR=1; LOOP=1;  Xguess=T;%./(1.1^FACTOR)
 %loop here to get a decent initial guess based on totals
@@ -79,7 +82,7 @@ end
 
     %Xguess=T./10; 
     TYPX=Xguess;
-    [Xguess,masserr,J,RSI,C] = nl_massbalancerrnosolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX);
+    [Xguess,masserr,J,RSI,C] = nl_massbalancerrnosolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag3);
 %     masserr
 % pause
     if masserr>1e-4
@@ -117,55 +120,139 @@ end
 
 end
 
-function [C, SPECIATIONNAMES,MASSERR,X]=NRlogX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2)
+function [C, SPECIATIONNAMES,MASSERR,X]=NRlogX(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,flag3,flag4,flag5)
+if flag5==0
+% reduce tableau to just the components.
 
-FACTOR=1; LOOP=1;  Xguess=T;%./(1.1^FACTOR)
-%loop here to get a decent initial guess based on totals
-while LOOP==1
-   logC=(KSOLUTION)+ASOLUTION*log10(Xguess);
-   C=10.^(logC); % calc species
-   R=ASOLUTION'*C-T; show=R./T;
-   [value,index]=max(show);
-   %FACTOR;
-   Xguess(index)=T(index)./(1.1^FACTOR);
-   if max(abs(R./T))<1; LOOP=0; end
-   FACTOR=FACTOR+0.01;
-   if FACTOR>1000; LOOP=0; end %prevent infinite loop
-   %pause
-end
-%max(show)
-%pause
-%Xguess=T./10
-TYPX=ones(size(Xguess));
-[Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrnosolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2);
-%masserr
-%pause
-if max(100*(abs(masserr)./T))>1e-7 % try no log for initial guess, no solids
-    %TYPX=T./10;
-    [Xguess,masserr,J,RSI,C] = nl_massbalancerrnosolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX);
-    %masserr
-    %pause
+N=length(T);
+ASOLUTIONi=ASOLUTION(1:N,:);
+KSOLUTIONi=KSOLUTION(1:N);
+SOLUTIONNAMESi=SOLUTIONNAMES(1:N);
+
+Xguess=T; TYPX=Xguess; TYPX=ones(size(Xguess));
+[Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrnosolid_NR(Xguess,ASOLUTIONi,KSOLUTIONi,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+    if flag3==1; show=abs(max(masserr))
+    end
+
+% add a row at a time and see if the error is still small
+
+if flag4==1
+ for i=N:size(ASOLUTION,1)
+     ASOLUTIONi=ASOLUTION(1:i,:);
+     KSOLUTIONi=KSOLUTION(1:i);
+     SOLUTIONNAMESi=SOLUTIONNAMES(1:i);
+     
+     %TYPX=Xguess; 
+     [Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrnosolid_NR(Xguess,ASOLUTIONi,KSOLUTIONi,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+     if flag3==1; show=abs(max(masserr))
+     end
+ end
 end
 
-if max(100*(abs(masserr)./T))>1e-7 % change pH to make a better initial guess
-    %TYPX=T./10;
-    pH=-1*KSOLUTION(1); pe=-1*KSOLUTION(2); pH=pH-1;
-    load originaltableau.mat
-    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pH(oKSOLUTION,oKSOLID,oASOLUTION,oASOLID,pH);
-    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pe(rKSOLUTION,rKSOLID,rASOLUTION,rASOLID,pe);
-    [Xguess,masserr,J,RSI,C] = nl_massbalancerrnosolid_NR(Xguess,rASOLUTION,rKSOLUTION,rASOLID,rKSOLID,T,TYPX);
-    %masserr
-    %pause
-end
+[Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrnosolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+Xsolution=Xguess; M=length(Xsolution); %N=length(SI);
+
+save Xsolutionguess.mat Xguess
 
 RSIsaved=RSI;
 
 RSIsaved(RSIsaved>0)=0; RSI=RSIsaved;
 XguessN=[(Xguess); RSI];
-
 TYPX=[log10(Xguess); ones(size(RSI))]; TYPX=ones(size(TYPX));
-[X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2);
+end
+
+if flag5==1; load Xsolidsguess.mat; XguessN=X; TYPX=ones(size(X)); end
+
+[X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+if flag3==1; max(abs(masserr)) ;   
+end
 %pause
+
+if max((abs(masserr)))>1e-7 % change pH to make a better initial guess
+    %TYPX=T./10;
+    pH=-1*KSOLUTION(1); pe=-1*KSOLUTION(2); pH=pH-0.2;
+    load originaltableau.mat
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pH(oKSOLUTION,oKSOLID,oASOLUTION,oASOLID,pH);
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pe(rKSOLUTION,rKSOLID,rASOLUTION,rASOLID,pe);
+    [Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,rASOLUTION,rKSOLUTION,rASOLID,rKSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+    [X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+end
+
+if max((abs(masserr)))>1e-7 % change pH to make a better initial guess
+    %TYPX=T./10;
+    pH=-1*KSOLUTION(1); pe=-1*KSOLUTION(2); pH=pH-0.4;
+    load originaltableau.mat
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pH(oKSOLUTION,oKSOLID,oASOLUTION,oASOLID,pH);
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pe(rKSOLUTION,rKSOLID,rASOLUTION,rASOLID,pe);
+    [Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,rASOLUTION,rKSOLUTION,rASOLID,rKSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+    [X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause;
+end
+
+if max((abs(masserr)))>1e-7 % change pH to make a better initial guess
+    %TYPX=T./10
+    pH=-1*KSOLUTION(1); pe=-1*KSOLUTION(2); pH=pH-0.6;
+    load originaltableau.mat
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pH(oKSOLUTION,oKSOLID,oASOLUTION,oASOLID,pH);
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pe(rKSOLUTION,rKSOLID,rASOLUTION,rASOLID,pe);
+    [Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,rASOLUTION,rKSOLUTION,rASOLID,rKSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+    [X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+end
+
+if max((abs(masserr)))>1e-7 % change pH to make a better initial guess
+    %TYPX=T./10;
+    pH=-1*KSOLUTION(1); pe=-1*KSOLUTION(2); pH=pH-0.8;
+    load originaltableau.mat
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pH(oKSOLUTION,oKSOLID,oASOLUTION,oASOLID,pH);
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pe(rKSOLUTION,rKSOLID,rASOLUTION,rASOLID,pe);
+    [Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,rASOLUTION,rKSOLUTION,rASOLID,rKSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+    [X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+end
+
+if max((abs(masserr)))>1e-7 % change pH to make a better initial guess
+    %TYPX=T./10;
+    pH=-1*KSOLUTION(1); pe=-1*KSOLUTION(2); pH=pH-1;
+    load originaltableau.mat
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pH(oKSOLUTION,oKSOLID,oASOLUTION,oASOLID,pH);
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pe(rKSOLUTION,rKSOLID,rASOLUTION,rASOLID,pe);
+    [Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,rASOLUTION,rKSOLUTION,rASOLID,rKSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+    [X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+end
+
+if max((abs(masserr)))>1e-7 % change pH to make a better initial guess
+    %TYPX=T./10;
+    pH=-1*KSOLUTION(1); pe=-1*KSOLUTION(2); pH=pH-1.5;
+    load originaltableau.mat
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pH(oKSOLUTION,oKSOLID,oASOLUTION,oASOLID,pH);
+    [rKSOLUTION,rKSOLID,rASOLUTION,rASOLID]=get_equilib_fixed_pe(rKSOLUTION,rKSOLID,rASOLUTION,rASOLID,pe);
+    [Xguess,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(XguessN,rASOLUTION,rKSOLUTION,rASOLID,rKSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+    [X,masserr,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(Xguess,ASOLUTION,KSOLUTION,ASOLID,KSOLID,T,TYPX,flag2,flag3);
+    max(abs(masserr));
+    %pause
+end
+
+save Xsolidsguess.mat X
 
 M=length(X); N=length(RSI); C=[C; X(M-N+1:M)]; C(C<0)=0;
 
@@ -173,7 +260,9 @@ SPECIATIONNAMES=[SOLUTIONNAMES
                      SOLIDNAMES];
                  
 %MASSERR=max(abs((100*(masserr./T))));
-MASSERR=(abs((100*(masserr./T))));
+%MASSERR=(abs((100*(masserr./T)))); % get rid of relative error.  buggers up on small concs
+MASSERR=abs(masserr);
+
 end
 
 function [C, SPECIATIONNAMES,MASSERR,X]=PHREEQCsolve(KSOLID,ASOLID,SOLIDNAMES,KSOLUTION,ASOLUTION,SOLUTIONNAMES,T,flag1,flag2,database,acid);
@@ -262,6 +351,20 @@ for i=3:2+M
        tst1=['S']; totalnames(c)=num2cell(tst1,[1 2]);
        %tst2=['K']; total2vector(c)=T(c)*2; total2names(c)=num2cell(tst2,[1 2]);
    end
+
+   species=['SO4-2']; n=length(species);
+   if tst(1:n)=='SO4-2'
+       tst1=['S']; totalnames(c)=num2cell(tst1,[1 2]);
+       %tst2=['K']; total2vector(c)=T(c)*2; total2names(c)=num2cell(tst2,[1 2]);
+   end
+
+
+   species=['Eu+3']; n=length(species);
+   if tst(1:n)=='Eu+3'
+       tst1=['Eu']; totalnames(c)=num2cell(tst1,[1 2]);
+       %tst2=['K']; total2vector(c)=T(c)*2; total2names(c)=num2cell(tst2,[1 2]);
+   end
+
 end
 
 totalnames=[totalnames'];
@@ -349,9 +452,10 @@ end
 % tst=[T Tcalc']
 % C
 % pause
-relERR=abs(100*((T-Tcalc')./T));
+%relERR=abs(100*((T-Tcalc')./T)); % can be screwy for small values
 %MASSERR=max(relERR);
-MASSERR=(relERR);
+%MASSERR=(relERR);
+MASSERR=T-Tcalc'; % do any processing on error (like relative and what not later)
 
 for i=1:size(SOLUTIONNAMES,1)
          tst=SOLUTIONNAMES(i,:);
@@ -360,6 +464,7 @@ for i=1:size(SOLUTIONNAMES,1)
              if tst(j)=='-'; tst(j)='m'; end
              if tst(j)=='('; tst(j)='L'; end
              if tst(j)==')'; tst(j)='R'; end
+             if tst(j)==':'; tst(j)='C'; end
          end
          SOLUTIONNAMES(i,:)=tst;
      end
@@ -369,6 +474,7 @@ for i=1:size(SOLUTIONNAMES,1)
          for j=1:length(tst)
              if tst(j)=='('; tst(j)='L'; end
              if tst(j)==')'; tst(j)='R'; end
+             if tst(j)==':'; tst(j)='C'; end
          end
          SOLIDNAMES(i,:)=tst;
      end

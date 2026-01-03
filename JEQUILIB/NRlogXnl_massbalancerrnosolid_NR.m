@@ -1,5 +1,5 @@
 
-function [X,R,J,RSI,C] = NRlogXnl_massbalancerrnosolid_NR(X,Asolution,Ksolution,Asolid,Ksolid,T,TYPX,flag2)
+function [X,R,J,RSI,C] = NRlogXnl_massbalancerrnosolid_NR(X,Asolution,Ksolution,Asolid,Ksolid,T,TYPX,flag2,flag3)
 
 Nx=size(Asolution,2); Ncp=size(Asolid,1); Nc=size(Asolution,1);  
 Xsolution=X(1:Nx); %Xsolid=X(Nx+1:Nx+Ncp);
@@ -10,15 +10,14 @@ for II=1:100
    logC=(Ksolution)+Asolution*log10(X);
    C=10.^(logC); % calc species
    R=Asolution'*C-T; R=R./T;
-   %pause
-
+   
    tester=isinf(X);
    if max(tester)==1
         for k=1:length(X)
             tst=isinf(X(k));
             if tst==1; X(k)=0.99*T(k); end
         end
-        disp('no solid inf')
+        if flag3==1; disp('no solid inf'); end
         %X
    end
 
@@ -29,7 +28,7 @@ for II=1:100
        for k=1:Nx
             if Xsolution(k)==0; Xsolution(k)=0.99*T(k); end
        end
-        disp('zero no solid')
+       if flag3==1; disp('zero no solid'); end
    end
 
    testthree=max(X./T); % for when mass balance is way crazy!
@@ -41,7 +40,7 @@ for II=1:100
                 X(k)=0.99*T(k); 
             end
        end
-        disp('mass balance error logX no solids')
+        if flag3==1; disp('mass balance error logX no solids'); end
    end
 
    testfour=max(abs(R)); % for when mass balance calculated R is way crazy!
@@ -50,16 +49,18 @@ for II=1:100
        %X
        for k=1:Nx
             if X(k)/T(k)>=threshold
-                X(index)=0.99*T(index); 
+                %X(index)=0.99*T(index); 
+                X(k)=0.99*T(k); 
                 %X(k)=1e-20*X(k);
             end
        end
-       disp('mass balance R error logX no solids')
+       if flag3==1; disp('mass balance R error logX no solids'); end
        %X
    end
 
 
-logC=(Ksolution)+Asolution*log10(X); C=10.^(logC); % calc species
+logC=(Ksolution)+Asolution*log10(X); C=10.^(logC);
+% calc species
 R=Asolution'*C-T ;
 
 if flag2==1
@@ -121,6 +122,7 @@ logX=log10(X);
     
     %deltaX = pinv(J)*(-1*R);
     %Jstar
+  
     dx_star = pinv(Jstar)*(-1*R);
     %dx_star=Jstar\(-1*R);
     deltaX = dx_star.*TYPX; %reverse the scaling

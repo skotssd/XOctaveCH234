@@ -1,5 +1,5 @@
 
-function [X,F,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(X,Asolution,Ksolution,Asolid,Ksolid,T,TYPX,flag2)
+function [X,F,J,RSI,C] = NRlogXnl_massbalancerrsolid_NR(X,Asolution,Ksolution,Asolid,Ksolid,T,TYPX,flag2,flag3)
 
 Nx=size(Asolution,2); Ncp=size(Asolid,1); Nc=size(Asolution,1);  
 Xsolution=X(1:Nx); Xsolid=X(Nx+1:Nx+Ncp);
@@ -25,9 +25,9 @@ while tst>=criteria
    if max(tester)==1
         for k=1:length(X)
             tst=isinf(X(k));
-            if tst==1; X(k)=0.99*T(k); end
+            if tst==1; X(k)=0.1*T(k); end
         end
-        %disp('inf')
+        if flag3==1; disp('inf'); end
    end
    
    % for when zero in Xsolution.  can't take log of it.
@@ -37,7 +37,7 @@ while tst>=criteria
        for k=1:Nx
             if Xsolution(k)==0; Xsolution(k)=0.99*T(k); end
        end
-        %disp('zero')
+       if flag3==1; disp('zero'); end
    end
     
    testthree=max(Xsolution./T); % for when mass balance is way crazy!
@@ -48,7 +48,7 @@ while tst>=criteria
                 Xsolution(k)=0.99*T(k); 
             end
        end
-        %disp('mass balance solidsversion')
+        if flag3==1; disp('mass balance solidsversion'); end
    end
        
    testfour=max(abs(Rmass./T)); % for when mass balance calculated R is way crazy!
@@ -56,7 +56,7 @@ while tst>=criteria
    if testfour>=threshold
        [value,index]=max(abs(Rmass./T));
          X(index)=0.99*T(index); 
-   %disp('mass balance R error logX solids')
+  if flag3==1; disp('mass balance R error logX solids'); end
    end
 % END sECTION TO AVOID NUMERICAL ISSUES --------------
 
@@ -79,10 +79,9 @@ end
 
 R=[Rmass; RSI];
 tst=sum(abs(R));
+%tst=abs(max(R));
 
-if COUNT>=100; tst=0; 
-%disp('logX solid ITER EXEED'); 
-end % just  make sure don't  have infinite loop
+if COUNT>=100; tst=0; if flag3==1; disp('logX solid ITER EXEED');end; end % just  make sure don't  have infinite loop
 
 %if tst<=criteria; disp('should end'); pause; end
 

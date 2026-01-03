@@ -5,8 +5,7 @@ n=size(Tableau,2);
 A=cell2mat(Tableau(:,1:n-3));
 K=cell2mat(Tableau(:,n-2));
 P=cell2mat(Tableau(:,n-1));
-SPECIESNAMES=strvcat(Tableau(:,n));
-KSOLID=[]; ASOLID=[]; SOLIDNAMES=[];
+SPECIESNAMES=strvcat(Tableau(:,n));% size(SPECIESNAMES)
 
 C1=0; C2=0;
 for i=1:size(P,1)
