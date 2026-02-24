@@ -10,3 +10,9 @@ dependencies:
   # For compiling the Octave ``control`` and ``signal`` packages
   - compilers
   - make
+  # for jupyter lab rise
+  - jupyterlab_rise
+  # for jupyter notebook rise
+  - rise
+  - pip:
+     - jupyter-contrib-nbextensions
