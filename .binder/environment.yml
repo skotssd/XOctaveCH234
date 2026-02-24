@@ -12,9 +12,9 @@ dependencies:
   - make
   # for annotate jupyter cells (not in rise mode, but persists)
   - jupyter-annotation-tool-ipynbd
-  # for jupyter lab rise
+  # for jupyter lab rise (works with XOctave, and XOctave only works jupyterlab)
   - jupyterlab_rise
-  # for jupyter notebook rise
-  - rise
-  - pip:
-     - jupyter-contrib-nbextensions
+  # for jupyter notebook rise (disable because only works for octave, but octave hard to make graphs
+  #- rise
+  #- pip:
+  #   - jupyter-contrib-nbextensions
